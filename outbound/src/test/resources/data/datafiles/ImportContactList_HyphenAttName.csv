@@ -1,0 +1,6 @@
+firstname,attr-integer,attr-character,attr-float,attr-date,attr-time,attr-datetime,attr-boolean,attr-phone,attr-email,attr-zip
+Automation01,1,a,11.11,2022-10-19,11:12:12,2022-10-19 11:12:12,TRUE,212121,validemail1@pomsvmail1.com,700000
+Automation02,1,a,11.11,2012-01-19,11:12:12,2022-10-19 11:12:12,TRUE,212121,validemail1@pomsvmail1.com,700000
+Automation03,1,a,11.11,2013-02-19,11:12:12,2022-10-19 11:12:12,TRUE,212121,validemail1@pomsvmail1.com,700000
+Automation04,1,a,11.11,2021-04-19,11:12:12,2022-10-19 11:12:12,TRUE,212121,validemail1@pomsvmail1.com,700000
+Automation05,1,a,11.11,2027-06-19,11:12:12,2022-10-19 11:12:12,TRUE,212121,validemail1@pomsvmail1.com,700000

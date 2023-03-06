@@ -1,0 +1,1149 @@
+{
+  "ContactAttribute_intType": {
+    "contactlist": {
+      "name": "ContactList_IntAttribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "Test_INT_Attribute1",
+      "dataType": "INTEGER",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_StringType": {
+    "contactlist": {
+      "name": "ContactList_StringAttribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "Test_String_Attribute1",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_Hyphen_underscore": {
+    "contactlist": {
+      "name": "ContactList_StringAttUnder",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "Hyphen-Underscore_",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_FloatType": {
+    "contactlist": {
+      "name": "ContactList_FloatAttribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "Test_Float_Attribute1",
+      "dataType": "Float",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_PhoneType": {
+    "contactlist": {
+      "name": "ContactList_PhoneAttribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "Test_Phone_Attribute1",
+      "dataType": "Phone",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    },
+    "PhoneChildAttribute": [
+      {
+        "name": "_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED"
+      },
+      {
+        "name": "_Status",
+        "dataType": "CHARACTER",
+        "type": "PREDEFINED"
+      },
+      {
+        "name": "_Zipcode",
+        "dataType": "STRING",
+        "type": "PREDEFINED"
+      },
+      {
+        "name": "_Country",
+        "dataType": "INTEGER",
+        "type": "PREDEFINED"
+      },
+      {
+        "name": "_Type",
+        "dataType": "STRING",
+        "type": "PREDEFINED"
+      },
+      {
+        "name": "_State",
+        "dataType": "STRING",
+        "type": "PREDEFINED"
+      },
+      {
+        "name": "_Area_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED"
+      }
+    ]
+  },
+  "ContactAttribute_EmailType": {
+    "contactlist": {
+      "name": "ContactList_EmailAttribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "Test_Email_Attribute1",
+      "dataType": "Email",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    },
+    "EmailChildAttribute": [
+      {
+        "name": "_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED"
+      },
+      {
+        "name": "_Status",
+        "dataType": "CHARACTER",
+        "type": "PREDEFINED"
+      }
+    ]
+  },
+  "ContactAttribute_DateType": {
+    "contactlist": {
+      "name": "ContactList_DateAttribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "Test_Date_Attribute1",
+      "dataType": "Date",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_TimeType": {
+    "contactlist": {
+      "name": "ContactList_TimeAttribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "Test_Time_Attribute1",
+      "dataType": "Time",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_DateTimeType": {
+    "contactlist": {
+      "name": "ContactList_DateTimeAttribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "Test_DateTime_Attribute1",
+      "dataType": "DateTime",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_BooleanType": {
+    "contactlist": {
+      "name": "ContactList_BooleanAttribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "Test_Boolean_Attribute1",
+      "dataType": "Boolean",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_CHARACTERType": {
+    "contactlist": {
+      "name": "ContactList_CHARACTERAttribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "Test_CHARACTER_Attribute1",
+      "dataType": "CHARACTER",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_ZipType": {
+    "contactlist": {
+      "name": "ContactList_ZipAttribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "Test_ZIP_Attribute1",
+      "dataType": "ZIP",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    },
+    "ZipChildAttribute": [
+      {
+        "name": "_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED"
+      }
+    ]
+  },
+  "ContactAttribute_SimplifiedChinese": {
+    "contactlist": {
+      "name": "ContactList_ChineseAttribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "属性整数",
+      "dataType": "Integer",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_Japanese": {
+    "contactlist": {
+      "name": "ContactList_JapaneseAttribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "中国日本語",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_Korean": {
+    "contactlist": {
+      "name": "ContactList_KoreanAttribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "전화번호",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_French": {
+    "contactlist": {
+      "name": "ContactList_FrenchAttribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "téléphoner",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_German": {
+    "contactlist": {
+      "name": "ContactList_GermanAttribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "Telefonnummer",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_Italian": {
+    "contactlist": {
+      "name": "ContactList_ItalianAttribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "indirizzo",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_Russian": {
+    "contactlist": {
+      "name": "ContactList_RussianAttribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "адрес",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_Latin-Spanish": {
+    "contactlist": {
+      "name": "ContactList_SpanishAttribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "oratioDirección",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_Portuguese": {
+    "contactlist": {
+      "name": "ContactList_PortugueseAttribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "endereçoCasa",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_Hebrew": {
+    "contactlist": {
+      "name": "ContactList_HebrewAttribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "בית",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_CancelForm": {
+    "contactlist": {
+      "name": "ContactList_CancelForm",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "Test_INT_Attribute1",
+      "dataType": "INTEGER",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "Attribute with given name already exists.",
+      "Save": "No",
+      "pageName": "Contact Attributes"
+    }
+  },
+  "ContactAttribute_addAttributeButton": {
+    "contactlist": {
+      "name": "ContactAttribute_addAttributeButton",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "ContactAttribute_addAttributeButton",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_attributeTab": {
+    "contactlist": {
+      "name": "ContactAttribute_attributeTab",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "Test_Attribute_tab",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_spaceCharacter": {
+    "contactlist": {
+      "name": "ContactAttribute_spaceCharacter",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "Test Attribute",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore.",
+      "errorMessage": "",
+      "Save": "no"
+    }
+  },
+  "ContactAttribute_specialCharacter": {
+    "contactlist": {
+      "name": "ContactAttribute_specialCharacter",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "ContactAttribute@#$!",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore.",
+      "errorMessage": "",
+      "Save": "no"
+    }
+  },
+  "ContactAttribute_over30Character": {
+    "contactlist": {
+      "name": "ContactAttribute_over30Character",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "over30over30over30over30over30_endline",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_EmptyName": {
+    "contactlist": {
+      "name": "ContactAttribute_EmptyName",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "empty_value",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Name should not be null or blank",
+      "errorMessage": "",
+      "Save": "no"
+    }
+  },
+  "ContactAttribute_Duplicate_1a": {
+    "contactlist": {
+      "name": "ContactAttribute_Duplicate",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "Attribute_Duplicate",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_Duplicate_1b": {
+    "contactlist": {
+      "name": "ContactAttribute_Duplicate",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "Attribute_Duplicate",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Attribute or it's associated attribute with given name already exists. Please provide a unique contact attribute name.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_AttributeTypeEmpty": {
+    "contactlist": {
+      "name": "ContactAttribute_attributeTab",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "Test_Attribute_tab",
+      "dataType": "",
+      "type": "USER",
+      "NotificationAlert": "",
+      "errorMessage": "",
+      "Save": "no"
+    }
+  },
+  "ContactAttribute_basicSearch": {
+    "contactlist": {
+      "name": "ContactList_basicSearch",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "basicSearch_Attribute01|basicSearch_Attribute02|basicSearch_Attribute03",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes",
+      "searchText": "basicSearch_Attribute",
+      "expectedSearchList": "basicSearch_Attribute03|basicSearch_Attribute02|basicSearch_Attribute01"
+    }
+  },
+  "ContactAttribute_clearSearch": {
+    "contactlist": {
+      "name": "clearSearch_Attribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "clearSearch_Attribute01",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes",
+      "searchText": "clearSearch_Attribute01"
+    }
+  },
+  "ContactAttribute_sortName": {
+    "contactlist": {
+      "name": "sortName_CLS",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "sortName_TC",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes",
+      "searchText": "sortName_TC"
+    }
+  },
+  "ContactAttribute_dataType": {
+    "contactlist": {
+      "name": "DataTypeSort_CLS",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "DataTypeSort_TC",
+      "dataType": "STRING|INTEGER|FLOAT|PHONE|EMAIL|DATE|TIME|DATETIME|BOOLEAN",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes",
+      "searchText": "DataTypeSort_TC"
+    }
+  },
+  "ContactAttribute_AttTypeName": {
+    "contactlist": {
+      "name": "AttTypeSort_CLS",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "AttTypeSort_TC",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes",
+      "searchText": "AttTypeSort_TC"
+    }
+  },
+  "ContactAttribute_regularExpression1": {
+    "contactlist": {
+      "name": "regularExpression_Search1",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "regularExpression01|regularExpression02|regularExpression03",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes",
+      "searchText": "*regularExpression01",
+      "expectedSearchList": ""
+    }
+  },
+  "ContactAttribute_regularExpression2": {
+    "contactlist": {
+      "name": "regularExpression_Search2",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "regularExpression03|regularExpression04|regularExpression05",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes",
+      "searchText": "regularExpression03*",
+      "expectedSearchList": ""
+    }
+  },
+  "ContactAttribute_insensitive": {
+    "contactlist": {
+      "name": "insensitive_Attribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "Insensitive_Attribute01|insensitive_Attribute02|insensitive_attribute03",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes",
+      "searchText": "INSENSITIVE_Attribute",
+      "expectedSearchList": "insensitive_attribute03|insensitive_Attribute02|Insensitive_Attribute01"
+    }
+  },
+  "ContactAttribute_CancelNonEdit": {
+    "contactlist": {
+      "name": "ContactAttribute_CancelNonEdit",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "non_edit",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "no",
+      "pageName": "ContactAttribute_CancelNonEdit"
+    }
+  },
+  "ContactAttribute_CancelLeave": {
+    "contactlist": {
+      "name": "ContactAttribute_CancelLeave",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "non_edit",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "no",
+      "pageName": "ContactAttribute_CancelLeave"
+    }
+  },
+  "ContactAttribute_CancelStay": {
+    "contactlist": {
+      "name": "ContactAttribute_CancelStay",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "non_edit",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "no",
+      "pageName": "ContactAttribute_CancelStay"
+    }
+  },
+  "ContactAttribute_refreshButton": {
+    "contactlist": {
+      "name": "refreshButton_Attribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "refreshButton_Attribute01",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes",
+      "searchText": "refreshButton_Attribute01"
+    }
+  },
+  "ContactAttr_Underscore_HYPHEN_ONLY": {
+    "contactlist": {
+      "name": "ContactList_Underscore",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "_--_-_-___-",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore.",
+      "errorMessage": "",
+      "Save": "No"
+    }
+  },
+  "ContactAttr_Hyphen": {
+    "contactlist": {
+      "name": "ContactList_Hyphen",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "-Hyphen",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore.",
+      "errorMessage": "",
+      "Save": "No"
+    }
+  },
+  "ContactAttr_UnderScore": {
+    "contactlist": {
+      "name": "ContactList_Underscore",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "_Hypen",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore.",
+      "errorMessage": "",
+      "Save": "No"
+    }
+  },
+  "ContactAttribute_User": {
+    "contactlist": {
+      "name": "ContactList_User",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "Attribute_User",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_Pagination01": {
+    "contactlist": {
+      "name": "ContactAttribute_Pagination01",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "Attr_Pagination_01",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_Pagination02": {
+    "contactlist": {
+      "name": "ContactAttribute_Pagination02",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "Attr_Pagination_02",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_advSearchButton": {
+    "contactlist": {
+      "name": "ContactAttribute_advSBtn",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "Attr_advSearch",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_advSearch": {
+    "contactlist": {
+      "name": "ContactAttribute_advSeac",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "Attr_verifyADVSearch",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_systemDefined01": {
+    "contactlist": {
+      "name": "List_SysDefinedAttributes",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": [
+      {
+        "name": "StatusFlag",
+        "dataType": "CHARACTER",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "Notes",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "NuisanceTimeStamp",
+        "dataType": "DATETIME",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "LastAttemptTime",
+        "dataType": "DATETIME",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "LastAddress",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "HandledBy",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "Id",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "UpdatedOn",
+        "dataType": "DATETIME",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "CreatedOn",
+        "dataType": "DATETIME",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "LastCompletionCode",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      }
+    ]
+  },
+  "ContactAttribute_systemDefined02": {
+    "contactlist": {
+      "name": "List_SysDefinedAttributes",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    }
+  },
+  "PhoneAttribute_PreDefined01": {
+    "contactlist": {
+      "name": "CList_PhoneAttribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "PhoneAttributePredefinedTest01",
+      "dataType": "PHONE",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    },
+    "PhoneChildAttribute": [
+      {
+        "name": "_Area_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED"
+      },
+      {
+        "name": "_State",
+        "dataType": "STRING",
+        "type": "PREDEFINED"
+      },
+      {
+        "name": "_Type",
+        "dataType": "STRING",
+        "type": "PREDEFINED"
+      },
+      {
+        "name": "_Country",
+        "dataType": "INTEGER",
+        "type": "PREDEFINED"
+      },
+      {
+        "name": "_Zipcode",
+        "dataType": "STRING",
+        "type": "PREDEFINED"
+      },
+      {
+        "name": "_Status",
+        "dataType": "CHARACTER",
+        "type": "PREDEFINED"
+      },
+      {
+        "name": "_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED"
+      }
+    ]
+  },
+  "EmailAttribute_PreDefined02": {
+    "contactlist": {
+      "name": "CList_PhoneAttribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "EmailAttributePredefinedTest02",
+      "dataType": "EMAIL",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    },
+    "EmailChildAttribute": [
+      {
+        "name": "_Status",
+        "dataType": "CHARACTER",
+        "type": "PREDEFINED"
+      },
+      {
+        "name": "_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED"
+      }
+    ]
+  },
+  "ContactAttribute_advSearchEmpty": {
+    "contactlist": {
+      "name": "ContactAttribute_advEmpty",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "attr_AdvSearchEmpty",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    }
+  },
+  "ContactAttribute_Predefine01": {
+    "contactlist": {
+      "name": "List_PhonePreDefinedAttributes",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "NotificationAlert": "Contact list attribute created successfully."
+    }
+  },
+  "ContactAttribute_Predefine02": {
+    "contactlist": {
+      "name": "List_EmailPreDefinedAttributes",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "NotificationAlert": "Contact list attribute created successfully."
+    }
+  },
+  "ContactAttribute_Predefine03": {
+    "contactlist": {
+      "name": "List_NonPHPreDefinedAttributes",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "NotificationAlert": "Contact list attribute created successfully."
+    }
+  },
+  "ContactAttribute_Predefine04": {
+    "contactlist": {
+      "name": "List_ZipPreDefinedAttributes",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "NotificationAlert": "Contact list attribute created successfully."
+    }
+  },
+  "ContactAttribute_systemDefined02": {
+    "contactlist": {
+      "name": "List_SysDefinedAttributes",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    }
+  },
+  "ContactAttribute_Predefine05": {
+    "contactlist": {
+      "name": "List_EmailPreDefinedAttributes",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "NotificationAlert": "Contact list attribute created successfully."
+    }
+  },
+  "ContactAttribute_Predefine06": {
+    "contactlist": {
+      "name": "List_ZipPreDefinedAttributes05",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "NotificationAlert": "Contact list attribute created successfully."
+    }
+  },
+  "ZipAttribute_PreDefined03": {
+    "contactlist": {
+      "name": "CList_ZipAttribute",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "ZipAttributePredefinedTest0003",
+      "dataType": "ZIP",
+      "type": "USER",
+      "NotificationAlert": "Contact list attribute created successfully.",
+      "errorMessage": "",
+      "Save": "Yes"
+    },
+    "ZipChildAttribute": [
+      {
+        "name": "_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED"
+      }
+    ]
+  },
+  "Point5_TC76": {
+    "contactlist": {
+      "name": "ContactAttribute_invalidname",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "123Test",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore.",
+      "errorMessage": "",
+      "Save": "no"
+    }
+  },
+  "Point5_TC77_hyphen": {
+    "contactlist": {
+      "name": "ContactAttribute_invalidname1",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "-Test",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore.",
+      "errorMessage": "",
+      "Save": "no"
+    }
+  },
+  "Point5_TC77_undersocre": {
+    "contactlist": {
+      "name": "ContactAttribute_invalidname2",
+      "description": "This is List description",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": {
+      "name": "_Test",
+      "dataType": "STRING",
+      "type": "USER",
+      "NotificationAlert": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore.",
+      "errorMessage": "",
+      "Save": "no"
+    }
+  }
+}

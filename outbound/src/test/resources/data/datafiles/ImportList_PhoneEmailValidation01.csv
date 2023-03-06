@@ -1,0 +1,14 @@
+firstname,lastname,phone1,email
+Automation01,User01,212ABC121,validemail1@pomsvmail1.com
+Automation02,User02,2121@567822,validemail2pomsvmail1.com
+Automation03,User03,212123-_1,validemail3@pomsvmail1.com
+Automation04,User04,test@212124,invalidvalidemail4@
+Automation05,User05,212125*^~,.@
+Automation06,User06,212 126,@.
+Automation07,User07,212127 ,validemail7@pomsvmail1.com
+Automation08,User08,ab 212128,invalidvalide mail8@pomsvmail1.com
+Automation09,User09,212129,validemail9@pomsvmail1.com
+Automation10,User10,%212130%,invalidvalidemail10@pomsvmail1
+Automation11,User11,abcdef,validemail11@pomsvmail1.com
+Automation12,User12,abcdef,@com
+Automation13,User13,,

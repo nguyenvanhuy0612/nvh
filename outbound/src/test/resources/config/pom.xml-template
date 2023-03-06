@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.huy</groupId>
+    <groupId>org.avaya</groupId>
     <artifactId>outbound</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -16,13 +16,36 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <cucumber.version>7.10.1</cucumber.version>
         <selenium.version>4.7.1</selenium.version>
-        <dataprovider.threadcount>2</dataprovider.threadcount>
     </properties>
 
     <dependencies>
         <dependency>
+            <groupId>net.christopherschultz.ssltest</groupId>
+            <artifactId>ssltest</artifactId>
+            <scope>system</scope>
+            <version>1.0</version>
+            <systemPath>${project.basedir}/src/test/java/com/avaya/outbound/utilities/ssltest.jar</systemPath>
+            <type>jar</type>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>org.junit.jupiter</groupId>-->
+        <!--            <artifactId>junit-jupiter-engine</artifactId>-->
+        <!--            <version>5.8.2</version>-->
+        <!--        </dependency>-->
+        <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
+            <version>${cucumber.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-core</artifactId>
             <version>${cucumber.version}</version>
         </dependency>
         <dependency>
@@ -43,6 +66,11 @@
             <version>${cucumber.version}</version>
         </dependency>
         <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java8</artifactId>
+            <version>${cucumber.version}</version>
+        </dependency>
+        <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>${selenium.version}</version>
@@ -51,6 +79,17 @@
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-remote-driver</artifactId>
             <version>${selenium.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>net.java.dev.jna</groupId>
+            <artifactId>jna</artifactId>
+            <version>5.12.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.3.1</version>
         </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
@@ -104,16 +143,10 @@
             <artifactId>opencsv</artifactId>
             <version>5.7.1</version>
         </dependency>
-        <dependency>
-            <groupId>io.rest-assured</groupId>
-            <artifactId>rest-assured</artifactId>
-            <version>5.3.0</version>
-            <scope>test</scope>
-        </dependency>
         <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
         <dependency>
             <groupId>io.rest-assured</groupId>
-            <artifactId>rest-assured-all</artifactId>
+            <artifactId>rest-assured</artifactId>
             <version>5.3.0</version>
             <scope>test</scope>
         </dependency>
@@ -159,15 +192,71 @@
             <artifactId>maven-cucumber-reporting</artifactId>
             <version>5.6.0</version>
         </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.26</version>
-            <scope>provided</scope>
-        </dependency>
     </dependencies>
 
     <profiles>
+        <profile>
+            <id>Jenkins</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-compiler-plugin</artifactId>
+                        <version>3.10.1</version>
+                        <configuration>
+                            <release>17</release>
+                            <encoding>UTF-8</encoding>
+                            <fork>false</fork>
+                            <useIncrementalCompilation>false</useIncrementalCompilation>
+                            <compilerArgument>-XDignore.symbol.file</compilerArgument>
+                        </configuration>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>3.0.0-M7</version>
+                        <dependencies>
+                            <dependency>
+                                <groupId>org.apache.maven.surefire</groupId>
+                                <artifactId>surefire-junit47</artifactId>
+                                <version>3.0.0-M7</version>
+                            </dependency>
+                        </dependencies>
+                        <configuration>
+                            <argLine>-Dfile.encoding=UTF-8</argLine>
+                        </configuration>
+                    </plugin>
+                    <plugin>
+                        <groupId>net.masterthought</groupId>
+                        <artifactId>maven-cucumber-reporting</artifactId>
+                        <version>5.6.0</version>
+                        <executions>
+                            <execution>
+                                <id>execution</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>generate</goal>
+                                </goals>
+                                <configuration>
+                                    <projectName>outbound</projectName>
+                                    <skip>false</skip>
+                                    <outputDirectory>${project.build.directory}</outputDirectory>
+                                    <inputDirectory>${project.build.directory}</inputDirectory>
+                                    <jsonFiles>
+                                        <param>cucumber/reports/Cucumber.json</param>
+                                    </jsonFiles>
+                                    <mergeFeaturesById>false</mergeFeaturesById>
+                                    <mergeFeaturesWithRetest>false</mergeFeaturesWithRetest>
+                                    <checkBuildResult>false</checkBuildResult>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+
+                </plugins>
+            </build>
+        </profile>
+
         <profile>
             <id>parallel</id>
             <build>
@@ -202,7 +291,7 @@
                                 <properties>
                                     <property>
                                         <name>dataproviderthreadcount</name>
-                                        <value>${dataprovider.threadcount}</value>
+                                        <value>threadCountNumber</value>
                                     </property>
                                 </properties>
                             </configuration>

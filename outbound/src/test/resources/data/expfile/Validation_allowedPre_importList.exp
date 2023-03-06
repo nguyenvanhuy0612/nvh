@@ -1,0 +1,6 @@
+"email","email_Consent","email_Status","firstname","lastname","phoneNumber","phoneNumber_Area_TZ","phoneNumber_Consent","phoneNumber_Country","phoneNumber_State","phoneNumber_Status","phoneNumber_Type","phoneNumber_Zipcode","test_ZIP","test_ZIP_TZ"
+"test@avaya.com","true","","ftest01","ltest","212121","STRING","true","1","STRING","","STRING","STRING","STRING","STRING"
+"test@avaya.com","true","","ftest02","ltest","212121","STRING","true","21","STRING","","STRING","STRING","STRING","STRING"
+"test@avaya.com","false","","ftest03","ltest","212121","STRING","true","84","STRING","","STRING","STRING","STRING","STRING"
+"test@avaya.com","true","","ftest04","ltest","212121","STRING","false","91","STRING","","STRING","STRING","STRING","STRING"
+"test@avaya.com","false","","ftest05","ltest","212121","STRING","false","12","STRING","","STRING","STRING","STRING","STRING"

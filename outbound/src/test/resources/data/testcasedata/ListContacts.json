@@ -1,0 +1,648 @@
+{
+  "AC31": {
+    "contactlist": {
+      "name": "list1",
+      "description": "description1"
+    },
+    "datasource": {
+      "name": "source1",
+      "description": "listcontacts",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "viewContact_ac3.csv",
+      "sourceFile": "viewContact_ac3.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "AC32": {
+    "contactlist": {
+      "name": "list2",
+      "description": "description2"
+    },
+    "datasource": {
+      "name": "source1",
+      "description": "listcontacts",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "viewContact_ac3.csv",
+      "sourceFile": "viewContact_ac3.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "AC33": {
+    "contactlist": {
+      "name": "list3",
+      "description": "description3"
+    },
+    "datasource": {
+      "name": "source1",
+      "description": "listcontacts",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "viewContact_ac3.csv",
+      "sourceFile": "viewContact_ac3.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "AC34": {
+    "contactlist": {
+      "name": "list4",
+      "description": "description4"
+    },
+    "datasource": {
+      "name": "source1",
+      "description": "listcontacts",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "viewContact_ac3.csv",
+      "sourceFile": "viewContact_ac3.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "AC35": {
+    "contactlist": {
+      "name": "list5",
+      "description": "description5"
+    },
+    "datasource": {
+      "name": "source1",
+      "description": "listcontacts",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "viewContact_ac3.csv",
+      "sourceFile": "viewContact_ac3.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "AC36": {
+    "contactlist": {
+      "name": "list61",
+      "description": "description6"
+    },
+    "datasource": {
+      "name": "source1",
+      "description": "listcontacts",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "viewContact_ac3.csv",
+      "sourceFile": "viewContact_ac3.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "AC37": {
+    "contactlist": {
+      "name": "list62",
+      "description": "description6"
+    }
+  },
+  "AC38": {
+    "contactlist": {
+      "name": "list7",
+      "description": "description7"
+    },
+    "datasource": {
+      "name": "source1",
+      "description": "listcontacts",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "viewContact_ac3.csv",
+      "sourceFile": "viewContact_ac3.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "AC39": {
+    "contactlist": {
+      "name": "list8",
+      "description": "description8"
+    }
+  },
+  "AC41": {
+    "contactlist": {
+      "name": "list9",
+      "description": "description9"
+    },
+    "datasource": {
+      "name": "source1",
+      "description": "listcontacts",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "viewContact_ac3.csv",
+      "sourceFile": "viewContact_ac3.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "AC51": {
+    "contactlist": {
+      "name": "list10",
+      "description": "description10"
+    },
+    "datasource": {
+      "name": "ds001",
+      "description": "listcontacts",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "viewContact1.csv",
+      "sourceFile": "viewContact1.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "AC52": {
+    "contactlist": {
+      "name": "list11",
+      "description": "description11"
+    },
+    "datasource": {
+      "name": "ds002",
+      "description": "listcontacts",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "viewContact2.csv",
+      "sourceFile": "viewContact2.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "AC61": {
+    "contactlist": {
+      "name": "list12",
+      "description": "description12"
+    }
+  },
+  "AC62": {
+    "contactlist": {
+      "name": "list13",
+      "description": "description13"
+    },
+    "datasource": {
+      "name": "ds004",
+      "description": "listcontacts",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "viewContact1.csv",
+      "sourceFile": "viewContact2.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "AC63": {
+    "contactlist": {
+      "name": "list14",
+      "description": "description14"
+    },
+    "datasource": {
+      "name": "ds005",
+      "description": "listcontacts",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "viewContact2.csv",
+      "sourceFile": "viewContact1.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    }
+  },
+  "AC64": {
+    "contactlist": {
+      "name": "list15",
+      "description": "description15"
+    },
+    "datasource": {
+      "name": "ds006",
+      "description": "listcontacts",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "viewContact1.csv",
+      "sourceFile": "viewContact2.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "AC71": {
+    "contactlist": {
+      "name": "list16",
+      "description": "description16"
+    },
+    "datasource": {
+      "name": "ds007",
+      "description": "listcontacts",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "viewContact1.csv",
+      "sourceFile": "viewContact2.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "AC72": {
+    "contactlist": {
+      "name": "list17",
+      "description": "description17"
+    },
+    "datasource": {
+      "name": "ds008",
+      "description": "listcontacts",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "viewContact1.csv",
+      "sourceFile": "viewContact2.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    }
+  },
+  "AC73": {
+    "contactlist": {
+      "name": "list18",
+      "description": "description18"
+    },
+    "datasource": {
+      "name": "ds009",
+      "description": "listcontacts",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "viewContact1.csv",
+      "sourceFile": "viewContact2.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  }
+}

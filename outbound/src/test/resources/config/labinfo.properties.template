@@ -1,0 +1,51 @@
+# *
+# * User:
+# * Date: 09/09/22
+# * Time: 12:23 AM
+# * Description: Environment variable declaration
+# */
+# Outbound Specific Configuration Parameters
+OUTBOUND_CAMPAIGNS_UI_BASEURL=https://campaignDBHostIP:campaignUINodePort
+OUTBOUND_CONTACTS_UI_BASEURL=https://contactsDBHostIP:contactUINodePort
+DefaultUsername=
+DefaultPassword=
+BuildVersion=
+TimeZone=(+05:30) Chennai, Kolkata, Mumbai, New Delhi
+##Test Clean up flag
+TEST_CLEAN_UP=no
+ARCHIVE_RESULT=yes
+#Browser IE, CHROME, SAFARI, FIREFOX, chromeheadless
+Browser=CHROMEGRID
+#FIREFOXGRID
+DriverPath=
+#DB Details
+OUTBOUND_CAMPAIGNS_API_BASEURL=https://campaignDBHostIP:campaignAPINodePort/accounts/neo4j
+OUTBOUND_CONTACTS_API_BASEURL=https://contactsDBHostIP:contactsAPINodePort/accounts/neo4j
+#DB_HOST=20.204.226.178
+DB_USER=user01
+DB_PASSWORD=Avaya_ADW_@1234
+#DB_PORT=8085
+DB_TYPE=NEO4J
+DBVersion=
+# Test Failure Snapshot Specific Parameters
+ImageWidth=150
+ImageHeight=150
+#JIRA USER
+UPDATEZEPHYR=no
+JIRAUSER=pKWg0ZRq8Iw=cG9tc3ZuY28=
+JIRAPASSWORD=JRrPykun7RQ=V2ludGVyITIwMTU=
+#Zephyr Cycle updates
+USEEPICCYCLE=no
+#PROJECT=Outbound-as-a-Service
+PROJECTID=
+RELEASE=4.0.2.0.0.0
+RELEASEID=72760
+TESTCYCLE=
+CYCLEID=64942
+#Common SFTPServer details
+SFTP_HOSTNAME=10.133.45.119
+SFTP_PASSWORD=FwzyJ3WFy7EetaT
+SFTP_USERNAME=obaas-sftp
+SFTP_REMOTE_FILEPATH=/obaas-sftp
+ENABLENETWORKBROWSER=yes
+REMOTEDRIVER=10.133.76.150:31805

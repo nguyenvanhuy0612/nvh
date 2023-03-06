@@ -1,0 +1,477 @@
+{
+  "Create_CTL_AC2_TC1": {
+    "contactlist": {
+      "name": "Contact_List-1",
+      "description": "Created by automated"
+    }
+  },
+  "Create_CTL_AC2_TC2": {
+    "contactlist": {
+      "name": "Contact_List-2",
+      "description": ""
+    }
+  },
+  "Create_CTL_AC2_TC3": {
+    "contactlist": {
+      "name": "Contact_List-3",
+      "description": "des"
+    }
+  },
+  "Create_CTL_AC3_TC1": {
+    "contactlist": {
+      "name": "list1",
+      "description": "des"
+    }
+  },
+  "Create_CTL_AC3_TC2": {
+    "contactlist": {
+      "name": "list2",
+      "description": "des"
+    }
+  },
+  "Create_CTL_AC4_TC1": {
+    "contactlist": {
+      "name": "list3",
+      "description": "des"
+    }
+  },
+  "Create_CTL_AC5_TC1": {
+    "contactlist": {
+      "name": "list4",
+      "description": "des"
+    }
+  },
+  "Create_CTL_AC6_TC1": {
+    "contactlist": {
+      "name": "",
+      "description": "des"
+    }
+  },
+  "Create_CTL_AC7_TC1": {
+    "contactlist": {
+      "name": "list6",
+      "description": "des"
+    }
+  },
+  "ContactList_AC2_TC1": {
+    "contactlist": {
+      "name": "ctlist21",
+      "description": "description21"
+    }
+  },
+  "ContactList_AC3_TC1": {
+    "contactlist": {
+      "name": "ctlist31",
+      "description": "description31",
+      "searchText": "ctlist31"
+
+    }
+  },
+  "ContactList_AC3_TC2": {
+    "contactlist": {
+      "name": "ctlist32",
+      "description": "description32",
+      "searchText": "ctlist32"
+    }
+  },
+  "ContactList_AC3_TC3": {
+    "contactlist": {
+      "name": "ctlist33",
+      "description": "description33",
+      "searchText": "ctlist33"
+    }
+  },
+  "ContactList_AC3_TC4": {
+    "contactlist": {
+      "name": "ctlist34",
+      "description": "description34",
+      "searchText": "ctlist34"
+    }
+  },
+  "ContactList_AC4_TC1": {
+    "contactlist": {
+      "name": "ctlist41",
+      "description": "description41"
+    }
+  },
+  "ContactList_AC4_TC2": {
+    "contactlist": {
+      "name": "ctlist42",
+      "description": "description42"
+    }
+  },
+  "ContactList_AC4_TC3": {
+    "contactlist": {
+      "name": "ctlist43",
+      "description": "description43"
+    }
+  },
+  "ContactList_AC4_TC4": {
+    "contactlist": {
+      "name": "ctlist44",
+      "description": "description44"
+    }
+  },
+  "ContactList_AC4_TC5": {
+    "contactlist": {
+      "name": "ctlist45",
+      "description": "description45"
+    }
+  },
+  "ContactList_AC4_TC6": {
+    "contactlist": {
+      "name": "ctlist46",
+      "description": "description46"
+    }
+  },
+  "ContactList_AC4_TC7": {
+    "contactlist": {
+      "name": "ctlist47",
+      "description": "description47"
+    }
+  },
+  "ContactList_AC4_TC8": {
+    "contactlist": {
+      "name": "ctlist48",
+      "description": "description48"
+    }
+  },
+  "ContactList_AC5_TC2": {
+    "contactlist": {
+      "name": "ctlist52",
+      "description": "description52"
+    }
+  },
+  "ContactList_AC5_TC3": {
+    "contactlist": {
+      "name": "ctlist53",
+      "description": "description53"
+    }
+  },
+  "ContactList_AC5_TC4": {
+    "contactlist": {
+      "name": "ctlist54",
+      "description": "description54"
+    }
+  },
+  "ContactList_AC6_TC3": {
+    "contactlist": {
+      "name": "ctlist63",
+      "description": "description63"
+    }
+  },
+  "contact_list1": {
+    "contactlist": {
+      "name": "contactlist1",
+      "description": "this is contact list 1"
+    }
+  },
+  "contact_list2": {
+    "contactlist": {
+      "searchText": "C12345678901234567891234567890123456789_1"
+    }
+  },
+  "Advance_Search_ContactList1": {
+    "contactlist": {
+      "name": "ctlist_a|listB|contactlist1|CTLIST2|LIST_C",
+      "description": ""
+    }
+  },
+  "Advance_Search_ContactList2": {
+    "contactlist": {
+      "name": "ct001|ct002|ct003|ct004|ct005",
+      "description": "1|2|3|4|5",
+      "interval": "30"
+    }
+  },
+  "Advance_Search_ContactList3": {
+    "contactlist": {
+      "name": "list-1|CONTACTLIST1|contactlist2|ListTest001|LIST_D",
+      "description": ""
+    }
+  },
+  "Advance_Search_ContactList4": {
+    "contactlist": {
+      "name": "ctl-001|ctl-002|ctl-003|ctl-004|ctl-005",
+      "description": " | | | | ",
+      "interval": "30"
+    }
+  },
+  "Advance_Search_ContactList5": {
+    "contactlist": {
+      "name": "test01|TEST|Test-ctlist|testA|TEST_B",
+      "description": ""
+    }
+  },
+  "Advance_Search_ContactList6": {
+    "contactlist": {
+      "name": "ctl01|ctl02|ctl03|ctl04|ctl05",
+      "description": " | | | | ",
+      "interval": "30"
+    }
+  },
+  "Advance_Search_ContactList7": {
+    "contactlist": {
+      "name": "test01|TEST",
+      "description": "1|2"
+    }
+  },
+  "Advance_Search_CTL1": {
+    "contactlist": {
+      "name": "ctl1",
+      "description": ""
+    }
+  },
+  "Advance_Search_CTL2": {
+    "contactlist": {
+      "name": "ctl2",
+      "description": ""
+    }
+  },
+  "Advance_Search_CTL28": {
+    "contactlist": {
+      "name": "ctl28",
+      "description": "des28",
+      "advanceSearchColumn": "Name",
+      "operator": "=",
+      "searchValue": "ctl28"
+    },
+    "datasource": {
+      "name": "datasource28",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contact_AC2_TC5.csv",
+      "sourceFile": "contact_AC2_TC5.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    }
+  },
+  "Advance_Search_CTL29": {
+    "contactlist": {
+      "name": "ctl29",
+      "description": "",
+      "advanceSearchColumn": "Name",
+      "operator": "Like",
+      "searchValue": "ctl29"
+    }
+  },
+  "Advance_Search_CTL30": {
+    "contactlist": {
+      "name": "ctl30",
+      "description": "",
+      "advanceSearchColumn": "Name",
+      "operator": "=",
+      "searchValue": "ctl-00000"
+    }
+  },
+  "Advance_Search_CTL31": {
+    "contactlist": {
+      "name": "ctl31",
+      "description": "",
+      "advanceSearchColumn": "Name",
+      "operator": "=",
+      "searchValue": "ctl31"
+    },
+    "datasource": {
+      "name": "datasource31",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contact_AC2_TC5.csv",
+      "sourceFile": "contact_AC2_TC5.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "Advance_Search_CTL32": {
+    "contactlist": {
+      "name": "ctl32",
+      "description": "des32",
+      "advanceSearchColumn": "Name",
+      "operator": "Like",
+      "searchValue": "ctl32",
+      "typeInput": ""
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "Advance_Search_CTL33": {
+    "contactlist": {
+      "name": "ctl33",
+      "description": "des33",
+      "advanceSearchColumn": "Name",
+      "operator": "=",
+      "searchValue": "ctl33_1",
+      "typeInput": "Input"
+    }
+  },
+  "Advance_Search_CTL45": {
+    "contactlist": {
+      "name": "ctl45",
+      "description": "",
+      "advanceSearchColumn": "Name",
+      "operator": "=",
+      "searchValue": "ctl45",
+      "typeInput": "Input"
+    }
+  },
+  "Contact_Lists_Add": {
+    "contactlist": {
+      "name": "ctlist__",
+      "description": "des__"
+    }
+  },
+  "ContactList-Handle-Insensitive": {
+    "contactlist": {
+      "name": "ContactList-Handle-Insensitive",
+      "description": "ContactList-Handle-Insensitive"
+    }
+  },
+  "Point5_TC45": {
+    "contactlist": {
+      "name": "123Test",
+      "description": "des"
+    }
+  },
+  "Point5_TC46_hypen": {
+    "contactlist": {
+      "name": "-Test",
+      "description": "des"
+    }
+  },
+  "Point5_TC46_Underscore": {
+    "contactlist": {
+      "name": "_Test",
+      "description": "des"
+    }
+  },
+  "Point5_TC47": {
+    "contactlist": {
+      "name": "中-文_名",
+      "description": "Created by automated"
+    }
+  },
+  "Point5_TC48": {
+    "contactlist": {
+      "name": "和_名",
+      "description": "Created by automated"
+    }
+  },
+  "Point5_TC49": {
+    "contactlist": {
+      "name": "한국_이름",
+      "description": "Created by automated"
+    }
+  },
+  "Point5_TC50": {
+    "contactlist": {
+      "name": "English",
+      "description": "Created by automated"
+    }
+  },
+  "Point5_TC51": {
+    "contactlist": {
+      "name": "nom_français",
+      "description": "Created by automated"
+    }
+  },
+  "Point5_TC52": {
+    "contactlist": {
+      "name": "Das-ist_deutsch",
+      "description": "Created by automated"
+    }
+  },
+  "Point5_TC53": {
+    "contactlist": {
+      "name": "Questo_è_italiano",
+      "description": "Created by automated"
+    }
+  },
+  "Point5_TC54": {
+    "contactlist": {
+      "name": "это_русский",
+      "description": "Created by automated"
+    }
+  },
+  "Point5_TC55": {
+    "contactlist": {
+      "name": "Hoc-est_latinum",
+      "description": "Created by automated"
+    }
+  },
+  "Point5_TC56": {
+    "contactlist": {
+      "name": "Esto_es_español",
+      "description": "Created by automated"
+    }
+  },
+  "Point5_TC57": {
+    "contactlist": {
+      "name": "nome_portugues-brasileiro",
+      "description": "Created by automated"
+    }
+  },
+  "Point5_TC58": {
+    "contactlist": {
+      "name": "זה-הטקסט_בעברית",
+      "description": "Created by automated"
+    }
+  },
+  "Point5_TC59": {
+    "contactlist": {
+      "name": "यह_भारतीय-है",
+      "description": "Created by automated"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+firstname,attr_integer,attr_character,attr_float,attr_date,attr_time,attr_datetime,attr_boolean,attr_phone,attr_email,attr_zip
+Automation,1,a,1,2024-05-12,01:10:34,2024-05-12 01:10:34,True,+21 2121,valide123mail1@POMSVMAIL.com,abc123
+Butomation,2,b,1.12,2024-10-04,01:05:34,2024-10-04 01:05:34,False,ab 212121,validEmail2@pomsvmail1.com,123ABC
+Cutomation,3,c,112.35,2023-12-12,01:30:05,2023-12-05 01:30:05,1,(212121,validemail###@pomsvmail1.com,123_abc
+Dutomation,4,d,0.67,2023-05-12,10:10:34,2023-05-12 10:10:34,0,#212121,valid_email4@pomsvmail1.com,@123-abc
+Eutomation,5,e,1123.56,2023-10-04,10:05:34,2023-10-04 10:05:34,true,)212121,Validemail5@pomsvmail1.com,700000
+Futomation,6,f,11,2022-05-12,20:10:34,2022-05-12 20:10:34,TRUE,2121-21,VALIDEMAIL6@pomsvmail1.com,abc ABC
+Gutomation,7,g,1.2,2022-10-04,20:05:34,2022-10-04 20:05:34,True,+ 1 23  45AB  cd67890,VALIDEMAIL7@POMSVMAIL1.com,"Avaya, Tower, Pune, India"

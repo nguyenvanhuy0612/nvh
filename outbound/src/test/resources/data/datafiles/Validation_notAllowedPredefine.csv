@@ -1,0 +1,6 @@
+firstname,lastname,phoneNumber,email,phoneNumber_Status,email_Status
+ftest,ltest,212121,avaya@avaya.com,a,b
+ftest,ltest,212121,avaya@avaya.com,2,1
+ftest,ltest,212121,avaya@avaya.com,1,b
+ftest,ltest,212121,avaya@avaya.com,a,2
+ftest,ltest,212121,avaya@avaya.com,a,2

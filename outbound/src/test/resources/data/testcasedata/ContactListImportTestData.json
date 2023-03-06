@@ -1,0 +1,3755 @@
+{
+  "ImportContactList01": {
+    "datasource": {
+      "name": "SFTPImportContactList01_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactList01.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "cloudlist.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "SFTPImportContactList01",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "9",
+      "Last Success": "9",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "VerifyImportContactOption_TC1": {
+    "datasource": {
+      "name": "ds1",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList_ValidTC1.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "cloudlist.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "import1",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "VerifyImportContactOption_TC6": {
+    "datasource": {
+      "name": "ds6",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList_ValidTC6.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "cloudlist.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "import6",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "VerifyImportContactOption_TC5": {
+    "datasource": {
+      "name": "ds5",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList_ValidTC5.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_Valid.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "import5",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "5",
+      "Last Success": "5",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "VerifyImportContactOption_TC7": {
+    "datasource": {
+      "name": "ds7",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList_ValidTC7.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_Valid.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "import7",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "5",
+      "Last Success": "5",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "VerifyImportContactOption_TC8": {
+    "datasource": {
+      "name": "ds8",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList_ValidTC8.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_Valid.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "import8",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "5",
+      "Last Success": "5",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "VerifyImportContactOption_TC9": {
+    "datasource": {
+      "name": "ds9",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList_ValidTC9.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_Valid.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "import9",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "5",
+      "Last Success": "5",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "VerifyImportContactOption_TC10": {
+    "datasource": {
+      "name": "ds10",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList_Invalid_Path.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_Invalid11.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "import10",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "Unable to locate SFTP remote path to import contact list. Please check the configuration and try again.",
+      "Total Contacts": "0",
+      "Last Success": "0",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "VerifyImportContactOption_TC11": {
+    "datasource": {
+      "name": "ds11",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList_ValidTC11.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_Valid.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "import11",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "5",
+      "Last Success": "5",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "VerifyImportContactOption_TC11_Failed": {
+    "datasource": {
+      "name": "ds11_failed",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList_Invalid.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_Invalid.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "import11",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "5",
+      "Last Success": "0",
+      "Last Failed": "5",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "VerifyImportContactOption_TC23": {
+    "datasource": {
+      "name": "ds23",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList_ValidTC23.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_Valid.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "import23",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "5",
+      "Last Success": "5",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportContactListTest": {
+    "datasource": {
+      "name": "importListTest_ds",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "importListTest.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "cloudlist.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportListTest",
+      "description": "This is import list test",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "SelectDataSource": {
+    "datasource": {
+      "name": "selectDataSource_ds",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "selectDataSource.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "cloudlist.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "SelectDataSource",
+      "description": "This is import list test",
+      "NotificationAlert": "Contact List created successfully"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "DsWithInvalidCharacter": {
+    "datasource": {
+      "name": "dsWithInvalidCharacter_ds",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "DsWithInvalidCharacter.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "contactListWithInvalidCharacter.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ContactlistDsWithInvalidCharacter",
+      "description": "This is import list test",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "5",
+      "Last Success": "5",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportContactListInvalidEmail_01": {
+    "datasource": {
+      "name": "ImportContactListInvalidEmail_01_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactListInvalidEmail_01.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_EmailValidation01.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportContactListInvalidEmail_01",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "9",
+      "Last Success": "9",
+      "Last Failed": "9",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportContactListInvalidPhone_01": {
+    "datasource": {
+      "name": "ImportContactListInvalidPhone_01_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactListInvalidPhone_01.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_PhoneValidation01.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportContactListInvalidPhone_01",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "18",
+      "Last Success": "18",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportList_PhoneEmailValidation01": {
+    "datasource": {
+      "name": "ImportList_PhoneEmailValidation01_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList_PhoneEmailValidation01.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_PhoneEmailValidation01.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportList_PhoneEmailValidation01_list",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "6",
+      "Last Success": "6",
+      "Last Failed": "7",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportList_Valid_Default_Attribute": {
+    "datasource": {
+      "name": "ImportValidAttribute_01_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactListValidAttribute_01.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_ValidAttribute_01.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportValidAttribute_01",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "10",
+      "Last Success": "10",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportList_Invalid_Field_Separator": {
+    "datasource": {
+      "name": "ImportInvalid_Field_Separator_02_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactListInvalid_Field_Separator_02.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_Invalid_Field_Separator_02.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportInvalid_Field_Separator_02",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "The import of the contact list failed due to the use of an incorrect delimiter in the imported file. Valid delimiters are [,].",
+      "Total Contacts": "0",
+      "Last Success": "0",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportList_IncludeNonDefault_ValidAttribute": {
+    "datasource": {
+      "name": "ImportIncludeNonDefValidAttribute03DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactListIncludeNonDefault_ValidAttribute_03.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_IncludeNonDefault_ValidAttribute_03.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportIncludeNonDefault_ValidAttribute03",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "10",
+      "Last Success": "10",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      },
+      {
+        "name": "phone2",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "title",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "language",
+        "dataType": "STRING",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportList_LackOf_Field_Firstname": {
+    "datasource": {
+      "name": "ImportLackOf_Field_Firstname_04_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactListLackOf_Field_Firstname_04.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_LackOf_Field_Firstname_04.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportLackOf_Field_Firstname_04",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "Contact list import failed due to missing attributes [firstname] in the contact list. Please create the attributes and try again.",
+      "Total Contacts": "0",
+      "Last Success": "0",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportList_LackOf_Field_Lastname": {
+    "datasource": {
+      "name": "ImportLackOf_Field_Lastname_05_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactListLackOf_Field_Lastname_05.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_LackOf_Field_Lastname_05.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportLackOf_Field_Lastname_05",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "Contact list import failed due to missing attributes [lastname] in the contact list. Please create the attributes and try again.",
+      "Total Contacts": "0",
+      "Last Success": "0",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportList_LackOf_Field_Phone_1": {
+    "datasource": {
+      "name": "ImportLackOf_Field_Phone_1_06_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactListLackOf_Field_Phone_1_06.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_LackOf_Field_Phone_1_06.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportLackOf_Field_Phone_1_06",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "Contact list import failed due to missing attributes [phone1] in the contact list. Please create the attributes and try again.",
+      "Total Contacts": "0",
+      "Last Success": "0",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportList_LackOf_Field_Email": {
+    "datasource": {
+      "name": "ImportLackOf_Field_Email_07_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactListLackOf_Field_Email_07.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_LackOf_Field_Email_07.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportLackOf_Field_Email_07",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "Contact list import failed due to missing attributes [email] in the contact list. Please create the attributes and try again.",
+      "Total Contacts": "0",
+      "Last Success": "0",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportList_With_Empty_Field": {
+    "datasource": {
+      "name": "ImportWith_Empty_Field_08_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactListWith_Empty_Field_08.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_With_Empty_Field_08.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportWith_Empty_Field_08",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "12",
+      "Last Success": "12",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      },
+      {
+        "name": "attr_integer",
+        "dataType": "INTEGER",
+        "type": "USER"
+      },
+      {
+        "name": "attr_character",
+        "dataType": "CHARACTER",
+        "type": "USER"
+      },
+      {
+        "name": "attr_float",
+        "dataType": "FLOAT",
+        "type": "USER"
+      },
+      {
+        "name": "attr_date",
+        "dataType": "DATE",
+        "type": "USER"
+      },
+      {
+        "name": "attr_time",
+        "dataType": "TIME",
+        "type": "USER"
+      },
+      {
+        "name": "attr_datetime",
+        "dataType": "DATETIME",
+        "type": "USER"
+      },
+      {
+        "name": "attr_boolean",
+        "dataType": "BOOLEAN",
+        "type": "USER"
+      },
+      {
+        "name": "attr-zip",
+        "dataType": "ZIP",
+        "type": "USER"
+      }
+    ]
+  },
+  "VerifyImportContactOption_TC30": {
+    "datasource": {
+      "name": "ds30",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList_ValidTC30.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_Valid.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "import30",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "5",
+      "Last Success": "5",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "VerifyImportContactOption_TC30_exist": {
+    "datasource": {
+      "name": "ds30exist",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList_Valid_Exist.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_Valid_Exist.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "import30",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "5",
+      "Last Success": "5",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportContactListReimport_01": {
+    "datasource": {
+      "name": "ImportContactListReimport_01",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactListReimport_01.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_AllValid_01.csv",
+      "updatedsourceFile": "ImportList_AllValid_02.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportContactListReimport_01",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "18",
+      "Last Success": "18",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportContactListuniqueid": {
+    "datasource": {
+      "name": "ImportContactListuniqueid_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactListuniqueid.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_100records.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportContactListuniqueid_list",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "100",
+      "Last Success": "100",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportList_Missing_Header": {
+    "datasource": {
+      "name": "ImportList_Missing_Header_DS",
+      "description": "ImportList_Missing_Header",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactListmissingH.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_Missing_Header.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportList_Missing_Header_list",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "Contact list import failed due to incorrect imported file format. Please use the correct imported file and try again.",
+      "Total Contacts": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportContactListquotes": {
+    "datasource": {
+      "name": "ImportContactListquotes",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactListquotes.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_sepratorinsidethefield.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportContactListquotes",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "18",
+      "Last Success": "18",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportListForeign": {
+    "datasource": {
+      "name": "ImportListForeign_ds",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactListForeign.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_Foreign.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportListForeign",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "10",
+      "Last Success": "10",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportList01": {
+    "datasource": {
+      "name": "ImportList01_ds",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactList500contact.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_500contact.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportList01",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "500",
+      "Last Success": "500",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportList02": {
+    "datasource": {
+      "name": "ImportList01_ds",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactList_02.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_500contact.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportList02",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "500",
+      "Last Success": "500",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "VerifyImportContactOption_TC32": {
+    "datasource": {
+      "name": "ds32",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList_ValidTC32.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_Valid.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "import32",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "5",
+      "Last Success": "5",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "VerifyImportContactOption_TC32_invalid_email": {
+    "datasource": {
+      "name": "ds32invalid",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList_Invalid_Email.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_Invalid_Email.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "import32",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "1",
+      "Last Success": "1",
+      "Last Failed": "4",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "VerifyImportContactOption_TC33": {
+    "datasource": {
+      "name": "ds33",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList_ValidTC33.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_Valid.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "import33",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "5",
+      "Last Success": "5",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "VerifyImportContactOption_TC33_Phone_CleanUp": {
+    "datasource": {
+      "name": "ds33CleanUpPhone",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList_Clean_Phone.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_Clean_Phone.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "import33",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "5",
+      "Last Success": "5",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportListReorderHeader": {
+    "datasource": {
+      "name": "ImportListReorderHeader_ds",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactListReorderHeader.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_ReorderHeader.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ReorderHeader",
+      "description": "This is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "10",
+      "Last Success": "10",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportListNoSourceFile": {
+    "datasource": {
+      "name": "ImportListNoSourceFile_ds",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactListNoSourceFile.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "NoSourceFile",
+      "description": "This is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "Unable to locate SFTP remote path to import contact list. Please check the configuration and try again.",
+      "Total Contacts": "10",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportListNoDefineCSVFile": {
+    "datasource": {
+      "name": "ImportNoDefineCSVFile_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_ValidAttribute_01.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportNoDefineCSVFile",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "Unable to locate SFTP remote path to import contact list. Please check the configuration and try again.",
+      "Total Contacts": "10",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportListNoRemotePath": {
+    "datasource": {
+      "name": "ImportNoRemotePath_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "/",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_ValidAttribute_01.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportNoRemotePath",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "Unable to locate SFTP remote path to import contact list. Please check the configuration and try again.",
+      "Total Contacts": "10",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportList_Empty_File": {
+    "datasource": {
+      "name": "ImportList_Empty_File_DS",
+      "description": "ImportList_Empty_File",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContact_Empty_File.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_Empty_File.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportList_Empty_File_list",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "Contact list cannot be imported as there are no contact records found. Please check the imported file and try again.",
+      "Total Contacts": "0",
+      "Last Success": "0",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportList10k": {
+    "datasource": {
+      "name": "ImportList10k_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList10k.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "10klist.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportList10k",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "10000",
+      "Last Success": "10000",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "Import750kContactList01": {
+    "datasource": {
+      "name": "ImportList750K_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList750k.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "750klist.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportList750k",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "750000",
+      "TimeRequiredToUpload": "90",
+      "Last Success": "750000",
+      "Last Failed": "0",
+      "validations": "false",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "Import750kContactList02": {
+    "datasource": {
+      "name": "ImportList750K2_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList750kValidations.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "750klistvalidations.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportList750k_validation",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "736607",
+      "TimeRequiredToUpload": "90",
+      "Last Success": "736607",
+      "Last Failed": "13393",
+      "validations": "true",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ReImport750kContactList02": {
+    "datasource": {
+      "name": "ReImportList750K_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList750k02.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "750klist.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ReImportList750k",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "750000",
+      "TimeRequiredToUpload": "120",
+      "Last Success": "750000",
+      "Last Failed": "0",
+      "validations": "false",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportContactList_AllDataAttType": {
+    "datasource": {
+      "name": "AllDataAttType_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactList_AllDataAttType.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportContactList_AllDataAttType.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportContactList_AllDataAttType",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "7",
+      "Last Success": "7",
+      "Last Failed": "0",
+      "validations": "false",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "attr_integer",
+        "dataType": "INTEGER",
+        "type": "USER"
+      },
+      {
+        "name": "attr_character",
+        "dataType": "CHARACTER",
+        "type": "USER"
+      },
+      {
+        "name": "attr_float",
+        "dataType": "FLOAT",
+        "type": "USER"
+      },
+      {
+        "name": "attr_date",
+        "dataType": "DATE",
+        "type": "USER"
+      },
+      {
+        "name": "attr_time",
+        "dataType": "TIME",
+        "type": "USER"
+      },
+      {
+        "name": "attr_datetime",
+        "dataType": "DATETIME",
+        "type": "USER"
+      },
+      {
+        "name": "attr_boolean",
+        "dataType": "BOOLEAN",
+        "type": "USER"
+      },
+      {
+        "name": "attr_phone",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "attr_email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      },
+      {
+        "name": "attr_zip",
+        "dataType": "ZIP",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportContactList_HyphenAttName": {
+    "datasource": {
+      "name": "HyphenAttName_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactList_HyphenAttName.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportContactList_HyphenAttName.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportContactList_HyphenAttName",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "5",
+      "Last Success": "5",
+      "Last Failed": "0",
+      "validations": "false",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "attr-integer",
+        "dataType": "INTEGER",
+        "type": "USER"
+      },
+      {
+        "name": "attr-character",
+        "dataType": "CHARACTER",
+        "type": "USER"
+      },
+      {
+        "name": "attr-float",
+        "dataType": "FLOAT",
+        "type": "USER"
+      },
+      {
+        "name": "attr-date",
+        "dataType": "DATE",
+        "type": "USER"
+      },
+      {
+        "name": "attr-time",
+        "dataType": "TIME",
+        "type": "USER"
+      },
+      {
+        "name": "attr-datetime",
+        "dataType": "DATETIME",
+        "type": "USER"
+      },
+      {
+        "name": "attr-boolean",
+        "dataType": "BOOLEAN",
+        "type": "USER"
+      },
+      {
+        "name": "attr-phone",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "attr-email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      },
+      {
+        "name": "attr-zip",
+        "dataType": "ZIP",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportContactList_G14Language": {
+    "datasource": {
+      "name": "G14Language_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactList_G14Language.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportContactList_G14Language.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportContactList_G14Language",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "5",
+      "Last Success": "5",
+      "Last Failed": "0",
+      "validations": "false",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "属性整数",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "中国日本語",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "전화번호",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "téléphoner",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "Telefonnummer",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "indirizzo",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "адрес",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "oratioDirección",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "endereçoCasa",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "בית",
+        "dataType": "STRING",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportContactList_ChildAttValue": {
+    "datasource": {
+      "name": "ChildAttValue_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactList_ChildAttValue.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportContactList_ChildAttValue.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportContactList_ChildAttValue",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "5",
+      "Last Success": "5",
+      "Last Failed": "0",
+      "validations": "false",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "PhoneAttr",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "EmailAttr",
+        "dataType": "EMAIL",
+        "type": "USER"
+      },
+      {
+        "name": "ZipAttr",
+        "dataType": "ZIP",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportContactList_sysHeader": {
+    "datasource": {
+      "name": "headerCheck_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "cloudlist.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "cloudlist.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "headerCheck_cls",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "9",
+      "Last Success": "9",
+      "Last Failed": "0",
+      "validations": "false",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "Notes",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "Id",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "LastAttemptTime",
+        "dataType": "DATETIME",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "StatusFlag",
+        "dataType": "CHARACTER",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "LastCompletionCode",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "UpdatedOn",
+        "dataType": "DATETIME",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "LastAddress",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "NuisanceTimeStamp",
+        "dataType": "DATETIME",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "CreatedOn",
+        "dataType": "DATETIME",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "HandledBy",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportContactList_userHeader": {
+    "datasource": {
+      "name": "headerCheck_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "headerImport.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "headerImport.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "headerCheck_cls",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "9",
+      "Last Success": "9",
+      "Last Failed": "0",
+      "validations": "false",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      },
+      {
+        "name": "test_INT",
+        "dataType": "INTEGER",
+        "type": "USER"
+      },
+      {
+        "name": "test_STR",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "test_CHAR",
+        "dataType": "CHARACTER",
+        "type": "USER"
+      },
+      {
+        "name": "test_FLOAT",
+        "dataType": "FLOAT",
+        "type": "USER"
+      },
+      {
+        "name": "test_DATE",
+        "dataType": "DATE",
+        "type": "USER"
+      },
+      {
+        "name": "test_TIME",
+        "dataType": "TIME",
+        "type": "USER"
+      },
+      {
+        "name": "test_DATETIME",
+        "dataType": "DATETIME",
+        "type": "USER"
+      },
+      {
+        "name": "test_BOOLEAN",
+        "dataType": "BOOLEAN",
+        "type": "USER"
+      },
+      {
+        "name": "test_ZIP",
+        "dataType": "ZIP",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportContactList_sortHeader": {
+    "datasource": {
+      "name": "headerCheck_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "headerImport.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "headerImport.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "headerCheck_cls",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "9",
+      "Last Success": "9",
+      "Last Failed": "0",
+      "validations": "false",
+      "AttributesToIgnoreFromVerification": "NotesNotes,email_Consent,email_Status,phone1_Area_TZ,phone1_Consent,phone1_Country,phone1_State,phone1_Status,phone1_Type,phone1_Zipcode,test_ZIP_TZ"
+    },
+    "contactAttribute": [
+      {
+        "name": "Notes",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "Id",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "LastAttemptTime",
+        "dataType": "DATETIME",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "StatusFlag",
+        "dataType": "CHARACTER",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "LastCompletionCode",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "UpdatedOn",
+        "dataType": "DATETIME",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "LastAddress",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "NuisanceTimeStamp",
+        "dataType": "DATETIME",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "CreatedOn",
+        "dataType": "DATETIME",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "HandledBy",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      },
+      {
+        "name": "test_INT",
+        "dataType": "INTEGER",
+        "type": "USER"
+      },
+      {
+        "name": "test_STR",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "test_CHAR",
+        "dataType": "CHARACTER",
+        "type": "USER"
+      },
+      {
+        "name": "test_FLOAT",
+        "dataType": "FLOAT",
+        "type": "USER"
+      },
+      {
+        "name": "test_DATE",
+        "dataType": "DATE",
+        "type": "USER"
+      },
+      {
+        "name": "test_TIME",
+        "dataType": "TIME",
+        "type": "USER"
+      },
+      {
+        "name": "test_DATETIME",
+        "dataType": "DATETIME",
+        "type": "USER"
+      },
+      {
+        "name": "test_BOOLEAN",
+        "dataType": "BOOLEAN",
+        "type": "USER"
+      },
+      {
+        "name": "test_ZIP",
+        "dataType": "ZIP",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportContactList_InvalidAtt": {
+    "datasource": {
+      "name": "InvalidAttType_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactList_InvalidAtt.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportContactList_InvalidAtt.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportContactList_InvalidAtt",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "11",
+      "Last Success": "11",
+      "Last Failed": "9",
+      "validations": "false",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "attr_integer",
+        "dataType": "INTEGER",
+        "type": "USER"
+      },
+      {
+        "name": "attr_character",
+        "dataType": "CHARACTER",
+        "type": "USER"
+      },
+      {
+        "name": "attr_float",
+        "dataType": "FLOAT",
+        "type": "USER"
+      },
+      {
+        "name": "attr_date",
+        "dataType": "DATE",
+        "type": "USER"
+      },
+      {
+        "name": "attr_time",
+        "dataType": "TIME",
+        "type": "USER"
+      },
+      {
+        "name": "attr_datetime",
+        "dataType": "DATETIME",
+        "type": "USER"
+      },
+      {
+        "name": "attr_boolean",
+        "dataType": "BOOLEAN",
+        "type": "USER"
+      },
+      {
+        "name": "attr_phone",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "attr_email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      },
+      {
+        "name": "attr_zip",
+        "dataType": "ZIP",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportContactList_LargeAtt": {
+    "datasource": {
+      "name": "LargeAtt_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContactList_LargeAtt.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportContactList_LargeAtt.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportContactList_LargeAtt",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "11",
+      "Last Success": "11",
+      "Last Failed": "0",
+      "validations": "false",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "attr_integer",
+        "dataType": "INTEGER",
+        "type": "USER"
+      },
+      {
+        "name": "attr_character",
+        "dataType": "CHARACTER",
+        "type": "USER"
+      },
+      {
+        "name": "attr_float",
+        "dataType": "FLOAT",
+        "type": "USER"
+      },
+      {
+        "name": "attr_date",
+        "dataType": "DATE",
+        "type": "USER"
+      },
+      {
+        "name": "attr_time",
+        "dataType": "TIME",
+        "type": "USER"
+      },
+      {
+        "name": "attr_datetime",
+        "dataType": "DATETIME",
+        "type": "USER"
+      },
+      {
+        "name": "attr_boolean",
+        "dataType": "BOOLEAN",
+        "type": "USER"
+      },
+      {
+        "name": "attr_phone",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "attr_email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      },
+      {
+        "name": "attr_zip",
+        "dataType": "ZIP",
+        "type": "USER"
+      }
+    ]
+  },
+  "Validation_sysFailed": {
+    "datasource": {
+      "name": "Validation_sysFailed",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "Validation_sysFailed.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "Validation_sysFailed.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "sys_Failed_Validation",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "Contact list import failed due to incorrect headers [CreatedOn, HandledBy, Id, LastAddress, LastAttemptTime, LastCompletionCode, Notes, NuisanceTimeStamp, StatusFlag, UpdatedOn] used in imported file. Please check the imported file and try again.",
+      "Total Contacts": "0",
+      "Last Success": "0",
+      "Last Failed": "0",
+      "validations": "false",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress",
+      "VerifyHeader": "yes"
+    },
+    "contactAttribute": [
+      {
+        "name": "Notes",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "Id",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "LastAttemptTime",
+        "dataType": "DATETIME",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "StatusFlag",
+        "dataType": "CHARACTER",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "LastCompletionCode",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "UpdatedOn",
+        "dataType": "DATETIME",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "LastAddress",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "NuisanceTimeStamp",
+        "dataType": "DATETIME",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "CreatedOn",
+        "dataType": "DATETIME",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "HandledBy",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "Validation_allowedPredefine": {
+    "datasource": {
+      "name": "Validation_allowedPre",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "Validation_allowedPredefine.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "Validation_allowedPredefine.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "Validation_allowedPre",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "5",
+      "Last Success": "5",
+      "Last Failed": "0",
+      "validations": "false",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      },
+      {
+        "name": "test_ZIP",
+        "dataType": "ZIP",
+        "type": "USER"
+      }
+    ]
+  },
+  "Validation_notAllowedPredefine": {
+    "datasource": {
+      "name": "Validation_NotAllowedPre",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "Validation_notAllowedPredefine.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "Validation_notAllowedPredefine.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "Validation_NotAllowedPre",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "Contact list import failed due to incorrect headers [email_Status, phoneNumber_Status] used in imported file. Please check the imported file and try again.",
+      "Total Contacts": "0",
+      "Last Success": "0",
+      "Last Failed": "0",
+      "validations": "false",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress",
+      "VerifyHeader": "yes"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ClistHaveNoAttrs": {
+    "datasource": {
+      "name": "ImportList_ClistHaveNoAttrs_DS",
+      "description": "ImportList_Missing_Header",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList_ValidAttribute_01.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_ValidAttribute_01.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportList_ClistHaveNoAttrs_list",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "Contact list import failed due to incorrect headers [email, firstname, lastname, phone1] used in imported file. Please check the imported file and try again.",
+      "Total Contacts": "0",
+      "Last Success": "0",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress",
+      "VerifyHeader": "yes"
+    }
+  },
+  "ImportCSV_AllPredefine_Attr": {
+    "datasource": {
+      "name": "ImportList_CSV_AllPredefine_Attr_DS",
+      "description": "ImportList_Missing_Header",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList_CSV_AllPredefine_Attr.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_CSV_AllPredefine_Attr.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportList_CSV_AllPredefine_Attr",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "Contact list import failed due to incorrect headers [email_Status, phoneNumber_Status] used in imported file. Please check the imported file and try again.",
+      "Total Contacts": "0",
+      "Last Success": "0",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress",
+      "VerifyHeader": "yes"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      },
+      {
+        "name": "Attr_ZIP",
+        "dataType": "ZIP",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportList_wRecords_Missing_Column": {
+    "datasource": {
+      "name": "ImportwRecords_Missing_Column_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList_wRecords_Missing_Column.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_wRecords_Missing_Column.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "Import_wRecords_Missing_Column",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "10",
+      "Last Success": "10",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportList_CSVHaveEmptyLine": {
+    "datasource": {
+      "name": "Import_CSVHaveEmptyLine_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList_CSVHaveEmptyLine.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_CSVHaveEmptyLine.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "Import_CSVHaveEmptyLine",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "10",
+      "Last Success": "10",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportList_Case_Sensitive": {
+    "datasource": {
+      "name": "Import_Case_Sensitive_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList_Case_Sensitive.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_Case_Sensitive.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "Import_Case_Sensitive",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "10",
+      "Last Success": "10",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastName",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "EMAIL",
+        "dataType": "EMAIL",
+        "type": "USER"
+      },
+      {
+        "name": "salary",
+        "dataType": "INTEGER",
+        "type": "USER"
+      },
+      {
+        "name": "Level",
+        "dataType": "CHARACTER",
+        "type": "USER"
+      },
+      {
+        "name": "Percentage",
+        "dataType": "FLOAT",
+        "type": "USER"
+      },
+      {
+        "name": "JoiningDATE",
+        "dataType": "DATE",
+        "type": "USER"
+      },
+      {
+        "name": "joiningTIME",
+        "dataType": "TIME",
+        "type": "USER"
+      },
+      {
+        "name": "joiningDATETIME",
+        "dataType": "DATETIME",
+        "type": "USER"
+      },
+      {
+        "name": "experience",
+        "dataType": "BOOLEAN",
+        "type": "USER"
+      },
+      {
+        "name": "ZipCode",
+        "dataType": "ZIP",
+        "type": "USER"
+      }
+    ]
+  },
+  "Import_CSV_MissMapping_Attrs": {
+    "datasource": {
+      "name": "ImportList_CSV_MissMapping_Attrs_DS",
+      "description": "ImportList_Missing_Header",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList_CSV_MissMapping_Attrs.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_CSV_MissMapping_Attrs.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportList_CSV_MissMapping_Attrs",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "Contact list import failed due to incorrect headers [experience, joiningdate, joiningdatetime, joiningtime, percentage] used in imported file. Please check the imported file and try again.",
+      "Total Contacts": "0",
+      "Last Success": "0",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress",
+      "VerifyHeader": "yes"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      },
+      {
+        "name": "salary",
+        "dataType": "INTEGER",
+        "type": "USER"
+      },
+      {
+        "name": "level",
+        "dataType": "CHARACTER",
+        "type": "USER"
+      },
+      {
+        "name": "zipcode",
+        "dataType": "ZIP",
+        "type": "USER"
+      }
+    ]
+  },
+  "ImportList_allrecordsRejected": {
+    "datasource": {
+      "name": "ImportList_allrecordsRejected",
+      "description": "ImportList_allrecordsRejected",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportContact_allRejected.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_allRejected.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportList_allrecordsRejected",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "0",
+      "Last Success": "0",
+      "Last Failed": "18",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      },
+      {
+        "name": "floatType",
+        "dataType": "FLOAT",
+        "type": "USER"
+      }
+    ]
+  }
+}

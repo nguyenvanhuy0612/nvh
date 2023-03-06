@@ -1,0 +1,21 @@
+firstname,attr_integer,attr_character,attr_float,attr_date,attr_time,attr_datetime,attr_boolean,attr_phone,attr_email,attr_zip
+Automation1@,1,a,1,2024-05-12,01:10:34,2024-05-12 01:10:34,True,+21 2121,valide123mail1@POMSVMAIL.com,abc123
+Butomation,2b,b,1.12356,2024-10-04,01:05:34,2024-10-04 01:05:34,False,ab 212121,validEmail2@pomsvmail1.com,123ABC
+Cutomation,3,ab,112.356,2023-12-12,01:30:05,2023-12-05 01:30:05,1,(212121,validemail###@pomsvmail1.com,123_abc
+Dutomation,4,d,0.674g,2023-05-12,10:10:34,2023-05-12 10:10:34,0,#212121,valid_email4@pomsvmail1.com,@123-abc
+Eutomation,5,e,1123.56,2023/10/04,10:05:34,2023-10-04 10:05:34,True,)212121,Validemail5@pomsvmail1.com,700000
+Futomation,6,f,11,2022-05-12,20-10-34,2022-05-12 20:10:34,False,2121-21,VALIDEMAIL6@pomsvmail1.com,abc ABC
+Gutomation,7,g,1.2,2022-10-04,20:05:34,2023-01-12T12:12:12Z,True,212121,VALIDEMAIL7@POMSVMAIL1.com,ABCABC
+Hutomation,8,h,1.2,2022-10-04,20:05:34,2022-05-12 20:10:34,TRUE01,212121,VALIDEMAIL7@POMSVMAIL1.com,ABCABC
+Iutomation,9,i,1.2,2022-10-04,20:05:34,2022-05-12 20:10:34,True,-1234.11,VALIDEMAIL7@POMSVMAIL1.com,ABCABC
+Jutomation,10,j,1.2,2022-10-04,20:05:34,2022-05-12 20:10:34,True,212121,validgmail.com,ABCABC
+Kutomation,11,k,1.2,2022-10-04,20:05:34,2022-05-12 20:10:34,True,212121,VALIDEMAIL7@POMSVMAIL1.com,-1234.11abc@@
+Lutomation,12,a,1,2024-05-12,01:10:34,2024-05-12 01:10:34,True,+21 2121,valide123mail1@POMSVMAIL.com,abc123
+Mutomation,123,b,1.12356,2024-10-04,01:05:34,2024-10-04 01:05:34,False,ab 212121,validEmail2@pomsvmail1.com,123ABC
+Nutomation,1234,c,112.35,2023-12-12,01:30:05,2023-12-05 01:30:05,true,(212121,validemail###@pomsvmail1.com,123_abc
+Outomation,12345,d,0.67,2023-05-12,10:10:34,2023-05-12 10:10:34,true,#212121,valid_email4@pomsvmail1.com,@123-abc
+Putomation,123456,e,1123.56,2023-10-04,10:05:34,2023-10-04 10:05:34,True,)212121,Validemail5@pomsvmail1.com,700000
+Qutomation,1234567,f,11,2022-05-12,20:10:34,2022-05-12 20:10:34,False,2121-21,VALIDEMAIL6@pomsvmail1.com,abc ABC
+Rutomation,12345678,g,1.2,2022-10-04,20:05:34,2022-10-04 20:05:34,True,+ 1 23  45AB  cd67890,VALIDEMAIL7@POMSVMAIL1.com,ABCABC
+Sutomation,123456789,f,11,2022-05-12,20:10:34,2022-05-12 20:10:34,False,2121-21,123VALIDEMAIL6@pomsvmail1.com,abc125ABC
+Tutomation,1234567890,g,1.2,2022-10-04,20:05:34,2022-10-04 20:05:34,True,+ 1 23  45AB  cd67890,VALIDEMAIL-@POMSVMAIL1.com,abc`~!@#$%^&*()_-=+|\/<>?. 123

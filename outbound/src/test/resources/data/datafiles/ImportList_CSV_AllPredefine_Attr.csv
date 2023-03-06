@@ -1,0 +1,11 @@
+firstname,lastname,phoneNumber,email,phoneNumber_Type,phoneNumber_Status,phoneNumber_Zipcode,phoneNumber_Country,phoneNumber_State,phoneNumber_Consent,phoneNumber_Area_TZ,email_Consent,email_Status,Attr_ZIP,Attr_ZIP_TZ
+Julianna,Newcomb,+48 905 184 2603,jnewcomb0@wikipedia.org,PhoneType1,Active,1122,Pune,State1,Number_Consent1,Number_Area1,email_Consent1,email_Status_1,Attr_ZIP_1,Attr_ZIP_TZ_1
+Glenine,Skahill,+86 894 467 4319,gskahill1@businesswire.com,PhoneType2,Active,1122,Pune,State2,Number_Consent2,Number_Area2,email_Consent2,email_Status_2,Attr_ZIP_2,Attr_ZIP_TZ_2
+Fernande,Pariss,+86 588 321 8255,fpariss2@google.co.jp,PhoneType3,Active,1122,Pune,State3,Number_Consent3,Number_Area3,email_Consent3,email_Status_3,Attr_ZIP_3,Attr_ZIP_TZ_3
+Maison,Garland,+48 421 639 9760,mgarland3@blog.com,PhoneType4,Active,1122,Pune,State4,Number_Consent4,Number_Area4,email_Consent4,email_Status_4,Attr_ZIP_4,Attr_ZIP_TZ_4
+Ricky,Casperri,+233 766 628 6575,rcasperri4@symantec.com,PhoneType5,Active,1122,Pune,State5,Number_Consent5,Number_Area5,email_Consent5,email_Status_5,Attr_ZIP_5,Attr_ZIP_TZ_5
+Germain,Mirfield,+62 399 483 7212,gmirfield5@cbsnews.com,PhoneType6,InActive,1122,NewYork,State6,Number_Consent6,Number_Area6,email_Consent6,email_Status_6,Attr_ZIP_6,Attr_ZIP_TZ_6
+Reynold,Hobson,+7 108 830 1479,rhobson6@unesco.org,PhoneType7,InActive,1122,NewYork,State7,Number_Consent7,Number_Area7,email_Consent7,email_Status_7,Attr_ZIP_7,Attr_ZIP_TZ_7
+Jenica,Okeshott,+86 317 453 2494,jokeshott7@xinhuanet.com,PhoneType8,InActive,1122,NewYork,State8,Number_Consent8,Number_Area8,email_Consent8,email_Status_8,Attr_ZIP_8,Attr_ZIP_TZ_8
+Ramona,Compston,+66 318 741 3421,rcompston8@boston.com,PhoneType9,InActive,1122,NewYork,State9,Number_Consent9,Number_Area9,email_Consent9,email_Status_9,Attr_ZIP_9,Attr_ZIP_TZ_9
+Kale,Drewe,+92 917 452 8049,kdrewe9@netvibes.com,PhoneType10,InActive,1122,NewYork,State10,Number_Consent10,Number_Area10,email_Consent10,email_Status_10,Attr_ZIP_10,Attr_ZIP_TZ_10

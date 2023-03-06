@@ -1,0 +1,6 @@
+firstname,lastname,phone1,email
+Invalid add,Automation,91{9\}87+65*&432'"10,Automation1@avaya.com
+Auto dot,Automation,9.2!@~0E+05],Automation2@avaya.com
+Invalid comma,Automation,"9abc1     ```987 +65432;)(12,12",Automation3@avaya.com
+Invalid space,Automation,919^&*@87 6 !&%543//210,Automation3@avaya.com
+Invalid subtract,Automation,91\\987-6 543210,Automation3@avaya.com

@@ -1,0 +1,323 @@
+{
+  "SecureAPIAC2TC23": {
+    "strategy": {
+      "type": "SMS",
+      "name": "SecureAPIAC2TC23",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "CL_SecureAPIAC2TC23",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "SecureAPIAC2TC23",
+      "description": "",
+      "type": "Finite",
+      "senderDisplayName": "",
+      "senderAddress": "",
+      "finishType": "",
+      "finishAtDate": "",
+      "finishAtTime": "",
+      "finishAfterHrs": "0",
+      "finishAfterMins": "0"
+    }
+  },
+  "SecureAPIAC2TC24": {
+    "type" : "SMS",
+    "name": "SecureAPIAC2TC24",
+    "description": "SecureAPIAC2TC24",
+    "smsText": "SecureAPIAC2TC24",
+    "smsPace": "15",
+    "smsPacingTimeUnit": "Second",
+    "NotificationAlert": "Strategy added successfully."
+  },
+  "SecureAPIAC2TC26": {
+    "datasource": {
+      "name": "Data-SecureAPIAC2TC26",
+      "description": "This is Data Source Description",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "10.133.84.66",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "False"
+    }
+  },
+  "SecureAPIAC2TC30": {
+    "strategy": {
+      "type": "SMS",
+      "name": "SecureAPIAC2TC30",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "CL_SecureAPIAC2TC30",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "SecureAPIAC2TC30",
+      "description": "",
+      "type": "Finite",
+      "senderDisplayName": "",
+      "senderAddress": "",
+      "finishType": "",
+      "finishAtDate": "",
+      "finishAtTime": "",
+      "finishAfterHrs": "0",
+      "finishAfterMins": "0"
+    }
+  },
+  "SecureAPIAC2TC31": {
+    "type" : "SMS",
+    "name": "SecureAPIAC2TC31",
+    "description": "SecureAPIAC2TC31",
+    "smsText": "SecureAPIAC2TC31",
+    "smsPace": "15",
+    "smsPacingTimeUnit": "Second",
+    "NotificationAlert": "Strategy added successfully."
+  },
+  "SecureAPIAC2TC27": {
+    "strategy": {
+      "type": "SMS",
+      "name": "SecureAPIAC2TC27",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "SecureAPIAC2TC27CLS",
+      "description": "descriptionCLS"
+    },
+    "campaign": {
+      "name": "SecureAPIAC2TC27",
+      "description": "Description",
+      "type": "finite",
+      "senderDisplayName": "DisplayNam",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "SecureAPIAC2TC27CLS",
+      "strategy": "SecureAPIAC2TC27"
+    },
+    "dataUpdate": {
+      "name": "SecureAPIAC2TC27",
+      "description": "test Description",
+      "senderDisplayName": "Duong",
+      "senderAddress": "Duong",
+      "dialingOrder": "Priority Records|Retry Records|Regular Records",
+      "finishTimeAfter": "12|13",
+      "message": ""
+    }
+  },
+  "SecureAPIAC2TC28": {
+    "type" : "SMS",
+    "name" : "SecureAPIAC2TC28",
+    "description": "SecureAPIAC2TC28",
+    "smsText": "This is the text to verify English",
+    "smsPace": "10",
+    "smsPacingTimeUnit": "Second",
+    "action" : "Edit",
+    "fieldEdit": "smsText",
+    "NotificationAlert": "Strategy updated successfully.",
+    "smsTextEdit": "This is english"
+  },
+  "UpdateStrategy_SecureAPIAC2TC28": {
+    "type" : "SMS",
+    "name" : "SecureAPIAC2TC28",
+    "description": null,
+    "smsText": "This is english",
+    "action" : "Edit",
+    "smsPace": "10",
+    "smsPacingTimeUnit": "Second",
+    "NotificationAlert": "Strategy updated successfully."
+  },
+
+
+  "VerifySecureCommunication": {
+    "Campaign": {
+      "name": "secure-api-communication",
+      "description": "Description",
+      "type": "FINITE",
+      "dialingOrder": ["PRIORITY", "RETRY", "REGULAR"],
+      "senderDisplayName": "DisplayNam",
+      "finishType": "FINISH_AT",
+      "finishTime": "2025-05-24T21:00:00.000Z",
+      "finishAfter": "20000",
+      "senderAddress": "Address",
+      "contactList": "cont-secure-api",
+      "checkTimeBasedFinishCriteria": "false",
+      "strategy": "strategy-secure-api"
+    },
+    "ContactList": {
+      "name": "cont-secure-api",
+      "description": "This use to check connection is running in https"
+    },
+    "Strategy": {
+      "strategyType" : "SMS",
+      "name": "strategy-secure-api",
+      "description": "This use to check connection is running in https",
+      "smsText": "This use to check connection is running in https",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "SECOND"
+    },
+    "DataSource": {
+      "name": "secure-api",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "obaassftp.blob.core.windows.net",
+      "ftpUserName": "obaassftp.root",
+      "ftpPassword": "3JLOSCeGMhgCUsh47VZgqUWsy9iyU5fT",
+      "ftpRemoteFilePath": "/obaas-sftp/contact_AC2_TC5.csv"
+    }
+  },
+
+  "VerifySecureCommunication_Update": {
+    "Campaign": {
+      "name": "secure-api-communication",
+      "description": "This use to check connection is running in https----updated",
+      "type": "FINITE",
+      "dialingOrder": ["PRIORITY", "RETRY", "REGULAR"],
+      "senderDisplayName": "DisplayNam",
+      "finishType": "FINISH_AT",
+      "finishTime": "2025-05-24T21:00:00.000Z",
+      "finishAfter": "20000",
+      "senderAddress": "Address",
+      "contactList": "cont-secure-api",
+      "checkTimeBasedFinishCriteria": "false",
+      "strategy": "strategy-secure-api"
+    },
+    "ContactList": {
+      "name": "cont-secure-api",
+      "description": "This use to check connection is running in https"
+    },
+    "Strategy": {
+      "strategyType" : "SMS",
+      "name": "strategy-secure-api",
+      "description": "This use to check connection is running in https----updated",
+      "smsText": "This use to check connection is running in https",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "SECOND"
+    },
+    "DataSource": {
+      "name": "secure-api",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "obaassftp.blob.core.windows.net",
+      "ftpUserName": "obaassftp.root",
+      "ftpPassword": "3JLOSCeGMhgCUsh47VZgqUWsy9iyU5fT",
+      "ftpRemoteFilePath": "/obaas-sftp/contact_AC2_TC5.csv"
+    }
+  },
+  "DisableHTTP": {
+    "strategy": {
+      "name": "StrategyToCheckHTTPDisable",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactList": {
+      "name": "ContactListToCheckHTTPDisable",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "CampaignToCheckHTTPDisable",
+      "description": "Campaign To Check HTTP Disable",
+      "type": "FINITE",
+      "contactList": "ContactListToCheckHTTPDisable",
+      "strategy": "StrategyToCheckHTTPDisable",
+      "senderDisplayName": "",
+      "senderAddress": "",
+      "dialingOrder": [
+        "PRIORITY",
+        "RETRY",
+        "REGULAR"
+      ],
+      "finishType": "FINISH_AFTER",
+      "finishAfter": "0",
+      "checkTimeBasedFinishCriteria": "false"
+    },
+    "dataSource": {
+      "name": "HTTPDisable",
+      "dataSourceType": "SFTP",
+      "description": "This Data source to check HTTP disable",
+      "ftpIPHostName": "10.133.125.76",
+      "ftpUserName": "HTTPDisable",
+      "ftpPassword": "123456",
+      "ftpRemoteFilePath": "tmp/checkHTTPDisable.csv",
+      "fieldDelimiter": ","
+    }
+  },
+  "SecureAPIAC28ImportContactOption": {
+    "datasource": {
+      "name": "dssecure",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportList_Valid.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_Valid.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "importsecure",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully.",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "5",
+      "Last Success": "5",
+      "Last Failed": "0"
+    }
+  },
+  "SecureAC2_TC2": {
+    "campaign": {
+      "name": "SecureAC2_TC2",
+      "description": "Description",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "DisplayNam",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "contactlist_SecureAC2TC2",
+      "strategy": "strategy_SecureAC2TC2",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "strategy_SecureAC2TC2",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "SECOND"
+    },
+    "contactlist": {
+      "name": "contactlist_SecureAC2TC2",
+      "description": "descriptionCLS"
+    },
+    "datasource": {
+      "name": "datasource_SecureAC2TC2",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "/obaas-sftp/contact_AC2_TC5.csv",
+      "sourceFile": "contact_AC2_TC5.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    }
+  }
+}

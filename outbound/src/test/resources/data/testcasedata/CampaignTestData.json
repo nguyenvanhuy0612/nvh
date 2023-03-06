@@ -1,0 +1,662 @@
+{
+  "TestCampaign01": {
+    "strategy": {
+      "strategyType": "SMS",
+      "name": "strategycreatecampaign",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "CL_createcampaign",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "TestCampaign01",
+      "description": "This is Campaign Description",
+      "type": "Finite",
+      "senderDisplayName": "Anime",
+      "senderAddress": "+12162080985",
+      "finishType": "Finish After",
+      "finishAtDate": "09/09/2025",
+      "finishAtTime": "9:00 AM",
+      "finishAfterHrs": "1",
+      "finishAfterMins": "40"
+    }
+  },
+  "TestCampaign02": {
+    "strategy": {
+      "strategyType": "SMS",
+      "name": "strategycreatecampaign01",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "CL_createcampaign01",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "",
+      "description": "This is Campaign Description",
+      "type": "Finite",
+      "senderDisplayName": "Anime",
+      "senderAddress": "+12162080985",
+      "finishType": "Finish After",
+      "finishAtDate": "09/09/2025",
+      "finishAtTime": "9:00 AM",
+      "finishAfterHrs": "1",
+      "finishAfterMins": "40"
+    }
+  },
+  "TestCampaign03": {
+    "strategy": {
+      "strategyType": "SMS",
+      "name": "strategycreatecampaign02",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "CL_createcampaign02",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "TestCampaign03",
+      "description": "This is Campaign Description",
+      "type": "Finite",
+      "senderDisplayName": "Mitchell",
+      "senderAddress": "+12162080985",
+      "finishType": "Finish At",
+      "finishAtDate": "09/09/2025",
+      "finishAtTime": "9:00 AM",
+      "finishAfterHrs": "1",
+      "finishAfterMins": "40"
+    }
+  },
+  "TestCampaign04": {
+    "strategy": {
+      "strategyType": "SMS",
+      "name": "strategycreatecampaign03",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "CL_createcampaign03",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "TestCampaign04",
+      "description": "This is Campaign Description",
+      "type": "Finite",
+      "senderDisplayName": "Mitchell",
+      "senderAddress": "+12162080985",
+      "finishType": "Finish After",
+      "finishAtDate": "09/09/2025",
+      "finishAtTime": "9:00 AM",
+      "finishAfterHrs": "1",
+      "finishAfterMins": "40"
+    }
+  },
+  "TestCampaign05": {
+    "strategy": {
+      "strategyType": "SMS",
+      "name": "strategycreatecampaign04",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "CL_createcampaign04",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "TestCampaign05",
+      "description": "",
+      "type": "Finite",
+      "senderDisplayName": "",
+      "senderAddress": "",
+      "finishType": "Finish After",
+      "finishAtDate": "",
+      "finishAtTime": "",
+      "finishAfterHrs": "1001",
+      "finishAfterMins": "61"
+    }
+  },
+  "TestCampaign06": {
+    "strategy": {
+      "strategyType": "SMS",
+      "name": "strategycreatecampaign05",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "CL_createcampaign05",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "TestCampaign06",
+      "description": "",
+      "type": "Finite",
+      "senderDisplayName": "",
+      "senderAddress": "",
+      "finishType": "",
+      "finishAtDate": "",
+      "finishAtTime": "",
+      "finishAfterHrs": "0",
+      "finishAfterMins": "0"
+    }
+  },
+  "TestCampaign07": {
+    "strategy": {
+      "strategyType": "SMS",
+      "name": "strategycreatecampaign06",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "CL_createcampaign06",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "TestCampaign07",
+      "description": "",
+      "type": "Infinite",
+      "senderDisplayName": "",
+      "senderAddress": "",
+      "finishType": "",
+      "finishAtDate": "",
+      "finishAtTime": "",
+      "finishAfterHrs": "",
+      "finishAfterMins": ""
+    }
+  },
+  "TestCampaign08": {
+    "strategy": {
+      "strategyType": "SMS",
+      "name": "strategycreatecampaign07",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "CL_createcampaign07",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "TestCampaignNameWith80characters12345678",
+      "description": "TestCampaignDescriptionWith255charactersTestCampaignDescriptionWith255charactersTestCampaignDescriptionWith255charactersTestCampaignDescriptionWith255charactersTestCampaignDescriptionWith255charactersTestCampaignDescriptionWith255charactersTestCampaignDes",
+      "type": "Infinite",
+      "senderDisplayName": "",
+      "senderAddress": "",
+      "finishType": "",
+      "finishAtDate": "",
+      "finishAtTime": "",
+      "finishAfterHrs": "",
+      "finishAfterMins": ""
+    }
+  },
+  "create_camp1": {
+    "strategy": {
+      "strategyType": "sms",
+      "name": "strategy1",
+      "description": "strategy1",
+      "smsText": "strategy1",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "ctlist1",
+      "description": "ctlist1"
+    },
+    "campaign": {
+      "name": "camp1"
+    }
+  },
+  "Handle_Create_Case_Insensitive": {
+    "campaign": {
+      "name": "insensitive-campaign-name"
+    },
+    "contactlist": {
+      "name": "insensitive-contact-list-name",
+      "description": "insensitive-contact-list-name"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "insensitive-strategy-name",
+      "description": "",
+      "smsText": "test",
+      "smsPace": "20",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Strategy with given name already exists."
+    }
+  },
+  "Point5_TC30": {
+    "strategy": {
+      "strategyType": "SMS",
+      "name": "strategycreatecampaign30",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "CL_createcampaign30",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "1234Test",
+      "description": "This is Campaign Description",
+      "type": "Finite",
+      "senderDisplayName": "Mitchell",
+      "senderAddress": "+12162080985",
+      "finishType": "Finish After",
+      "finishAtDate": "09/09/2025",
+      "finishAtTime": "9:00 AM",
+      "finishAfterHrs": "1",
+      "finishAfterMins": "40"
+    }
+  },
+  "Point5_TC31_hyphen": {
+    "strategy": {
+      "strategyType": "SMS",
+      "name": "strategycreatecampaign31_1",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "CL_createcampaign31_1",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "_Test",
+      "description": "This is Campaign Description",
+      "type": "Finite",
+      "senderDisplayName": "Mitchell",
+      "senderAddress": "+12162080985",
+      "finishType": "Finish After",
+      "finishAtDate": "09/09/2025",
+      "finishAtTime": "9:00 AM",
+      "finishAfterHrs": "1",
+      "finishAfterMins": "40"
+    }
+  },
+  "Point5_TC31_undersocre": {
+    "strategy": {
+      "strategyType": "SMS",
+      "name": "strategycreatecampaign31_2",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "CL_createcampaign31_2",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "-Test",
+      "description": "This is Campaign Description",
+      "type": "Finite",
+      "senderDisplayName": "Mitchell",
+      "senderAddress": "+12162080985",
+      "finishType": "Finish After",
+      "finishAtDate": "09/09/2025",
+      "finishAtTime": "9:00 AM",
+      "finishAfterHrs": "1",
+      "finishAfterMins": "40"
+    }
+  },
+  "Point5_TC32": {
+    "strategy": {
+      "strategyType": "SMS",
+      "name": "中-文_名32",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "中-文_名32",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "中-文_名",
+      "description": "This is Campaign Description",
+      "type": "Finite",
+      "senderDisplayName": "Mitchell",
+      "senderAddress": "+12162080985",
+      "finishType": "Finish After",
+      "finishAtDate": "09/09/2025",
+      "finishAtTime": "9:00 AM",
+      "finishAfterHrs": "1",
+      "finishAfterMins": "40"
+    }
+  },
+  "Point5_TC33": {
+    "strategy": {
+      "strategyType": "SMS",
+      "name": "和_名33",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "和_名33",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "和_名",
+      "description": "This is Campaign Description",
+      "type": "Finite",
+      "senderDisplayName": "Mitchell",
+      "senderAddress": "+12162080985",
+      "finishType": "Finish After",
+      "finishAtDate": "09/09/2025",
+      "finishAtTime": "9:00 AM",
+      "finishAfterHrs": "1",
+      "finishAfterMins": "40"
+    }
+  },
+  "Point5_TC34": {
+    "strategy": {
+      "strategyType": "SMS",
+      "name": "한국_이름34",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Hour"
+    },
+    "contactlist": {
+      "name": "한국_이름34",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "한국_이름",
+      "description": "This is Campaign Description",
+      "type": "Finite",
+      "senderDisplayName": "Mitchell",
+      "senderAddress": "+12162080985",
+      "finishType": "Finish After",
+      "finishAtDate": "09/09/2025",
+      "finishAtTime": "9:00 AM",
+      "finishAfterHrs": "1",
+      "finishAfterMins": "40"
+    }
+  },
+  "Point5_TC35": {
+    "strategy": {
+      "strategyType": "SMS",
+      "name": "strategycreatecampaign35",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "CL_createcampaign35",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "English35",
+      "description": "This is Campaign Description",
+      "type": "Finite",
+      "senderDisplayName": "Mitchell",
+      "senderAddress": "+12162080985",
+      "finishType": "Finish After",
+      "finishAtDate": "09/09/2025",
+      "finishAtTime": "9:00 AM",
+      "finishAfterHrs": "1",
+      "finishAfterMins": "40"
+    }
+  },
+  "Point5_TC36": {
+    "strategy": {
+      "strategyType": "SMS",
+      "name": "nom_français36",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "nom_français36",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "nom_français",
+      "description": "This is Campaign Description",
+      "type": "Finite",
+      "senderDisplayName": "Mitchell",
+      "senderAddress": "+12162080985",
+      "finishType": "Finish After",
+      "finishAtDate": "09/09/2025",
+      "finishAtTime": "9:00 AM",
+      "finishAfterHrs": "1",
+      "finishAfterMins": "40"
+    }
+  },
+  "Point5_TC37": {
+    "strategy": {
+      "strategyType": "SMS",
+      "name": "Das-ist_deutsch37",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "Das-ist_deutsch37",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "Das-ist_deutsch",
+      "description": "This is Campaign Description",
+      "type": "Finite",
+      "senderDisplayName": "Mitchell",
+      "senderAddress": "+12162080985",
+      "finishType": "Finish After",
+      "finishAtDate": "09/09/2025",
+      "finishAtTime": "9:00 AM",
+      "finishAfterHrs": "1",
+      "finishAfterMins": "40"
+    }
+  },
+  "Point5_TC38": {
+    "strategy": {
+      "strategyType": "SMS",
+      "name": "Questo_è_italiano38",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "Questo_è_italiano38",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "Questo_è_italiano",
+      "description": "This is Campaign Description",
+      "type": "Finite",
+      "senderDisplayName": "Mitchell",
+      "senderAddress": "+12162080985",
+      "finishType": "Finish After",
+      "finishAtDate": "09/09/2025",
+      "finishAtTime": "9:00 AM",
+      "finishAfterHrs": "1",
+      "finishAfterMins": "40"
+    }
+  },
+  "Point5_TC39": {
+    "strategy": {
+      "strategyType": "SMS",
+      "name": "это_русский39",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "это_русский39",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "это_русский",
+      "description": "This is Campaign Description",
+      "type": "Finite",
+      "senderDisplayName": "Mitchell",
+      "senderAddress": "+12162080985",
+      "finishType": "Finish After",
+      "finishAtDate": "09/09/2025",
+      "finishAtTime": "9:00 AM",
+      "finishAfterHrs": "1",
+      "finishAfterMins": "40"
+    }
+  },
+  "Point5_TC40": {
+    "strategy": {
+      "strategyType": "SMS",
+      "name": "Hoc-est_latinum40",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "Hoc-est_latinum40",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "Hoc-est_latinum",
+      "description": "This is Campaign Description",
+      "type": "Finite",
+      "senderDisplayName": "Mitchell",
+      "senderAddress": "+12162080985",
+      "finishType": "Finish After",
+      "finishAtDate": "09/09/2025",
+      "finishAtTime": "9:00 AM",
+      "finishAfterHrs": "1",
+      "finishAfterMins": "40"
+    }
+  },
+  "Point5_TC41": {
+    "strategy": {
+      "strategyType": "SMS",
+      "name": "Esto_es_español41",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "Esto_es_español41",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "Esto_es_español",
+      "description": "This is Campaign Description",
+      "type": "Finite",
+      "senderDisplayName": "Mitchell",
+      "senderAddress": "+12162080985",
+      "finishType": "Finish After",
+      "finishAtDate": "09/09/2025",
+      "finishAtTime": "9:00 AM",
+      "finishAfterHrs": "1",
+      "finishAfterMins": "40"
+    }
+  },
+  "Point5_TC42": {
+    "strategy": {
+      "strategyType": "SMS",
+      "name": "nome_portugues-brasileiro42",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "nome_portugues-brasileiro42",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "nome_portugues-brasileiro",
+      "description": "This is Campaign Description",
+      "type": "Finite",
+      "senderDisplayName": "Mitchell",
+      "senderAddress": "+12162080985",
+      "finishType": "Finish After",
+      "finishAtDate": "09/09/2025",
+      "finishAtTime": "9:00 AM",
+      "finishAfterHrs": "1",
+      "finishAfterMins": "40"
+    }
+  },
+  "Point5_TC43": {
+    "strategy": {
+      "strategyType": "SMS",
+      "name": "זהוטקסטלבדיקת",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "זהוטקסטלבדיקת",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "זהוטקסטלבדיקת",
+      "description": "This is Campaign Description",
+      "type": "Finite",
+      "senderDisplayName": "Mitchell",
+      "senderAddress": "+12162080985",
+      "finishType": "Finish After",
+      "finishAtDate": "09/09/2025",
+      "finishAtTime": "9:00 AM",
+      "finishAfterHrs": "1",
+      "finishAfterMins": "40"
+    }
+  },
+  "Point5_TC44": {
+    "strategy": {
+      "strategyType": "SMS",
+      "name": "यह_भारतीय-है44",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    },
+    "contactlist": {
+      "name": "यह_भारतीय-है44",
+      "description": "this is contact list 1"
+    },
+    "campaign": {
+      "name": "यह_भारतीय-है",
+      "description": "This is Campaign Description",
+      "type": "Finite",
+      "senderDisplayName": "Mitchell",
+      "senderAddress": "+12162080985",
+      "finishType": "Finish After",
+      "finishAtDate": "09/09/2025",
+      "finishAtTime": "9:00 AM",
+      "finishAfterHrs": "1",
+      "finishAfterMins": "40"
+    }
+  }
+}
+

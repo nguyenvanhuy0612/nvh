@@ -1,0 +1,3044 @@
+{
+  "AC1_TC02": {
+    "strategy": {
+      "type": "SMS",
+      "name": "strategy2",
+      "description": "Dummy description 2",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "AC1_TC03": {
+    "strategy": {
+      "Reload Times": "5"
+    }
+  },
+  "Strategy-special-character": {
+    "strategy": {
+      "type": "SMS",
+      "name": "!@#$%^&*()=+*/:;\"'|\\?/.>,<",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+    }
+  },
+  "Strategy-description-empty": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Strategy-nonDes",
+      "description": "",
+      "smsText": "Strategy-nonDes",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "Strategy-MaxLenght-Name": {
+    "strategy": {
+      "type": "SMS",
+      "name": "abcdefghjiklmnopqrstuvwxyzabcdefghjiklmnopqrstuvwxyz",
+      "description": "",
+      "smsText": "Strategy-nonDes",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "Strategy-MaxLenght-Des": {
+    "strategy": {
+      "type": "SMS",
+      "name": "cmpStragey1",
+      "smsText": "Strategy-nonDes",
+      "description": "AbcdefghjiklmnopqrstuvwxyZAbcdefghjiklmnopqrstuvwxyZAbcdefghjiklmnopqrstuvwxyZAbcdefghjiklmnopqrstuvwxyZAbcdefghjiklmnopqrstuvwxyZAbcdefghjiklmnopqrstuvwxyZAbcdefghjiklmnopqrstuvwxyZAbcdefghjiklmnopqrstuvwxyZ",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "Strategy-SMS-Blank": {
+    "strategy": {
+      "type": "SMS",
+      "name": "cmpStragey1",
+      "description": "Strategy with SMS blank",
+      "smsText": "",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "SMS Text should not be null or blank."
+    }
+  },
+  "Strategy-Name-Blank": {
+    "strategy": {
+      "type": "SMS",
+      "name": "",
+      "description": "Strategy with Name blank",
+      "smsText": "SmsText",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should not be null or blank."
+    }
+  },
+  "Strategy-SMS-Simplified-Chinese": {
+    "strategy": {
+      "type": "SMS",
+      "name": "StrategySMS-text-Chinese",
+      "description": "StrategySMS-text-Chinese",
+      "smsText": "这是检查语言的文本",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "Strategy-SMS-Japanese": {
+    "strategy": {
+      "type": "SMS",
+      "name": "StrategySMS-text-Japanese",
+      "description": "StrategySMS-text-Japanese",
+      "smsText": "これは言語を確認するためのテキストです",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "Strategy-SMS-Korean": {
+    "strategy": {
+      "type": "SMS",
+      "name": "StrategySMS-text-Korean",
+      "description": "StrategySMS-text-Korean",
+      "smsText": "언어를 확인하는 텍스트입니다",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "Strategy-SMS-English": {
+    "strategy": {
+      "type": "SMS",
+      "name": "StrategySMS-text-English",
+      "description": "StrategySMS-text-English",
+      "smsText": "This is text to check language",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "Strategy-SMS-French": {
+    "strategy": {
+      "type": "SMS",
+      "name": "StrategySMS-text-French",
+      "description": "StrategySMS-text-French",
+      "smsText": "Ceci est un texte pour vérifier la langue",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "Strategy-SMS-German": {
+    "strategy": {
+      "type": "SMS",
+      "name": "StrategySMS-text-German",
+      "description": "StrategySMS-text-German",
+      "smsText": "Dies ist ein Text um die Sprache zu überprüfen",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "Strategy-SMS-Italian": {
+    "strategy": {
+      "type": "SMS",
+      "name": "StrategySMS-text-Italian",
+      "description": "StrategySMS-text-Italian",
+      "smsText": "Questo è il testo per controllare la lingua",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "Strategy-SMS-Russian": {
+    "strategy": {
+      "type": "SMS",
+      "name": "StrategySMS-text-Russian",
+      "description": "StrategySMS-text-Russian",
+      "smsText": "Это текст для проверки языка",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "Strategy-SMS-Latin-Spanish": {
+    "strategy": {
+      "type": "SMS",
+      "name": "StrategySMS-text-Latin-Spanish",
+      "description": "StrategySMS-text-Latin-Spanish",
+      "smsText": "Este es un texto para verificar el idioma",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "Strategy-SMS-Brazilian-Portuguese": {
+    "strategy": {
+      "type": "SMS",
+      "name": "StrategySMS-text-Brazilian-Portuguese",
+      "description": "StrategySMS-text-Brazilian-Portuguese",
+      "smsText": "Este é um texto para verificar o idioma",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "Strategy-SMS-Hebrew": {
+    "strategy": {
+      "type": "SMS",
+      "name": "StrategySMS-text-Hebrew",
+      "description": "StrategySMS-text-Hebrew",
+      "smsText": "זהו טקסט לבדיקת שפה",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "dialog-Confirm-Cancel-Show": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Dialog-confirm-cancel-show",
+      "description": "Dialog confirm cancel show",
+      "smsText": "Dialog confirm cancel show",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "dialog-Confirm-Cancel-not-Show": {
+    "strategy": {
+      "type": "SMS",
+      "name": "",
+      "description": "",
+      "smsText": "",
+      "smsPace": "",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "dialog-Confirm-Cancel-Option-Yes": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Dialog-confirm-cancel-show",
+      "description": "Dialog confirm cancel show",
+      "smsText": "Dialog confirm cancel show",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "dialog-Confirm-Cancel-Option-No": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Dialog-confirm-cancel-show",
+      "description": "Dialog confirm cancel show",
+      "smsText": "Dialog confirm cancel show",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "Verify-Message-dialog-confirm": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Verify-Message-dialog-confirm",
+      "description": "Dialog confirm cancel show",
+      "smsText": "Dialog confirm cancel show",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "msgCancelConfirmHeader": "Leave this page?",
+      "msgCancelConfirmBody": "The changes will be lost if you navigate away from this page."
+    }
+  },
+  "AC4_TC01": {
+    "strategy": {
+      "type": "SMS",
+      "name": "DupplicateName",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Strategy with given name already exists."
+    }
+  },
+  "AC4_TC02_1_!": {
+    "strategy": {
+      "type": "SMS",
+      "name": "!",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+    }
+  },
+  "AC4_TC02_2_@": {
+    "strategy": {
+      "type": "SMS",
+      "name": "@",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+    }
+  },
+  "AC4_TC02_3_#": {
+    "strategy": {
+      "type": "SMS",
+      "name": "#",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+    }
+  },
+  "AC4_TC02_4_$": {
+    "strategy": {
+      "type": "SMS",
+      "name": "$",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+    }
+  },
+  "AC4_TC02_5_%": {
+    "strategy": {
+      "type": "SMS",
+      "name": "%",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+    }
+  },
+  "AC4_TC02_6_^": {
+    "strategy": {
+      "type": "SMS",
+      "name": "^",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+    }
+  },
+  "AC4_TC02_7_&": {
+    "strategy": {
+      "type": "SMS",
+      "name": "&",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+    }
+  },
+  "AC4_TC02_8_*": {
+    "strategy": {
+      "type": "SMS",
+      "name": "*",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+    }
+  },
+  "AC4_TC02_9_(": {
+    "strategy": {
+      "type": "SMS",
+      "name": "(",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+    }
+  },
+  "AC4_TC02_10_)": {
+    "strategy": {
+      "type": "SMS",
+      "name": ")",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+    }
+  },
+  "AC4_TC02_11_double_quotes": {
+    "strategy": {
+      "type": "SMS",
+      "name": "\"",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+    }
+  },
+  "AC4_TC02_12_:": {
+    "strategy": {
+      "type": "SMS",
+      "name": ":",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+    }
+  },
+  "AC4_TC02_13_?": {
+    "strategy": {
+      "type": "SMS",
+      "name": "?",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+    }
+  },
+  "AC4_TC02_14_~": {
+    "strategy": {
+      "type": "SMS",
+      "name": "~",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+    }
+  },
+  "AC4_TC02_15_+": {
+    "strategy": {
+      "type": "SMS",
+      "name": "+",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+    }
+  },
+  "AC4_TC02_16_<": {
+    "strategy": {
+      "type": "SMS",
+      "name": "<",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+    }
+  },
+  "AC4_TC02_17_.": {
+    "strategy": {
+      "type": "SMS",
+      "name": ".",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+    }
+  },
+  "AC4_TC02_18_/": {
+    "strategy": {
+      "type": "SMS",
+      "name": "/",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+    }
+  },
+  "AC4_TC02_19_'": {
+    "strategy": {
+      "type": "SMS",
+      "name": "'",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+    }
+  },
+  "AC4_TC02_20_backslash": {
+    "strategy": {
+      "type": "SMS",
+      "name": "\\",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+    }
+  },
+  "AC4_TC02_21_space": {
+    "strategy": {
+      "type": "SMS",
+      "name": " ",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+    }
+  },
+  "AC4_TC02_22_>": {
+    "strategy": {
+      "type": "SMS",
+      "name": ">",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+    }
+  },
+  "AC4_TC02_23_=": {
+    "strategy": {
+      "type": "SMS",
+      "name": "=",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+    }
+  },
+  "AC4_TC02_24_combine": {
+    "strategy": {
+      "type": "SMS",
+      "name": "!@#$%^&*()\":?~+-.\\",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+    }
+  },
+  "AC4_TC03": {
+    "strategy": {
+      "type": "SMS",
+      "name": "",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should not be null or blank."
+    }
+  },
+  "AC4_TC04": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC4_TC04",
+      "description": "Dummy description",
+      "smsText": "",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "SMS Text should not be null or blank."
+    }
+  },
+  "AC4_TC05": {
+    "strategy": {
+      "type": "SMS",
+      "name": "!@#$%^&*()\":?~+-.",
+      "nameEdit": "EditNameAC4_TC05",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "errorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore.",
+      "notificationMessage": "Strategy added successfully."
+    }
+  },
+  "AC4_TC06": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC4_TC07",
+      "description": "Dummy description",
+      "smsText": "",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "smsTextEdit": "Edit sms text AC4_TC06",
+      "errorMessage": "SMS Text should not be null or blank.",
+      "notificationMessage": "Strategy added successfully."
+    }
+  },
+  "AC3_TC01": {
+    "strategy": {
+      "type": "SMS",
+      "name": "ValidStrategyLatest",
+      "description": "ValidStrategy Description",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "AC3_TC02": {
+    "strategy": {
+      "type": "SMS",
+      "name": "",
+      "description": "ValidStrategy Description",
+      "smsText": "My first SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "UpdateStrategyAC5_TC01": {
+    "strategy": {
+      "type": "SMS",
+      "name": "ValidStrategywithElipseEdit",
+      "description": "Valid Strategy with Elipse Edit",
+      "smsText": "Valid Strategy with Elipse Edit SMS 2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "UpdateStrategyAC5_TC02": {
+    "strategy": {
+      "type": "SMS",
+      "name": "ValidStrategywithElipseEdit2",
+      "description": "Valid Strategy with Elipse Edit 2",
+      "smsText": "Valid Strategy with Elipse Edit SMS 3",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "leavePageConfirmationDialog": "Leave this page?|The changes will be lost if you navigate away from this page.|Stay on this page|Leave this page"
+    }
+  },
+  "UpdateStrategyAC5_TC03": {
+    "strategy": {
+      "type": "SMS",
+      "name": "ValidStrategywithElipseEdit5",
+      "description": "Valid Strategy with Elipse Edit 3",
+      "smsText": "Valid Strategy with Elipse Edit SMS 4",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "leavePageConfirmationDialog": "Leave this page?|The changes will be lost if you navigate away from this page.|Stay on this page|Leave this page"
+    }
+  },
+  "UpdateStrategyOnEditPage": {
+    "strategy": {
+      "type": "SMS",
+      "description": "update Strategy with Elipse Edit",
+      "smsText": "update Strategy with Elipse Edit SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "updateStrategy_AC2_TC16-open-with-linkName": {
+    "strategy": {
+      "type": "SMS",
+      "name": "openEditorwithlinkName3",
+      "description": "updateStrategy_AC2_TC16-open-with-linkName",
+      "smsText": "updateStrategy_AC2_TC16-open-with-linkName",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit"
+    }
+  },
+  "updateStrategy_AC2_TC17-open-with-moreOption": {
+    "strategy": {
+      "type": "SMS",
+      "name": "openEditorwithmoreOption",
+      "description": "updateStrategy_AC2_TC17-open-with-moreOption",
+      "smsText": "updateStrategy_AC2_TC17-open-with-moreOption",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit"
+    }
+  },
+  "updateStrategy_AC2_TC18_LinkName-SMS-modify": {
+    "strategy": {
+      "type": "SMS",
+      "name": "LinkName-SMS-modify",
+      "description": "moreOption-SMS-modify",
+      "smsText": "updateStrategy_AC2_TC19_moreOption-SMS-modify",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit"
+    }
+  },
+  "updateStrategy_AC2_TC19_moreOption-SMS-modify": {
+    "strategy": {
+      "type": "SMS",
+      "name": "moreOption-SMS-modify",
+      "description": "moreOption-SMS-modify",
+      "smsText": "updateStrategy_AC2_TC19_moreOption-SMS-modify",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit"
+    }
+  },
+  "updateStrategy_AC2_TC20_LinkName-Des-modify": {
+    "strategy": {
+      "type": "SMS",
+      "name": "LinkName-Des-modify",
+      "description": "updateStrategy_AC2_TC20_LinkName-Des-modify",
+      "smsText": "updateStrategy_AC2_TC20_LinkName-Des-modify",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit"
+    }
+  },
+  "updateStrategy_AC2_TC21_moreOption-Des-modify": {
+    "strategy": {
+      "type": "SMS",
+      "name": "moreOption-Des-modify",
+      "description": "updateStrategy_AC2_TC21_moreOption-Des-modify",
+      "smsText": "updateStrategy_AC2_TC21_moreOption-Des-modify",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit"
+    }
+  },
+  "updateStrategy_AC2_TC22_LinkName-name-modify": {
+    "strategy": {
+      "type": "SMS",
+      "name": "LinkName-name-modify",
+      "description": "LinkName-name-modify",
+      "smsText": "updateStrategy_AC2_TC22_LinkName-name-modify",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit"
+    }
+  },
+  "updateStrategy_AC2_TC23_moreOption-name-modify": {
+    "strategy": {
+      "type": "SMS",
+      "name": "moreOption-name-modify",
+      "description": "updateStrategy_AC2_TC23_moreOption-name-modify",
+      "smsText": "updateStrategy_AC2_TC23_moreOption-name-modify",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit"
+    }
+  },
+  "UpdateStrategy_AC3_TC01_Simplified_Chinese": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC01_Simplified_Chinese",
+      "description": "AC3_TC01_Simplified_Chinese",
+      "smsText": "这是检查语言的文本",
+      "action": "Edit",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC01_Simplified_Chinese_EditSmsText": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC01_Simplified_Chinese",
+      "description": "",
+      "smsText": "这是中文",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC02_Japanese": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC02_Japanese",
+      "description": "AC3_TC02_Japanese",
+      "smsText": "これは言語を確認するためのテキストです",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC02_Japanese_EditSmsText": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC02_Japanese",
+      "description": "",
+      "smsText": "これは日本人です",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC03_Korean": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC03_Korean",
+      "description": "AC3_TC03_Korean",
+      "smsText": "이것은 언어 테스트 텍스트입니다",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC03_Korean_EditSmsText": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC03_Korean",
+      "description": "",
+      "smsText": "이것은 한국어입니다",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC04_English": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC04_English",
+      "description": "AC3_TC04_English",
+      "smsText": "This is the text to verify English",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "fieldEdit": "smsText",
+      "NotificationAlert": "Strategy updated successfully.",
+      "smsTextEdit": "This is english"
+    }
+  },
+  "UpdateStrategy_AC3_TC04_English_EditSmsText": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC04_English",
+      "description": "",
+      "smsText": "This is english",
+      "action": "Edit",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC05_French": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC05_French",
+      "description": "AC3_TC05_French",
+      "smsText": "ici comme texte de test de langue",
+      "action": "Edit",
+      "fieldEdit": "smsText",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "NotificationAlert": "Strategy updated successfully.",
+      "smsTextEdit": "c'est français"
+    }
+  },
+  "UpdateStrategy_AC3_TC05_French_EditSmsText": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC05_French",
+      "description": "",
+      "smsText": "c'est français",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC06_German": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC06_German",
+      "description": "AC3_TC06_German",
+      "smsText": "das ist deutsch",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC06_German_EditSmsText": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC06_German",
+      "description": "",
+      "smsText": "hier als Sprachtesttext",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC07_Italian": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC07_Italian",
+      "description": "AC3_TC07_Italian",
+      "smsText": "questo è il testo del test di lingua",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC07_Italian_EditSmsText": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC07_Italian",
+      "description": "",
+      "smsText": "questo è italiano",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC08_Russian": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC08_Russian",
+      "description": "AC3_TC08_Russian",
+      "smsText": "это текст языкового теста",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC08_Russian_EditSmsText": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC08_Russian",
+      "description": "",
+      "smsText": "это русский текст",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC09_Latin": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC09_Latin",
+      "description": "AC3_TC09_Latin",
+      "smsText": "hoc est lingua test text",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC09_Latin_EditSmsText": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC09_Latin",
+      "description": "",
+      "smsText": "Hoc est Latinum",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC10_Spanish": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC10_Spanish",
+      "description": "AC3_TC10_Spanish",
+      "smsText": "este es el texto de la prueba de idioma",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC10_Spanish_EditSmsText": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC10_Spanish",
+      "description": "",
+      "smsText": "El texto contiene español",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC11_Brazilian-Portuguese": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC11_Brazilian-Portuguese",
+      "description": "AC3_TC11_Brazilian-Portuguese",
+      "smsText": "este é o texto do teste de idioma",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC11_Brazilian-Portuguese_EditSmsText": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC11_Brazilian-Portuguese",
+      "description": "",
+      "smsText": "Este é o idioma de texto para o brasil e o português",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC12_Hebrew": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC12_Hebrew",
+      "description": "AC3_TC12_Hebrew",
+      "smsText": "זהו טקסט מבחן השפה",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC12_Hebrew_EditSmsText": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC12_Hebrew",
+      "description": "",
+      "smsText": "זהו טקסט המכיל עברית",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC13_India-Hindi": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC13_India-Hindi",
+      "description": "AC3_TC13_India-Hindi",
+      "smsText": "यह हिंदी युक्त पाठ है",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC13_India-Hindi_EditSmsText": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3_TC13_India-Hindi",
+      "description": "",
+      "smsText": "यहाँ भाषा परीक्षण का पाठ है",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC014_1character": {
+    "strategy": {
+      "type": "SMS",
+      "name": "UpdateStrategy_AC3_TC014_1character",
+      "description": "UpdateStrategy_AC3_TC014_1character",
+      "smsText": "UpdateStrategy_AC3_TC014_1character",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC014_1character_EditSmsText": {
+    "strategy": {
+      "type": "SMS",
+      "name": "UpdateStrategy_AC3_TC014_1character",
+      "description": "",
+      "smsText": "A",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC015_10characters": {
+    "strategy": {
+      "type": "SMS",
+      "name": "UpdateStrategy_AC3_TC015_10characters",
+      "description": "UpdateStrategy_AC3_TC015_10characters",
+      "smsText": "UpdateStrategy_AC3_TC015_10characters",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC015_10characters_EditSmsText": {
+    "strategy": {
+      "type": "SMS",
+      "name": "UpdateStrategy_AC3_TC015_10characters",
+      "description": "",
+      "smsText": "TenTenchar",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC016_256characters": {
+    "strategy": {
+      "type": "SMS",
+      "name": "UpdateStrategy_AC3_TC016_256characters",
+      "description": "UpdateStrategy_AC3_TC016_256characters",
+      "smsText": "UpdateStrategy_AC3_TC016_256characters",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC016_256characters_EditSmsText": {
+    "strategy": {
+      "type": "SMS",
+      "name": "UpdateStrategy_AC3_TC016_256characters",
+      "description": "",
+      "smsText": "This is 256 characters This is 256 characters This is 256 characters This is 256 characters This is 256 characters This is 256 characters This is 256 characters This is 256 characters This is 256 characters This is 256 characters This is 256 characters Thi",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC017_0character": {
+    "strategy": {
+      "type": "SMS",
+      "name": "UpdateStrategy_AC3_TC017_0character",
+      "description": "UpdateStrategy_AC3_TC017_0character",
+      "smsText": "UpdateStrategy_AC3_TC017_0character",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC017_0character_EditDescription": {
+    "strategy": {
+      "type": "SMS",
+      "name": "UpdateStrategy_AC3_TC017_0character",
+      "description": "",
+      "smsText": "",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC018_10characters": {
+    "strategy": {
+      "type": "SMS",
+      "name": "UpdateStrategy_AC3_TC018_10characters",
+      "description": "UpdateStrategy_AC3_TC018_10characters",
+      "smsText": "UpdateStrategy_AC3_TC018_10characters",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC018_10characters_EditDescription": {
+    "strategy": {
+      "type": "SMS",
+      "name": "UpdateStrategy_AC3_TC018_10characters",
+      "description": "TenTenchar",
+      "smsText": "",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC019_128characters": {
+    "strategy": {
+      "type": "SMS",
+      "name": "UpdateStrategy_AC3_TC019_128characters",
+      "description": "UpdateStrategy_AC3_TC019_128characters",
+      "smsText": "UpdateStrategy_AC3_TC019_128characters",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC019_128characters_EditDescription": {
+    "strategy": {
+      "type": "SMS",
+      "name": "UpdateStrategy_AC3_TC019_128characters",
+      "description": "This is 128 characters This is 128 characters This is 128 characters This is 128 characters This is 128 characters This is 128 c",
+      "smsText": "",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC20": {
+    "strategy": {
+      "type": "SMS",
+      "name": "UpdateStrategy_AC3_TC20",
+      "description": "UpdateStrategy_AC3_TC20",
+      "smsText": "UpdateStrategy_AC3_TC20",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC20_EditSmsText": {
+    "strategy": {
+      "type": "SMS",
+      "name": "UpdateStrategy_AC3_TC20",
+      "description": "",
+      "smsText": "~!@#$%^&*()+?<>\\.:\"' +*,|",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC021": {
+    "strategy": {
+      "type": "SMS",
+      "name": "UpdateStrategy_AC3_TC021",
+      "description": "UpdateStrategy_AC3_TC021",
+      "smsText": "UpdateStrategy_AC3_TC021",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategy_AC3_TC021_EditDescription": {
+    "strategy": {
+      "type": "SMS",
+      "name": "UpdateStrategy_AC3_TC021",
+      "description": "~!@#$%^&*()+?<>\\.:\"' +*,|",
+      "smsText": "",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategyAC4_TC01": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Edit-smsText-Field",
+      "description": "Edit-smsText-Field-With-Null",
+      "smsText": "Edit-smsText-Field-By-Null",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "errorMessage": "SMS Text should not be null or blank."
+    }
+  },
+  "UpdateStrategyOnEditPageAC4_TC01": {
+    "strategy": {
+      "smsText": "blank",
+      "errorMessage": "SMS Text should not be null or blank."
+    }
+  },
+  "UpdateStrategyAC4_TC02": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Re-Edit-smsText-As-Value-NotNull",
+      "description": "Re-Edit-smsText-As-New-Value-NotNull",
+      "smsText": "Re-Edit-smsText-As-New-Value-NotNull",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "errorMessage": "SMS Text should not be null or blank.",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategyOnEditPageAC4_TC02": {
+    "strategy": {
+      "smsText": "blank",
+      "errorMessage": "SMS Text should not be null or blank."
+    }
+  },
+  "ReUpdateStrategyOnEditPageAC4_TC02": {
+    "strategy": {
+      "smsText": "This is an valid text",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "UpdateStrategyAC4_TC03": {
+    "strategy": {
+      "type": "SMS",
+      "name": "UpdateStrategyAC4_TC03",
+      "description": "Edit-description-Length-More-Than-128-Characters",
+      "smsText": "Edit-description-Length-More-Than-128-Characters",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "NotificationAlert": "Strategy updated successfully.",
+      "action": "Edit"
+    }
+  },
+  "ReUpdateStrategyAC4_TC03": {
+    "strategy": {
+      "type": "SMS",
+      "name": "UpdateStrategyAC4_TC03",
+      "action": "Edit",
+      "smsText": "",
+      "fieldId": "description",
+      "NotificationAlert": "Strategy updated successfully.",
+      "description": "Verify that Strategy could not edit with Description length more than 128 characters @#$%^&*([])~./?,-+`<>some test will be cut| after this",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "pageNumber": "0",
+      "pageSize": "100"
+    }
+  },
+  "UpdateStrategyAC4_TC04": {
+    "strategy": {
+      "type": "SMS",
+      "name": "UpdateStrategyAC4_TC04",
+      "description": "Edit-description-Length-More-Than-256-Chars",
+      "smsText": "Edit-description-Length-More-Than-256-Chars",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "ReUpdateStrategyAC4_TC04": {
+    "strategy": {
+      "type": "SMS",
+      "name": "UpdateStrategyAC4_TC04",
+      "description": "",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "fieldId": "smsText",
+      "NotificationAlert": "Strategy updated successfully.",
+      "smsText": "Verify that Strategy could not edit with Description length more than 128 characters @#$%^&*([])~./?,-+`<>some test will be cut after thisVerify that Strategy could not edit with Description length more than 128 characters @#$%^&*([])~./?,-+`<>some test will be cut| after this",
+      "pageNumber": "0",
+      "pageSize": "100"
+    }
+  },
+  "listStrategyAC1TC1": {
+    "strategy": {
+      "type": "SMS",
+      "name": "",
+      "description": "",
+      "smsText": "",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "headerCells": "Name;Type"
+    }
+  },
+  "listStrategyAC1TC2": {
+    "strategy": {
+      "type": "SMS",
+      "name": "",
+      "description": "",
+      "smsText": "",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "headerCells": "Name;Type"
+    }
+  },
+  "listStrategyAC1TC3": {
+    "strategy": {
+      "type": "SMS",
+      "name": "",
+      "description": "",
+      "smsText": "",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "headerCells": "Name;Type"
+    }
+  },
+  "listStrategyAC1TC4": {
+    "strategy": {
+      "type": "SMS",
+      "name": "listStrategy_AC1-1",
+      "description": "listStrategy_AC1-1",
+      "smsText": "listStrategy_AC1-1",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "headerCells": "Name;Type"
+    }
+  },
+  "listStrategyAC1TC5": {
+    "strategy": {
+      "type": "SMS",
+      "name": "listStrategy_AC1-2",
+      "description": "listStrategy_AC1-2",
+      "smsText": "listStrategy_AC1-2",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "headerCells": "Name;Type"
+    }
+  },
+  "listStrategyAC1TC6": {
+    "strategy": {
+      "type": "SMS",
+      "name": "listStrategy_AC1-6",
+      "description": "listStrategy_AC1-6",
+      "smsText": "listStrategy_AC1-6",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "headerCells": "Name;Type",
+      "action": "Edit"
+    }
+  },
+  "listStrategyAC1TC6Update": {
+    "strategy": {
+      "type": "SMS",
+      "name": "listStrategy_AC1-6",
+      "description": "listStrategy_AC1-6-Update",
+      "smsText": "listStrategy_AC1-6-Update",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "headerCells": "Name;Type",
+      "action": "Edit"
+    }
+  },
+  "listStrategyAC3TC11": {
+    "strategy": {
+      "type": "SMS",
+      "name": "listStrategies11",
+      "description": "listStrategy",
+      "smsText": "listStrategy",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "headerCells": "Name;Type",
+      "action": "Edit"
+    }
+  },
+  "listStrategyAC3TC12": {
+    "strategy": {
+      "type": "SMS",
+      "name": "listStrategies12",
+      "description": "listStrategies12",
+      "smsText": "listStrategy",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "headerCells": "Name;Type",
+      "action": "Edit"
+    }
+  },
+  "listStrategyAC3TC13": {
+    "strategy": {
+      "type": "SMS",
+      "name": "listStrategies13",
+      "description": "listStrategies13",
+      "smsText": "listStrategy",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "headerCells": "Name;Type",
+      "action": "Edit"
+    }
+  },
+  "listStrategyAC3TC14": {
+    "strategy": {
+      "type": "SMS",
+      "name": "listStrategies14",
+      "description": "listStrategies14",
+      "smsText": "listStrategy",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "headerCells": "Name;Type",
+      "action": "Edit"
+    }
+  },
+  "ListStrategy_AC2_TC01": {
+    "strategy": {
+      "type": "SMS",
+      "name": "ListStrategy_AC2_TC01",
+      "description": "test create on top",
+      "smsText": "ListStrategy_AC2_TC01",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "ListStrategy_AC2_TC02": {
+    "strategy": {
+      "type": "SMS",
+      "name": "TC02StName",
+      "description": "Des1",
+      "smsText": "Text1",
+      "smsPace": "20",
+      "smsPacingTimeUnit": "SECOND"
+    }
+  },
+  "ListStrategy_AC2_TC02_modifiedDescription": {
+    "strategy": {
+      "type": "SMS",
+      "name": "TC02StName_5",
+      "description": "change description TC02StName5",
+      "smsText": "",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit"
+    }
+  },
+  "ListStrategy_AC2_TC03": {
+    "strategy": {
+      "type": "SMS",
+      "name": "TC03StName",
+      "description": "Des1",
+      "smsText": "Text1",
+      "smsPace": "20",
+      "smsPacingTimeUnit": "SECOND",
+      "pageSize": "1000",
+      "pageNumber": "0"
+    }
+  },
+  "ListStrategy_AC2_TC04": {
+    "strategy": {
+      "type": "SMS",
+      "name": "TC04StName",
+      "description": "Des1",
+      "smsText": "Text1",
+      "smsPace": "20",
+      "smsPacingTimeUnit": "SECOND",
+      "pageSize": "1000",
+      "pageNumber": "0"
+    }
+  },
+  "ListStrategy_AC2_TC05": {
+    "strategy": {
+      "type": "SMS",
+      "name": "TC05StName",
+      "description": "Des",
+      "smsText": "Text1",
+      "smsPace": "20",
+      "smsPacingTimeUnit": "SECOND",
+      "pageSize": "1000",
+      "pageNumber": "0"
+    }
+  },
+  "ListStrategy_AC2_TC06": {
+    "strategy": {
+      "type": "SMS",
+      "name": "TC06StName",
+      "description": "Des1",
+      "smsText": "Text1",
+      "smsPace": "20",
+      "smsPacingTimeUnit": "SECOND",
+      "pageSize": "1000",
+      "pageNumber": "0"
+    }
+  },
+  "ListStrategy_AC2_TC07": {
+    "strategy": {
+      "type": "SMS",
+      "name": "TC07StName",
+      "description": "Des1",
+      "smsText": "Text1",
+      "smsPace": "20",
+      "smsPacingTimeUnit": "SECOND",
+      "pageSize": "1000",
+      "pageNumber": "0"
+    }
+  },
+  "ListStrategy_AC5_TC03": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC5_TC03_StName1",
+      "description": "Des1",
+      "smsText": "Text1",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "pageSize": "1000",
+      "pageNumber": "0"
+    }
+  },
+  "ListStrategy_AC5_TC04": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC5TC04Name1|AC5TC04Name2|AC5TC04Name3|AC5TC04Name4|AC5TC04Name5|AC5TC04Name6|AC5TC04Name7|AC5TC04Name8|AC5TC04Name9|AC5TC04Name10|AC5TC04Name11|AC5TC04Name12|AC5TC04Name13|AC5TC04Name14|AC5TC04Name15|AC5TC04Name16|AC5TC04Name17|AC5TC04Name18|AC5TC04Name19|AC5TC04Name20|AC5TC04Name21|AC5TC04Name22|AC5TC04Name23|AC5TC04Name24|AC5TC04Name25|AC5TC04Name26|AC5TC04Name27|AC5TC04Name28|AC5TC04Name29|AC5TC04Name30|AC5TC04Name31",
+      "description": "Des1|Des2|Des3|Des4|Des5|Des6|Des7|Des8|Des9|Des10|Des11|Des12|Des13|Des14|Des15|Des16|Des17|Des18|Des19|Des20|Des21|Des22|Des23|Des24|Des25|Des26|Des27|Des28|Des29|Des30|Des31",
+      "smsText": "Text1|Text2|Text3|Text4|Text5|Text6|Text7|Text8|Text9|Text10|Text11|Text12|Text13|Text14|Text15|Text16|Text17|Text18|Text19|Text20|Text21|Text22|Text23|Text24|Text25|Text26|Text27|Text28|Text29|Text30|Text31",
+      "smsPace": "20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20",
+      "smsPacingTimeUnit": "SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND",
+      "pageSize": "1000",
+      "pageNumber": "0"
+    }
+  },
+  "ListStrategy_AC5_TC05": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC5TC05Name1|AC5TC05Name2|AC5TC05Name3|AC5TC05Name4|AC5TC05Name5|AC5TC05Name6|AC5TC05Name7|AC5TC05Name8|AC5TC05Name9|AC5TC05Name10|AC5TC05Name11|AC5TC05Name12|AC5TC05Name13|AC5TC05Name14|AC5TC05Name15|AC5TC05Name16|AC5TC05Name17|AC5TC05Name18|AC5TC05Name19|AC5TC05Name20|AC5TC05Name21|AC5TC05Name22|AC5TC05Name23|AC5TC05Name24|AC5TC05Name25|AC5TC05Name26|AC5TC05Name27|AC5TC05Name28|AC5TC05Name29|AC5TC05Name30|AC5TC05Name31",
+      "description": "Des1|Des2|Des3|Des4|Des5|Des6|Des7|Des8|Des9|Des10|Des11|Des12|Des13|Des14|Des15|Des16|Des17|Des18|Des19|Des20|Des21|Des22|Des23|Des24|Des25|Des26|Des27|Des28|Des29|Des30|Des31",
+      "smsText": "Text1|Text2|Text3|Text4|Text5|Text6|Text7|Text8|Text9|Text10|Text11|Text12|Text13|Text14|Text15|Text16|Text17|Text18|Text19|Text20|Text21|Text22|Text23|Text24|Text25|Text26|Text27|Text28|Text29|Text30|Text31",
+      "smsPace": "20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20",
+      "smsPacingTimeUnit": "SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND",
+      "pageSize": "1000",
+      "pageNumber": "0"
+    }
+  },
+  "ListStrategyAC4_TC01": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Verify_the_pagination_supported_options",
+      "description": "Verify number record, page number, previous and next page button, and page size options will be displayed correctly",
+      "smsText": "Support Pagination - Verify all the page size options will be shown correctly",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "ListStrategyAC4_TC02": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Verify_default_page_size_value_as_20",
+      "description": "Verify default page size value is 20",
+      "smsText": "Support Pagination - Verify default page size value is 20",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "ListStrategyAC4_TC03": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Verify_use_be_able_to_change_pageSize",
+      "description": "Verify that use be able to change the page size",
+      "smsText": "Support Pagination - Verify that use be able to change the page size",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "ListStrategyAC4_TC04": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Verify_page_number",
+      "description": "Verify each page should list the number of records correctly with selected page size",
+      "smsText": "Support Pagination - Verify each page should list the number of records correctly with selected page size",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "ListStrategyAC4_TC05": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Verify_records_should_be_shown",
+      "description": "Verify page number display correctly with selected page size",
+      "smsText": "Support Pagination - Verify page number display correctly with selected page size",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "ListStrategyAC4_TC06": {
+    "strategy": {
+      "type": "SMS",
+      "name": "User_add_only_one_strategy",
+      "description": "Verify that if we have only 1 record then Next Page, Previous Page, and Go To Page should not be visible",
+      "smsText": "Support Pagination - Verify that if we have only 1 record then Next Page, Previous Page, and Go To Page should not be visible",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "ListStrategyAC4_TC07": {
+    "strategy": {
+      "type": "SMS",
+      "name": "User_previous_next_page_button",
+      "description": "Verify user should able to go to previous and next page",
+      "smsText": "Support Pagination - Verify user should able to go to previous and next page",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "ListStrategyAC4_TC08": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Verify_redirected_to_the_first_page",
+      "description": "Verify use will be redirected to the first page if applying sort action on another page",
+      "smsText": "Support Pagination - Verify use will be redirected to the first page if applying sort action on another page",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "ListStrategyAC4_TC09": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Verify_errorMessage_invalidCharacter",
+      "description": "Verify error message 'Please enter valid page name' will be displayed when input invalid page number into Go To Page field",
+      "smsText": "Support Pagination - Verify error message 'Please enter valid page name' will be displayed when input invalid page number into Go To Page field",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "ListStrategyAC4_TC10": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Verify_sort_consistent_all_page",
+      "description": "Verify the sort should happen across all the pages",
+      "smsText": "Support Pagination - Verify the sort should happen across all the pages",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "ListStrategyAC4_TC11": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Verify_sort_consistent_all_page",
+      "description": "Verify the sort should happen across all the pages",
+      "smsText": "Support Pagination - Verify the sort should happen across all the pages",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "goToPageValue": ""
+    }
+  },
+  "ListStrategyAC4_TC12": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Verify_stepUp_option",
+      "description": "Verify user can use the 'step up' option and all record show correctly",
+      "smsText": "Support Pagination - Verify user can use the 'step up' option and all record show correctly",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "ListStrategyAC4_TC13": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Verify_stepDown_option",
+      "description": "Verify user can use the 'step down' option and all record show correctly",
+      "smsText": "Support Pagination - Verify user can use the 'step down' option and all record show correctly",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "ListStrategyAC4_TC14": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Verify_user_clickOn_stepUp_many_time",
+      "description": "Verify Use can click on the 'step up' option too many time and an error will be shown",
+      "smsText": "Support Pagination - Verify Use can click on the 'step up' option too many time and an error will be shown",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "Information_of_neo4j_database": {
+    "strategy": {
+      "url": "neo4j://20.219.179.237",
+      "port": "7687",
+      "user": "neo4j",
+      "password": "test",
+      "query": "MATCH (n:Strategy) detach DELETE n"
+    }
+  },
+  "AdvanceSearchingAC1_TC01": {
+    "strategy": {
+      "type": "SMS",
+      "name": "check-searchBox-clearSearch-no-record",
+      "description": "No record  Check-search-box-clear-search-option",
+      "smsText": "basic search - No record - Check-search-box-clear-search-option",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "AdvanceSearchingAC1_TC02": {
+    "strategy": {
+      "type": "SMS",
+      "name": "searchBox-clearSearch-many-records",
+      "description": "One or more records  Check-search-box-clear-search-option",
+      "smsText": "basic search - one or more records - Check-search-box-clear-search-option",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "AdvanceSearchingAC1_TC03": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Verify-search-strategy-work-properly",
+      "description": "Basic search - Verify-search-work-properly",
+      "smsText": "Basic search - Verify-search-work-properly",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "pageNumber": "0",
+      "pageSize": "1000"
+    }
+  },
+  "AdvanceSearchingAC1_TC04": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Verify-search-value-PUNETMA-cleared",
+      "description": "Basic search - Verify-search-value-is-cleared",
+      "smsText": "Basic search - Verify-search-value-is-cleared",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "pageNumber": "0",
+      "pageSize": "1000"
+    }
+  },
+  "AdvanceSearchingAC1_TC05": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Verify-strategy-is-updated05",
+      "description": "Basic search - Verify-strategy-is-updated05",
+      "smsText": "Basic search - Verify-strategy-is-updated05",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "EditAndSaveStrategy": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Verify-strategy-is-updated05_21",
+      "smsText": "Basic search - Verify smsText has been updated05",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "action": "Edit",
+      "columnName": "All",
+      "pageNumber": "0",
+      "pageSize": "1000"
+    }
+  },
+  "AdvanceSearchingAC1_TC06": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Re-input-And-Verify-",
+      "description": "Basic search - Re-input and verify response will be updated",
+      "smsText": "Basic search - Re-input and verify response will be updated",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "pageNumber": "0",
+      "pageSize": "1000"
+    }
+  },
+  "AdvanceSearchingAC1_TC07": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Strategy-doNot-Exist-",
+      "description": "Basic search - Verify that nothing will be shown if the input strategy does not exits on system",
+      "smsText": "Basic search - Verify that nothing will be shown if the input strategy does not exits on system",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "pageNumber": "0",
+      "pageSize": "1000"
+    }
+  },
+  "AdvanceSearchingAC1_TC08": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Click-on-Refresh-all-set-default",
+      "description": "Basic search - Click on the fresh button and verify set of options will set as default",
+      "smsText": "Basic search - Click on the fresh button and verify set of options will set as default",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "pageNumber": "0",
+      "pageSize": "1000"
+    }
+  },
+  "associtateStrategytoCmp01": {
+    "campaign": {
+      "name": "associtateStrategytoCmp01",
+      "description": "This is campaign for check associtate Strategy to Cmp01",
+      "Type": "Infinite",
+      "SenderDisplayName": "Anime",
+      "SendersAddress": "+12162080985",
+      "TimeBasedFinishCriteria": "Finish After",
+      "FinishAtDate": "30/09/2022",
+      "FinishAtTime": "9:00 AM",
+      "FinishAfterHrs": "1",
+      "FinishAfterMins": "40",
+      "Dialing Order": "PRIORITY"
+    },
+    "contactlist": {
+      "name": "associtateStrategytoCmpList1",
+      "description": "associtateStrategytoCmpList1"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "associtateStrategytoCmp-Str1",
+      "description": "associtateStrategytoCmp-Str1",
+      "smsText": "associtateStrategytoCmp-Str1",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "associtateStrategytoCmp02": {
+    "campaign": {
+      "name": "associtateStrategytoCmp02",
+      "description": "This is campaign for check associtate Strategy to Cmp02",
+      "Type": "Infinite",
+      "SenderDisplayName": "Anime",
+      "SendersAddress": "+12162080985",
+      "TimeBasedFinishCriteria": "Finish After",
+      "FinishAtDate": "30/09/2022",
+      "FinishAtTime": "9:00 AM",
+      "FinishAfterHrs": "1",
+      "FinishAfterMins": "40",
+      "Dialing Order": "PRIORITY"
+    },
+    "contactlist": {
+      "name": "associtateStrategytoCmpList2",
+      "description": "associtateStrategytoCmpList2"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "associtateStrategytoCmp-Str2",
+      "description": "associtateStrategytoCmp-Str1",
+      "smsText": "associtateStrategytoCmp-Str1",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "associtateStrategytoCmp03": {
+    "campaign": {
+      "name": "associtateStrategytoCmp03",
+      "description": "This is campaign for check associtate Strategy to Cmp03",
+      "Type": "Infinite",
+      "SenderDisplayName": "Anime",
+      "SendersAddress": "+12162080985",
+      "TimeBasedFinishCriteria": "Finish After",
+      "FinishAtDate": "30/09/2022",
+      "FinishAtTime": "9:00 AM",
+      "FinishAfterHrs": "1",
+      "FinishAfterMins": "40",
+      "Dialing Order": "PRIORITY"
+    },
+    "contactlist": {
+      "name": "associtateStrategytoCmpList3",
+      "description": "associtateStrategytoCmpList3"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "associtateStrategytoCmp-Str3",
+      "description": "associtateStrategytoCmp-Str3",
+      "smsText": "associtateStrategytoCmp-Str3",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "associtateStrategytoCmp04": {
+    "campaign": {
+      "name": "associtateStrategytoCmp04",
+      "description": "This is campaign for check associtate Strategy to Cmp03",
+      "Type": "Infinite",
+      "SenderDisplayName": "Anime",
+      "SendersAddress": "+12162080985",
+      "TimeBasedFinishCriteria": "Finish After",
+      "FinishAtDate": "30/09/2022",
+      "FinishAtTime": "9:00 AM",
+      "FinishAfterHrs": "1",
+      "FinishAfterMins": "40",
+      "Dialing Order": "PRIORITY"
+    },
+    "contactlist": {
+      "name": "associtateStrategytoCmpList4",
+      "description": "associtateStrategytoCmpList4"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "associtateStrategytoCmp-Str4",
+      "description": "associtateStrategytoCmp-Str4",
+      "smsText": "associtateStrategytoCmp-Str4",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "associtateStrategytoCmp14": {
+    "campaign": {
+      "name": "associtateStrategytoCmp14",
+      "description": "This is campaign for check associtate Strategy to Cmp14",
+      "NotificationAlert": "Campaign added successfully."
+    },
+    "contactlist": {
+      "name": "associtateStrategytoCmpList14",
+      "description": "associtateStrategytoCmpList14"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "associtateStrategytoCmp-Str14",
+      "description": "associtateStrategytoCmp-Str14",
+      "smsText": "associtateStrategytoCmp-Str14",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "associtateStrategytoCmp19": {
+    "campaign": {
+      "name": "associtateStrategytoCmp19ssss",
+      "description": "This is campaign for check associtate Strategy to Cmp19",
+      "NotificationAlert": "campaign added successfully.",
+      "headerCells": "Name|Type|Contact List|campaign Strategy|Last Executed",
+      "Type": "Infinite",
+      "SenderDisplayName": "Anime",
+      "SendersAddress": "+12162080985",
+      "TimeBasedFinishCriteria": "Finish After",
+      "FinishAtDate": "30/09/2022",
+      "FinishAtTime": "9:00 AM",
+      "FinishAfterHrs": "1",
+      "FinishAfterMins": "40",
+      "Dialing Order": "PRIORITY"
+    },
+    "contactlist": {
+      "name": "associtateStrategytoCmpList19ssss",
+      "description": "associtateStrategytoCmpList19"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "associtateStrategytoCmp-Str19ssss",
+      "description": "associtateStrategytoCmp-Str19",
+      "smsText": "associtateStrategytoCmp-Str19",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "associtateStrategytoCmp20": {
+    "campaign": {
+      "name": "associtateStrategytoCmp20s",
+      "description": "This is campaign for check associtate Strategy to Cmp20",
+      "NotificationAlert": "campaign added successfully."
+    },
+    "contactlist": {
+      "name": "associtateStrategytoCmpList20s",
+      "description": "associtateStrategytoCmpList20"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "associtateStrategytoCmp-Str20",
+      "description": "associtateStrategytoCmp-Str20",
+      "smsText": "associtateStrategytoCmp-Str20",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "associtateStrategytoCmp15": {
+    "campaign": {
+      "name": "associtateStrategytoCmp15",
+      "description": "This is campaign for check associtate Strategy to Cmp15",
+      "NotificationAlert": "Campaign updated successfully.",
+      "headerCells": "Name|Type|Contact List|campaign Strategy|Last Executed",
+      "Type": "Infinite",
+      "SenderDisplayName": "Anime",
+      "SendersAddress": "+12162080985",
+      "TimeBasedFinishCriteria": "Finish After",
+      "FinishAtDate": "30/09/2022",
+      "FinishAtTime": "9:00 AM",
+      "FinishAfterHrs": "1",
+      "FinishAfterMins": "40",
+      "Dialing Order": "PRIORITY"
+    },
+    "contactlist": {
+      "name": "associtateStrategytoCmpList15",
+      "description": "associtateStrategytoCmpList15"
+    },
+    "strategy": {
+      "name": "associtateStrategytoCmp-Str15|associtateStrategytoCmp-Str15_update",
+      "type": "SMS|SMS",
+      "description": "associtateStrategytoCmp-Str15|associtateStrategytoCmp-Str15",
+      "smsText": "associtateStrategytoCmp-Str15|associtateStrategytoCmp-Str15",
+      "smsPace": "10|10",
+      "smsPacingTimeUnit": "Second|Second"
+    }
+  },
+  "associtateStrategytoCmp16": {
+    "campaign": {
+      "name": "associtateStrategytoCmp16",
+      "description": "This is campaign for check associtate Strategy to Cmp16",
+      "NotificationAlert": "campaign updated successfully.",
+      "headerCells": "Name|Type|Contact List|campaign Strategy|Last Executed",
+      "Type": "Infinite",
+      "SenderDisplayName": "Anime",
+      "SendersAddress": "+12162080985",
+      "TimeBasedFinishCriteria": "Finish After",
+      "FinishAtDate": "30/09/2022",
+      "FinishAtTime": "9:00 AM",
+      "FinishAfterHrs": "1",
+      "FinishAfterMins": "40",
+      "Dialing Order": "PRIORITY"
+    },
+    "contactlist": {
+      "name": "associtatecontactlisttoCmpList16c",
+      "description": "associtatecontactlisttoCmpList16"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "associtateStrategytoCmp-Str16|associtateStrategytoCmp-Str16_update",
+      "description": "associtateStrategytoCmp-Str16|associtateStrategytoCmp-Str16_update",
+      "smsText": "associtateStrategytoCmp-Str16|associtateStrategytoCmp-Str16_update",
+      "smsPace": "10|10",
+      "smsPacingTimeUnit": "Second|Second"
+    }
+  },
+  "associtateStrategytoCmp22": {
+    "campaign": {
+      "name": "associtateStrategytoCmp22",
+      "description": "This is campaign for check associtate Strategy to Cmp22",
+      "NotificationAlert": "campaign added successfully."
+    },
+    "contactlist": {
+      "name": "associtateStrategytoCmpList22",
+      "description": "associtateStrategytoCmpList22"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "associtateStrategytoCmp-22|associtateStrategytoCmp-22_update",
+      "description": "associtateStrategytoCmp-Str16|associtateStrategytoCmp-Str16_update",
+      "smsText": "associtateStrategytoCmp-Str16|associtateStrategytoCmp-Str16_update",
+      "smsPace": "10|10",
+      "smsPacingTimeUnit": "Second|Second"
+    }
+  },
+  "associtateStrategytoCmp23": {
+    "campaign": {
+      "name": "associtateStrategytoCmp23",
+      "description": "This is campaign for check associtate Strategy to Cmp22",
+      "NotificationAlert": "campaign added successfully."
+    },
+    "contactlist": {
+      "name": "associtateStrategytoCmpList23",
+      "description": "associtateStrategytoCmpList23"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "associtateStrategytoCmp-Str23",
+      "description": "associtateStrategytoCmp-Str23",
+      "smsText": "associtateStrategytoCmp-Str23",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "AssociateStrategyToCmp_AC2_TC01_PrepareData": {
+    "campaign": {
+    },
+    "contactlist": {
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "AC2TC01ST1|AC2TC01ST2|AC2TC01ST3",
+      "description": "AC2TC01ST1|AC2TC01ST2|AC2TC01ST3",
+      "smsText": "AC2TC01ST1|AC2TC01ST2|AC2TC01ST3",
+      "smsPace": "20|20|20",
+      "smsPacingTimeUnit": "SECOND|SECOND|SECOND"
+    }
+  },
+  "AssociateStrategyToCmp_AC2_TC03_PrepareData": {
+    "campaign": {
+    },
+    "contactlist": {
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "AC2TC03ST1|AC2TC03ST2|AC2TC03ST3|AC2TC03ST4|AC2TC03ST5|AC2TC03ST6|AC2TC03ST7|AC2TC03ST8|AC2TC03ST9|AC2TC03ST-10|AC2tC03St11|aC2TC03St12",
+      "description": "AC2TC03ST1|AC2TC03ST2|AC2TC03ST3|AC2TC03ST4|AC2TC03ST5|AC2TC03ST6|AC2TC03ST7|AC2TC03ST8|AC2TC03ST9|AC2TC03ST-10|AC2tC03St11|aC2TC03St12",
+      "smsText": "AC2TC03ST1|AC2TC03ST2|AC2TC03ST3|AC2TC03ST4|AC2TC03ST5|AC2TC03ST6|AC2TC03ST7|AC2TC03ST8|AC2TC03ST9|AC2TC03ST-10|AC2tC03St11|aC2TC03St12",
+      "smsPace": "20|20|20|20|20|20|20|20|20|20|20|20",
+      "smsPacingTimeUnit": "SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND"
+    }
+  },
+  "AssociateStrategyToCmp_AC2_TC04_PrepareData": {
+    "campaign": {
+    },
+    "contactlist": {
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "AC2TC04ST1|AC2TC04ST2|AC2TC04ST3|AC2CTC04ST4|AC2TC04ST5|AC2bTC04ST6|AC2TC04ST7|AC2aTC04ST8|AC2TC04ST9|AC2TC04ST-10|AC2tC04St11|aC2TC04St12",
+      "description": "AC2TC04ST1|AC2TC04ST2|AC2TC04ST3|AC2CTC04ST4|AC2TC04ST5|AC2bTC04ST6|AC2TC04ST7|AC2aTC04ST8|AC2TC04ST9|AC2TC04ST-10|AC2tC04St11|aC2TC04St12",
+      "smsText": "AC2TC04ST1|AC2TC04ST2|AC2TC04ST3|AC2CTC04ST4|AC2TC04ST5|AC2TC04ST6|AC2bTC04ST7|AC2aTC04ST8|AC2TC04ST9|AC2TC04ST-10|AC2tC04St11|aC2TC04St12",
+      "smsPace": "20|20|20|20|20|20|20|20|20|20|20|20",
+      "smsPacingTimeUnit": "SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND",
+      "pageSize": "1000",
+      "pageNumber": "0"
+    }
+  },
+  "AssociateStrategyToCmp_AC2_TC05_PrepareData": {
+    "campaign": {
+    },
+    "contactlist": {
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "AC2TC05ST1|AC2TC05ST2|AC2TC05ST3|AC2CTC05ST4|AC2TC05ST5|AC2bTC05ST6|AC2TC05ST7|AC2aTC05ST8|AC2TC05ST9|AC2TC05ST-10|AC2tC05St11|aC2TC05St12",
+      "description": "AC2TC05ST1|AC2TC05ST2|AC2TC05ST3|AC2CTC05ST4|AC2TC05ST5|AC2bTC05ST6|AC2TC05ST7|AC2aTC05ST8|AC2TC05ST9|AC2TC05ST-10|AC2tC05St11|aC2TC05St12",
+      "smsText": "AC2TC05ST1|AC2TC05ST2|AC2TC05ST3|AC2CTC05ST4|AC2TC05ST5|AC2TC05ST6|AC2bTC05ST7|AC2aTC05ST8|AC2TC05ST9|AC2TC05ST-10|AC2tC05St11|aC2TC05St12",
+      "smsPace": "20|20|20|20|20|20|20|20|20|20|20|20",
+      "smsPacingTimeUnit": "SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND",
+      "pageSize": "1000",
+      "pageNumber": "0"
+    }
+  },
+  "AdvanceSearchingAC2_TC07": {
+    "type": "SMS",
+    "name": "Verify-strategy-is-updated",
+    "description": "Basic search - Verify-strategy-is-updated",
+    "smsText": "Basic search - Verify-strategy-is-updated",
+    "smsPace": "10",
+    "smsPacingTimeUnit": "Second",
+    "pageSize": "1000",
+    "pageNumber": "0"
+  },
+  "AdvanceSearchStrategyAC2TC2_0": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AdvanceSearchStrategyAC2TC2_0",
+      "description": "AdvanceSearchStrategyAC2TC2_0",
+      "smsText": "Verify filter button will be displayed when one or more strategies are present on the landing page",
+      "headerCells": "Name;Type",
+      "action": "Edit",
+      "columnName": "All",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "pageSize": "1000",
+      "pageNumber": "0"
+    }
+  },
+  "AdvanceSearchStrategy1AC2TC2_0": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AdvanceSearchStrategy1AC2TC2_0",
+      "description": "AdvanceSearchStrategy1AC2TC2_0",
+      "smsText": "Verify filter button will be displayed when one or more strategies are present on the landing page",
+      "headerCells": "Name;Type",
+      "action": "Edit",
+      "columnName": "All",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "pageSize": "1000",
+      "pageNumber": "0"
+    }
+  },
+  "AdvanceSearchStrategyAC2TC2": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AdvanceSearchStrategyAC2TC2",
+      "description": "AdvanceSearchStrategyAC2TC2",
+      "smsText": "Verify filter button will be displayed when one or more strategies are present on the landing page",
+      "headerCells": "Name;Type",
+      "action": "Edit",
+      "columnName": "All",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "pageSize": "1000",
+      "pageNumber": "0"
+    }
+  },
+  "AdvanceSearchStrategy1AC2TC2": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AdvanceSearchStrategy1AC2TC2",
+      "description": "AdvanceSearchStrategy1AC2TC2",
+      "smsText": "Verify filter button will be displayed when one or more strategies are present on the landing page",
+      "headerCells": "Name;Type",
+      "action": "Edit",
+      "columnName": "All",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "pageSize": "1000",
+      "pageNumber": "0"
+    }
+  },
+  "AssociateStrategyToCmp_AC3_TC01_PrepareData": {
+    "campaign": {
+    },
+    "contactlist": {
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3TC01ST1|AC3TC01ST2|AC3TC01ST3|Ac3CTC03ST4|aC3TC01ST5|AC3bTC01ST6|AC3TC01ST7|AC3aTC01ST8|AC3TC01ST9|AC3TC01ST-10|AC3tC01St11|aC3TC01St12",
+      "description": "AC3TC01ST1|AC3TC01ST2|AC3TC01ST3|AC3CTC03ST4|AC3TC01ST5|AC3bTC01ST6|AC3TC01ST7|AC3aTC01ST8|AC3TC01ST9|AC3TC01ST-10|AC3tC01St11|aC3TC01St12",
+      "smsText": "AC3TC01ST1|AC3TC01ST2|AC3TC01ST3|AC3CTC03ST4|AC3TC01ST5|AC3TC01ST6|AC3bTC01ST7|AC3aTC01ST8|AC3TC01ST9|AC3TC01ST-10|AC3tC01St11|aC3TC01St12",
+      "smsPace": "20|20|20|20|20|20|20|20|20|20|20|20",
+      "smsPacingTimeUnit": "SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND",
+      "pageSize": "1000",
+      "pageNumber": "0"
+    }
+  },
+  "AssociateStrategyToCmp_AC3_TC01": {
+    "type": "SMS",
+    "name": "AC3TC0",
+    "description": "ac3tC01",
+    "smsText": "ac3tC01",
+    "smsPace": "10",
+    "smsPacingTimeUnit": "Second",
+    "pageSize": "1000",
+    "pageNumber": "0"
+  },
+  "AssociateStrategyToCmp_AC3_TC02_PrepareData": {
+    "campaign": {
+    },
+    "contactlist": {
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3TC02ST1|AC3TC02ST2|AC3TC02ST3|AC3CTC02ST4|AC3TC02ST5|AC3bTC02ST6|AC3TC02ST7|AC3aTC03ST8|AC3TC02ST9|AC3TC02ST-10|AC3tC02St11|aC3TC02St12",
+      "description": "AC3TC02ST1|AC3TC02ST2|AC3TC02ST3|AC3CTC02ST4|AC3TC02ST5|AC3bTC02ST6|AC3TC02ST7|AC3aTC03ST8|AC3TC02ST9|AC3TC02ST-10|AC3tC02St11|aC3TC02St12",
+      "smsText": "AC3TC02ST1|AC3TC02ST2|AC3TC02ST3|AC3CTC02ST4|AC3TC02ST5|AC3TC02ST6|AC3bTC02ST7|AC3aTC03ST8|AC3TC02ST9|AC3TC02ST-10|AC3tC02St11|aC3TC02St12",
+      "smsPace": "20|20|20|20|20|20|20|20|20|20|20|20",
+      "smsPacingTimeUnit": "SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND",
+      "pageSize": "1000",
+      "pageNumber": "0"
+    }
+  },
+  "AssociateStrategyToCmp_AC3_TC02": {
+    "type": "SMS",
+    "name": "this is using search not existed name strategy",
+    "description": "ac3TC02",
+    "smsText": "ac3TC02",
+    "smsPace": "10",
+    "smsPacingTimeUnit": "Second",
+    "pageSize": "1000",
+    "pageNumber": "0"
+  },
+  "AssociateStrategyToCmp_AC3_TC03_PrepareData": {
+    "campaign": {
+    },
+    "contactlist": {
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3TC03ST1|AC3TC03ST2|AC3TC03ST3|AC3CTC03ST4|ac3TC03ST5|AC3bTC03ST6|Ac3TC03ST7|AC3aTC03ST8|AC3Tc03ST9|AC3TC03ST-10|AC3tC03St11|AC3TC03St12",
+      "description": "AC3TC03ST1|AC3TC03ST2|AC3TC03ST3|AC3CTC03ST4|AC3TC03ST5|AC3bTC03ST6|AC3TC03ST7|AC3aTC03ST8|AC3TC03ST9|AC3TC03ST-10|AC3TC03St11|AC3TC03St12",
+      "smsText": "AC3TC03ST1|AC3TC03ST2|AC3TC03ST3|AC3CTC03ST4|AC3TC03ST5|AC3TC03ST6|AC3bTC03ST7|AC3aTC03ST8|AC3TC03ST9|AC3TC03ST-10|AC3TC03St11|AC3TC03St12",
+      "smsPace": "20|20|20|20|20|20|20|20|20|20|20|20",
+      "smsPacingTimeUnit": "SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND|SECOND",
+      "pageSize": "1000",
+      "pageNumber": "0"
+    }
+  },
+  "AssociateStrategyToCmp_AC3_TC03_1": {
+    "type": "SMS",
+    "name": "this is using search not existed name strategy",
+    "description": "ac3TC03",
+    "smsText": "ac3TC03",
+    "smsPace": "10",
+    "smsPacingTimeUnit": "Second",
+    "pageSize": "1000",
+    "pageNumber": "0"
+  },
+  "AssociateStrategyToCmp_AC3_TC03_2": {
+    "type": "SMS",
+    "name": "AC3TC03",
+    "description": "ac3TC03",
+    "smsText": "Ac3T0",
+    "smsPace": "10",
+    "smsPacingTimeUnit": "Second",
+    "pageSize": "1000",
+    "pageNumber": "0"
+  },
+  "AssociateStrategyToCmp_AC3_TC03_3": {
+    "type": "SMS",
+    "name": "Tc03ST",
+    "description": "Tc03ST",
+    "smsText": "Tc03ST",
+    "smsPace": "10",
+    "smsPacingTimeUnit": "Second",
+    "pageSize": "1000",
+    "pageNumber": "0"
+  },
+  "AssociateStrategyToCmp_AC3_TC05_PrepareData": {
+    "campaign": {
+    },
+    "contactlist": {
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "AC3TC05ST1|AC3TC05ST2|AC3TC05ST3",
+      "description": "AC3TC05ST1|AC3TC05ST1|AC3TC05ST1",
+      "smsText": "AC3TC05ST1|AC3TC05ST1|AC3TC05ST1",
+      "smsPace": "20|20|20",
+      "smsPacingTimeUnit": "SECOND|SECOND|SECOND",
+      "pageSize": "1000",
+      "pageNumber": "0"
+    }
+  },
+  "AssociateStrategyToCmp_AC3_TC05": {
+    "type": "SMS",
+    "name": "AC3TC05ST2",
+    "description": "AC3TC05ST2",
+    "smsText": "AC3TC05ST2",
+    "smsPace": "10",
+    "smsPacingTimeUnit": "Second",
+    "pageSize": "1000",
+    "pageNumber": "0"
+  },
+  "associtateStrategytoCmp26": {
+    "campaign": {
+      "name": "associtateStrategytoCmp26",
+      "description": "This is campaign for check associtate Strategy to Cmp26",
+      "NotificationAlert": "campaign added successfully."
+    },
+    "contactlist": {
+      "name": "associtateStrategytoCmpList26",
+      "description": "associtateStrategytoCmpList26"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "associtateStrategytoCmp-Str26",
+      "description": "associtateStrategytoCmp-Str26",
+      "smsText": "associtateStrategytoCmp-Str26",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "associtateStrategytoCmp27": {
+    "campaign": {
+      "name": "associtateStrategytoCmp27g",
+      "description": "This is campaign for check associtate Strategy to Cmp27",
+      "NotificationAlert": "campaign added successfully."
+    },
+    "contactlist": {
+      "name": "associtateStrategytoCmpList27g",
+      "description": "associtateStrategytoCmpList27"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "associtateStrategytoCmp-Str27|associtateStrategytoCmp-Str27_update",
+      "description": "associtateStrategytoCmp-Str27|associtateStrategytoCmp-Str27_update",
+      "smsText": "associtateStrategytoCmp-Str27|associtateStrategytoCmp-Str27_update",
+      "smsPace": "10|10",
+      "smsPacingTimeUnit": "Second|Second"
+    }
+  },
+  "ConfigSMSPacing_AC1_TC02": {
+    "strategy": {
+      "type": "SMS",
+      "name": "SMSPacingAC1TC02",
+      "description": "SMSPacingAC1TC02",
+      "smsText": "SMSPacingAC1TC02",
+      "smsPace": "qwertyuiop{}asdfghjkl;'\"zxcvbnm,./<>?!@#$%^&*()_QWERTYUIOPASDFGHJKLZXCVBNMasdfghjkl",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "ConfigSMSPacing_AC1_TC11_1": {
+    "strategy": {
+      "type": "SMS",
+      "name": "SMSPacingAC1TC11_1",
+      "description": "SMSPacingAC1TC11_1",
+      "smsText": "SMSPacingAC1TC11_1",
+      "smsPace": "1",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "ConfigSMSPacing_AC1_TC11_2": {
+    "strategy": {
+      "type": "SMS",
+      "name": "SMSPacingAC1TC11_2",
+      "description": "SMSPacingAC1TC11_2",
+      "smsText": "SMSPacingAC1TC11_2",
+      "smsPace": "20",
+      "smsPacingTimeUnit": "Hour"
+    }
+  },
+  "ConfigSMSPacing_AC1_TC11_3": {
+    "strategy": {
+      "type": "SMS",
+      "name": "SMSPacingAC1TC11_3",
+      "description": "SMSPacingAC1TC11_3",
+      "smsText": "SMSPacingAC1TC11_3",
+      "smsPace": "40",
+      "smsPacingTimeUnit": "Minute"
+    }
+  },
+  "ConfigSMSPacing_AC1_TC07": {
+    "strategy": {
+      "type": "SMS",
+      "name": "SMSPacingAC1TC07",
+      "description": "SMSPacingAC1TC07",
+      "smsText": "SMSPacingAC1TC07",
+      "smsPace": "41",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "ConfigSMSPacing_AC1_TC08": {
+    "strategy": {
+      "type": "SMS",
+      "name": "SMSPacingAC1TC08",
+      "description": "SMSPacingAC1TC08",
+      "smsText": "SMSPacingAC1TC08",
+      "smsPace": "2410",
+      "smsPacingTimeUnit": "Minute"
+    }
+  },
+  "ConfigSMSPacing_AC1_TC09": {
+    "strategy": {
+      "type": "SMS",
+      "name": "SMSPacingAC1TC08",
+      "description": "SMSPacingAC1TC08",
+      "smsText": "SMSPacingAC1TC08",
+      "smsPace": "144010",
+      "smsPacingTimeUnit": "Hour"
+    }
+  },
+  "ConfigSMSPacing_AC1_TC12": {
+    "strategy": {
+      "type": "SMS",
+      "name": "SMSPacingAC1TC12",
+      "description": "SMSPacingAC1TC12",
+      "smsText": "SMSPacingAC1TC12",
+      "smsPace": "0",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "ConfigSMSPacing_AC1_TC13": {
+    "strategy": {
+      "type": "SMS",
+      "name": "SMSPacingAC1TC13",
+      "description": "SMSPacingAC1TC13",
+      "smsText": "SMSPacingAC1TC13",
+      "smsPace": "0",
+      "smsPacingTimeUnit": "Minute"
+    }
+  },
+  "ConfigSMSPacing_AC1_TC14": {
+    "strategy": {
+      "type": "SMS",
+      "name": "SMSPacingAC1TC14",
+      "description": "SMSPacingAC1TC14",
+      "smsText": "SMSPacingAC1TC14",
+      "smsPace": "0",
+      "smsPacingTimeUnit": "Hour"
+    }
+  },
+  "ConfigSMSPacing_TC11": {
+    "strategy": {
+      "type": "SMS",
+      "name": "ConfigSMSPacing11",
+      "description": "ValidStrategy Description",
+      "smsText": "This is text to check sms",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "ConfigSMSPacing_TC12": {
+    "strategy": {
+      "type": "SMS",
+      "name": "ConfigSMSPacing12",
+      "description": "ValidStrategy Description",
+      "smsText": "This is text to check sms",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "ConfigSMSPacing_TC13": {
+    "strategy": {
+      "type": "SMS",
+      "name": "ConfigSMSPacing13",
+      "description": "ValidStrategy Description",
+      "smsText": "This is text to check sms",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Minute",
+      "NotificationAlert": "Strategy updated successfully.",
+      "smsPaceUpdate": "20"
+    }
+  },
+  "ConfigSMSPacing_TC14": {
+    "strategy": {
+      "type": "SMS",
+      "name": "ConfigSMSPacing14",
+      "description": "ValidStrategy Description",
+      "smsText": "This is text to check sms",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "smsPaceUpdate": "20",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "ConfigSMSPacing_TC15": {
+    "strategy": {
+      "type": "SMS",
+      "name": "ConfigSMSPacing15",
+      "description": "ValidStrategy Description",
+      "smsText": "This is text to check sms",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "smsPaceUpdate": "20",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "ConfigSMSPacing_TC16": {
+    "strategy": {
+      "type": "SMS",
+      "name": "ConfigSMSPacing16",
+      "description": "ValidStrategy Description",
+      "smsText": "This is text to check sms",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "ConfigSMSPacing_TC17": {
+    "strategy": {
+      "type": "SMS",
+      "name": "ConfigSMSPacing17",
+      "description": "ValidStrategy Description",
+      "smsText": "This is text to check sms",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "ConfigSMSPacing_TC18": {
+    "strategy": {
+      "type": "SMS",
+      "name": "ConfigSMSPacing18",
+      "description": "ValidStrategy Description",
+      "smsText": "This is text to check sms",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "ConfigSMSPacing_TC19": {
+    "strategy": {
+      "type": "SMS",
+      "name": "ConfigSMSPacing19",
+      "description": "ValidStrategy Description",
+      "smsText": "This is text to check sms",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "smsPaceUpdate": "qwertyuiop{}asdfghjkl;'\"zxcvbnm,./<>?!@#$%^&*()_-+QWERTYUIOPASDFGHJKLZXCVBNM"
+    }
+  },
+  "ConfigSMSPacing_TC20": {
+    "strategy": {
+      "type": "SMS",
+      "name": "ConfigSMSPacing20",
+      "description": "ValidStrategy Description",
+      "smsText": "This is text to check sms",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Hour"
+    }
+  },
+  "ConfigSMSPacing_TC22": {
+    "strategy": {
+      "type": "SMS",
+      "name": "ConfigSMSPacing22",
+      "description": "ValidStrategy Description",
+      "smsText": "This is text to check sms",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "ConfigSMSPacing_TC23": {
+    "strategy": {
+      "type": "SMS",
+      "name": "ConfigSMSPacing23",
+      "description": "ValidStrategy Description",
+      "smsText": "This is text to check sms",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "smsPaceUpdate": " ",
+      "smsPacingTimeUnitUpdate": "Minute"
+    }
+  },
+  "ConfigSMSPacing_AC3_TC01": {
+    "strategy": {
+      "type": "SMS",
+      "name": "SMSPacingAC3TC01",
+      "description": "SMSPacingAC3TC01",
+      "smsText": "SMSPacingAC3TC01",
+      "smsPace": "",
+      "smsPacingTimeUnit": "Hour"
+    }
+  },
+  "ConfigSMSPacing_AC3_TC02": {
+    "strategy": {
+      "type": "SMS",
+      "name": "SMSPacingAC3TC02",
+      "description": "SMSPacingAC3TC02",
+      "smsText": "SMSPacingAC3TC02",
+      "smsPace": "15",
+      "smsPacingTimeUnit": "Second",
+      "NotificationAlert": "Strategy added successfully."
+    }
+  },
+  "ConfigSMSPacing_AC3_TC05": {
+    "strategy": {
+      "type": "SMS",
+      "name": "SMSPacingAC3TC05",
+      "description": "SMSPacingAC3TC05",
+      "smsText": "SMSPacingAC3TC05",
+      "smsPace": "08",
+      "smsPacingTimeUnit": "Minute",
+      "NotificationAlert": "Strategy added successfully."
+    }
+  },
+  "ConfigSMSPacing_AC3_TC07_1": {
+    "strategy": {
+      "type": "SMS",
+      "name": "SMSPacingAC3TC07_1",
+      "description": "SMSPacingAC3TC07",
+      "smsText": "SMSPacingAC3TC07",
+      "smsPace": "40",
+      "smsPacingTimeUnit": "Second",
+      "NotificationAlert": "Strategy added successfully."
+    }
+  },
+  "ConfigSMSPacing_AC3_TC07_2": {
+    "strategy": {
+      "type": "SMS",
+      "name": "SMSPacingAC3TC07_2",
+      "description": "SMSPacingAC3TC07",
+      "smsText": "SMSPacingAC3TC07",
+      "smsPace": "2400",
+      "smsPacingTimeUnit": "Minute",
+      "NotificationAlert": "Strategy added successfully."
+    }
+  },
+  "ConfigSMSPacing_AC3_TC07_3": {
+    "strategy": {
+      "type": "SMS",
+      "name": "SMSPacingAC3TC07_3",
+      "description": "SMSPacingAC3TC07",
+      "smsText": "SMSPacingAC3TC07",
+      "smsPace": "144000",
+      "smsPacingTimeUnit": "Hour",
+      "NotificationAlert": "Strategy added successfully."
+    }
+  },
+  "ConfigSMSPacing_TC32": {
+    "strategy": {
+      "type": "SMS",
+      "name": "ConfigSMSPacing32",
+      "description": "ValidStrategy Description",
+      "smsText": "This is text to check sms",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "smsPaceUpdate": "20",
+      "smsPacingTimeUnitUpdate": "Minute"
+    }
+  },
+  "ConfigSMSPacing_TC24": {
+    "strategy": {
+      "type": "SMS",
+      "name": "ConfigSMSPacing24",
+      "description": "ValidStrategy Description",
+      "smsText": "This is text to check sms",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second",
+      "smsPaceUpdate": "20",
+      "NotificationAlert": "Strategy updated successfully."
+    }
+  },
+  "AC2AdvanceEqualSearch": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC2AdvanceEqualSearch",
+      "description": "AC2AdvanceEqualSearch",
+      "smsText": "Advance search - AC2AdvanceEqualSearch",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "AC21AdvanceEqualSearch": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC21AdvanceEqualSearch",
+      "description": "AC21AdvanceEqualSearch",
+      "smsText": "Advance search - AC21AdvanceEqualSearch",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "AC2AdvanceNotEquSear": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC2AdvanceNotEquSear",
+      "description": "AC2AdvanceNotEquSear",
+      "smsText": "Advance search - AC2AdvanceNotEquSear",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "AC21AdvanceNotEquSear": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC21AdvanceNotEquSear",
+      "description": "AC21AdvanceNotEquSear",
+      "smsText": "Advance search - AC21AdvanceNotEquSear",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "AC2AdvanceInSearch": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC2AdvanceInSearch",
+      "description": "AC2AdvanceInSearch",
+      "smsText": "Advance search - AC2AdvanceInSearch",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "AC21AdvanceInSearch": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC21AdvanceInSearch",
+      "description": "AC21AdvanceInSearch",
+      "smsText": "Advance search - AC21AdvanceInSearch",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "AC2AdvanceLikeSearch": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC2AdvanceLikeSearch",
+      "description": "AC2AdvanceLikeSearch",
+      "smsText": "Advance search - AC2AdvanceLikeSearch",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "AC21AdvanceLikeSearch": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC21AdvanceLikeSearch",
+      "description": "AC21AdvanceLikeSearch",
+      "smsText": "Advance search - AC21AdvanceLikeSearch",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "AC2AdvanceNotLikeSer": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC2AdvanceNotLikeSer",
+      "description": "AC2AdvanceNotLikeSer",
+      "smsText": "Advance search - Not like",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "AC21AdvanceNotLikeSer": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC21AdvanceNotLikeSer",
+      "description": "AC21AdvanceNotLikeSer",
+      "smsText": "Advance search - Not like",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "AC22AdvanceNotLikeSer": {
+    "strategy": {
+      "type": "SMS",
+      "name": "AC22AdvanceNotLikeSer",
+      "description": "AC22AdvanceNotLikeSer",
+      "smsText": "Advance search - Not like",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "QuickSrchStrategyCaseIn_0": {
+    "strategy": {
+      "type": "SMS",
+      "name": "QuickSrchStrategyCaseIn",
+      "description": "QuickSrchStrategyCaseIn",
+      "smsText": "Verify mixed Case Strategy name is listed using Lowercase Quick Search",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "Point5_TC15": {
+    "strategy": {
+      "type": "SMS",
+      "name": "1234Test",
+      "description": "1234Test",
+      "smsText": "1234Test",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "Point5_TC16_hyphen": {
+    "strategy": {
+      "type": "SMS",
+      "name": "-Test",
+      "description": "1234Test",
+      "smsText": "1234Test",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "Point5_TC16_undersocre": {
+    "strategy": {
+      "type": "SMS",
+      "name": "_Test",
+      "description": "1234Test",
+      "smsText": "1234Test",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "Point5_TC17": {
+    "strategy": {
+      "type": "SMS",
+      "name": "中-文_名",
+      "description": "中文名",
+      "smsText": "中文名",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "Point5_TC18": {
+    "strategy": {
+      "type": "SMS",
+      "name": "和_名",
+      "description": "和名",
+      "smsText": "和名",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Hour"
+    }
+  },
+  "Point5_TC19": {
+    "strategy": {
+      "type": "SMS",
+      "name": "한국_이름",
+      "description": "한국_이름",
+      "smsText": "한국_이름",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Hour"
+    }
+  },
+  "Point5_TC20": {
+    "strategy": {
+      "type": "SMS",
+      "name": "English-Name",
+      "description": "English-Name",
+      "smsText": "English-Name",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Hour"
+    }
+  },
+  "Point5_TC21": {
+    "strategy": {
+      "type": "SMS",
+      "name": "nom_français",
+      "description": "nom_français",
+      "smsText": "nom_français",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Hour"
+    }
+  },
+  "Point5_TC22": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Das-ist_deutsch",
+      "description": "Das-ist_deutsch",
+      "smsText": "Das-ist_deutsch",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Hour"
+    }
+  },
+  "Point5_TC23": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Questo_è_italiano",
+      "description": "Questo_è_italiano",
+      "smsText": "Questo_è_italiano",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Hour"
+    }
+  },
+  "Point5_TC24": {
+    "strategy": {
+      "type": "SMS",
+      "name": "это_русский",
+      "description": "это_русский",
+      "smsText": "это_русский",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Hour"
+    }
+  },
+  "Point5_TC25": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Hoc-est_latinum",
+      "description": "Hoc-est_latinum",
+      "smsText": "Hoc-est_latinum",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Minute"
+    }
+  },
+  "Point5_TC26": {
+    "strategy": {
+      "type": "SMS",
+      "name": "Esto_es_español",
+      "description": "Esto_es_español",
+      "smsText": "Esto_es_español",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Minute"
+    }
+  },
+  "Point5_TC27": {
+    "strategy": {
+      "type": "SMS",
+      "name": "nome_portugues-brasileiro",
+      "description": "nome_portugues-brasileiro",
+      "smsText": "nome_portugues-brasileiro",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Minute"
+    }
+  },
+  "Point5_TC28": {
+    "strategy": {
+      "type": "SMS",
+      "name": "לבדיקת",
+      "description": "לבדיקת",
+      "smsText": "לבדיקת",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Minute"
+    }
+  },
+  "Point5_TC29": {
+    "strategy": {
+      "type": "SMS",
+      "name": "यह_भारतीय-है",
+      "description": "यह_भारतीय-है",
+      "smsText": "यह_भारतीय-है",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Minute"
+    }
+  },
+  "Naming_Mandatory_Field_Error": {
+    "name": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore."
+  },
+  "ConfigSMSPacing_PaceValue_Second": {
+    "strategy": {
+      "type": "SMS",
+      "name": "ConfigSMSPacing17sec",
+      "description": "ValidStrategy Description",
+      "smsText": "This is text to check sms",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "ConfigSMSPacing_PaceValue_Second_key": {
+    "strategy": {
+      "type": "SMS",
+      "name": "ConfigSMSPacing17sec_key",
+      "description": "ValidStrategy Description",
+      "smsText": "This is text to check sms",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "ConfigSMSPacing_PaceValue_Minute": {
+    "strategy": {
+      "type": "SMS",
+      "name": "ConfigSMSPacing17min",
+      "description": "ValidStrategy Description",
+      "smsText": "This is text to check sms",
+      "smsPace": "60",
+      "smsPacingTimeUnit": "Minute"
+    }
+  },
+  "ConfigSMSPacing_PaceValue_Minute_key": {
+    "strategy": {
+      "type": "SMS",
+      "name": "ConfigSMSPacing17min_key",
+      "description": "ValidStrategy Description",
+      "smsText": "This is text to check sms",
+      "smsPace": "60",
+      "smsPacingTimeUnit": "Minute"
+    }
+  },
+  "ConfigSMSPacing_PaceValue_Hour": {
+    "strategy": {
+      "type": "SMS",
+      "name": "ConfigSMSPacing17hou",
+      "description": "ValidStrategy Description",
+      "smsText": "This is text to check sms",
+      "smsPace": "2500",
+      "smsPacingTimeUnit": "Hour"
+    }
+  },
+  "ConfigSMSPacing_PaceValue_Hour_key": {
+    "strategy": {
+      "type": "SMS",
+      "name": "ConfigSMSPacing17hou_key",
+      "description": "ValidStrategy Description",
+      "smsText": "This is text to check sms",
+      "smsPace": "2500",
+      "smsPacingTimeUnit": "Hour"
+    }
+  }
+}

@@ -1,0 +1,251 @@
+{
+	"AC1_TC01": {
+		"contactlist": {
+			"name": "contact_AC1_TC1",
+			"description": "Automation_AC1_TC1"
+		}
+	},
+	"AC1_TC02": {
+		"strategy": {
+			"type": "SMS",
+			"name": "Strategy01",
+			"description": "Dummy description 1",
+			"smsText": "My first SMS 1",
+			"smsPace": "10",
+			"smsPacingTimeUnit": "Second"
+		},
+		"campaign": {
+			"name": "Camp01",
+			"description": "This is Campaign Description",
+			"type": "Finite",
+			"senderDisplayName": "Anime",
+			"senderAddress": "+12162080985",
+			"finishType": "Finish After",
+			"finishAtDate": "30/09/2022",
+			"finishAtTime": "9:00 AM",
+			"finishAfterHrs": "1",
+			"finishAfterMins": "40"
+		}
+	},
+	"AC1_TC03": {
+		"contactlist": {
+			"name": "contact_3",
+			"description": "Automation_3"
+		}
+	},
+	"AC2_TC01": {
+		"contactlist": {
+			"name": "contact_3",
+			"description": "Automation_3"
+		}
+	},
+	"AC3_TC01": {
+		"strategy": {
+			"type": "SMS",
+			"name": "Strategy3",
+			"description": "Dummy description",
+			"smsText": "My first SMS",
+			"smsPace": "10",
+			"smsPacingTimeUnit": "Second"
+		},
+		"contactlist": {
+			"name": "Ctlist3",
+			"description": "this is contact list"
+		},
+		"campaign": {
+			"name": "Campaign3",
+			"description": "This is Campaign Description",
+			"type": "Finite",
+			"senderDisplayName": "Anime",
+			"senderAddress": "+12162080985",
+			"finishType": "Finish After",
+			"finishAtDate": "30/09/2022",
+			"finishAtTime": "9:00 AM",
+			"finishAfterHrs": "1",
+			"finishAfterMins": "40"
+		}
+	},
+	"AC3_TC02": {
+		"contactlist": {
+			"name": "Ctlist3_2",
+			"unmatchName": "list1_invalid",
+			"description": "this is contact list"
+		},
+		"campaign": {
+			"name": "Campaign3_2",
+			"description": "This is Campaign Description"
+		}
+	},
+	"AC3_TC03": {
+		"strategy": {
+			"type": "SMS",
+			"name": "strategy_AC3_TC03",
+			"description": "Dummy description",
+			"smsText": "My first SMS",
+			"smsPace": "10",
+			"smsPacingTimeUnit": "Second"
+		},
+		"contactlist": {
+			"name": "Ctlist3_3",
+			"unmatchName": "list1_invalid",
+			"description": "this is contact list"
+		},
+		"campaign": {
+			"name": "Campaign3_3",
+			"description": "This is Campaign Description"
+		}
+	},
+	"Campaigns_AC4_TC2": {
+		"strategy": {
+			"type": "SMS",
+			"name": "Strategy42",
+			"description": "Dummy description",
+			"smsText": "My first SMS",
+			"smsPace": "10",
+			"smsPacingTimeUnit": "Second"
+		},
+		"contactlist": {
+			"name": "Ctlist42",
+			"description": "this is contact list"
+		},
+		"campaign": {
+			"name": "Campaigns_42",
+			"description": "Campaign Description",
+			"type": "Finite",
+			"senderDisplayName": "Anime",
+			"senderAddress": "+12162080985",
+			"finishType": "Finish After",
+			"finishAtDate": "30/09/2022",
+			"finishAtTime": "9:00 AM",
+			"finishAfterHrs": "1",
+			"finishAfterMins": "40",
+			"NotificationAlert": "Campaign added successfully."
+		}
+	},
+	"Campaigns_AC4_TC4": {
+		"strategy": {
+			"type": "SMS",
+			"name": "Strategy44",
+			"description": "Dummy description",
+			"smsText": "My first SMS",
+			"smsPace": "10",
+			"smsPacingTimeUnit": "Second"
+		},
+		"contactlist": {
+			"name": "Ctlist44",
+			"description": "this is contact list"
+		},
+		"campaign": {
+			"name": "Campaigns44",
+			"description": "Campaign Description",
+			"type": "Finite",
+			"senderDisplayName": "Anime",
+			"senderAddress": "+12162080985",
+			"finishType": "Finish After",
+			"finishAtDate": "30/09/2022",
+			"finishAtTime": "9:00 AM",
+			"finishAfterHrs": "1",
+			"finishAfterMins": "40",
+			"NotificationAlert": "Campaign added successfully."
+		}
+	},
+	"Campaigns_AC5_TC1": {
+		"strategy": {
+			"type": "SMS",
+			"name": "Strategy51",
+			"description": "Dummy description",
+			"smsText": "My first SMS",
+			"smsPace": "10",
+			"smsPacingTimeUnit": "Second"
+		},
+		"contactlist": {
+			"name": "Ctlist51",
+			"description": "this is contact list"
+		},
+		"campaign": {
+			"name": "Campaign51",
+			"strategy": "Strategy51",
+			"contactList": "Ctlist51",
+			"description": "This is Campaign Description",
+			"type": "Finite",
+			"NotificationAlert": "Campaign updated successfully.",
+			"Dialing Order": "PRIORITY"
+		}
+	},
+	"Campaigns_AC5_TC2": {
+		"strategy": {
+			"type": "SMS",
+			"name": "Strategy52",
+			"description": "Dummy description",
+			"smsText": "My first SMS",
+			"smsPace": "10",
+			"smsPacingTimeUnit": "Second"
+		},
+		"contactlist": {
+			"name": "Ctlist52",
+			"description": "this is contact list"
+		},
+		"campaign": {
+			"name": "Campaign52",
+			"strategy": "Strategy52",
+			"contactList": "Ctlist52",
+			"description": "This is Campaign Description",
+			"type": "Finite",
+			"NotificationAlert": "Campaign updated successfully.",
+			"Dialing Order": "PRIORITY"
+		}
+	},
+	"Campaigns_AC5_TC3": {
+		"campaign": {
+			"name": "campaign53",
+			"description": "This use to check the sorting for campaign strategy",
+			"type": "Infinite",
+			"SenderDisplayName": "Anime",
+			"SendersAddress": "+12162080985",
+			"TimeBasedFinishCriteria": "Finish After",
+			"FinishAtDate": "30/09/2022",
+			"FinishAtTime": "9:00 AM",
+			"FinishAfterHrs": "1",
+			"FinishAfterMins": "40",
+			"Dialing Order": "PRIORITY",
+			"strategy": "strategy_TC53",
+			"contactList": "contactlist_TC53",
+			"importContact": "no"
+
+		},
+		"contactlist": {
+			"name": "contactlist_TC53",
+			"description": "Verify sort function for campaign strategy column"
+		},
+		"strategy": {
+			"strategyType": "SMS",
+			"name": "strategy_TC53",
+			"description": "verify sorting",
+			"smsText": "working property",
+			"smsPace": "10",
+			"smsPacingTimeUnit": "SECOND"
+		}
+	},
+	"Campaigns_AC5_TC4": {
+		"strategy": {
+			"type": "SMS",
+			"name": "Strategy54",
+			"description": "Dummy description",
+			"smsText": "My first SMS",
+			"smsPace": "10",
+			"smsPacingTimeUnit": "Second"
+		},
+		"contactlist": {
+			"name": "Ctlist54",
+			"description": ""
+		},
+		"campaign": {
+			"name": "Campaign54",
+			"strategy": "Strategy54",
+			"contactList": "Ctlist54",
+			"description": "",
+			"type": "Finite",
+			"Dialing Order": "PRIORITY"
+		}
+	}
+}

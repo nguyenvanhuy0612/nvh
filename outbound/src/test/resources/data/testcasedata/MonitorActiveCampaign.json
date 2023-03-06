@@ -1,0 +1,3804 @@
+{
+  "PauseCampaign_AC6_TC2": {
+    "campaign": {
+      "name": "PauseCampaign_AC6_TC2",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "PauseCampaign_AC6_TC2",
+      "strategy": "PauseCampaign_AC6_TC2",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "PauseCampaign_AC6_TC2",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "90",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "PauseCampaign_AC6_TC2",
+      "description": "test clist",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "PauseCampaign_AC6_TC2",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "PauseCampaign_AC6_TC1": {
+    "campaign": {
+      "name": "PauseCampaign_AC6_TC1",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "PauseCampaign_AC6_TC1",
+      "strategy": "PauseCampaign_AC6_TC1",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "PauseCampaign_AC6_TC1",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "90",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "PauseCampaign_AC6_TC1",
+      "description": "test clist",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "PauseCampaign_AC6_TC1",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "PauseCamp_AC8_TC3": {
+    "campaign": {
+      "name": "PauseCamp_AC8_TC3",
+      "description": "campaign",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "PauseCamp_AC8_TC3",
+      "strategy": "PauseCamp_AC8_TC3",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "PauseCamp_AC8_TC3",
+      "description": "strategy",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "PauseCamp_AC8_TC3",
+      "description": "contactlist"
+    },
+    "datasource": {
+      "name": "PauseCamp_AC8_TC3",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "PauseCamp_AC2_TC1": {
+    "campaign": {
+      "name": "PauseCamp_AC2_TC1",
+      "description": "campaign",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "PauseCamp_AC2_TC1",
+      "strategy": "PauseCamp_AC2_TC1",
+      "importContact": "yes",
+      "confirmationHeader": "Confirmation",
+      "confirmationBodyText": "Are you sure that you want to pause campaign %s?"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "PauseCamp_AC2_TC1",
+      "description": "strategy",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "PauseCamp_AC2_TC1",
+      "description": "contactlist"
+    },
+    "datasource": {
+      "name": "PauseCamp_AC2_TC1",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "PauseCamp_AC3_TC1": {
+    "campaign": {
+      "name": "PauseCamp_AC3_TC1",
+      "description": "campaign",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "PauseCamp_AC3_TC1",
+      "strategy": "PauseCamp_AC3_TC1",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "PauseCamp_AC3_TC1",
+      "description": "strategy",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "1",
+      "smsPacingTimeUnit": "MINUTE"
+    },
+    "contactlist": {
+      "name": "PauseCamp_AC3_TC1",
+      "description": "contactlist"
+    },
+    "datasource": {
+      "name": "PauseCamp_AC3_TC1",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "PauseCamp_AC3_TC2": {
+    "campaign": {
+      "name": "PauseCamp_AC3_TC2",
+      "description": "campaign",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "PauseCamp_AC3_TC2",
+      "strategy": "PauseCamp_AC3_TC2",
+      "importContact": "yes",
+      "pauseCampaignToastMessage": "Pause request accepted for campaign %s."
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "PauseCamp_AC3_TC2",
+      "description": "strategy",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "PauseCamp_AC3_TC2",
+      "description": "contactlist"
+    },
+    "datasource": {
+      "name": "PauseCamp_AC3_TC2",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "PauseCamp_AC7_TC1": {
+    "campaign": {
+      "name": "PauseCamp_AC7_TC1",
+      "description": "campaign",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "PauseCamp_AC7_TC1",
+      "strategy": "PauseCamp_AC7_TC1",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "PauseCamp_AC7_TC1",
+      "description": "strategy",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "PauseCamp_AC7_TC1",
+      "description": "contactlist"
+    },
+    "datasource": {
+      "name": "PauseCamp_AC7_TC1",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "PauseCamp_AC7_TC2": {
+    "campaign": {
+      "name": "PauseCamp_AC7_TC2",
+      "description": "campaign",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "PauseCamp_AC7_TC2",
+      "strategy": "PauseCamp_AC7_TC2",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "PauseCamp_AC7_TC2",
+      "description": "strategy",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "PauseCamp_AC7_TC2",
+      "description": "contactlist"
+    },
+    "datasource": {
+      "name": "PauseCamp_AC7_TC2",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ADV_SEARCH_AC8_TC10": {
+    "campaign": {
+      "name": "ADV_SEARCH_AC8_TC10",
+      "description": "ADV_SEARCH_AC8_TC10",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "ADV_SEARCH_AC8_TC10",
+      "strategy": "ADV_SEARCH_AC8_TC10",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "ADV_SEARCH_AC8_TC10",
+      "description": "ADV_SEARCH_AC8_TC10",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "ADV_SEARCH_AC8_TC10",
+      "description": "descriptionCLS",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "ADV_SEARCH_AC8_TC10",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ADV_SEARCH_AC8_TC9": {
+    "campaign": {
+      "name": "ADV_SEARCH_AC8_TC9",
+      "description": "ADV_SEARCH_AC8_TC9",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "ADV_SEARCH_AC8_TC9",
+      "strategy": "ADV_SEARCH_AC8_TC9",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "ADV_SEARCH_AC8_TC9",
+      "description": "ADV_SEARCH_AC8_TC9",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "ADV_SEARCH_AC8_TC9",
+      "description": "descriptionCLS",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "ADV_SEARCH_AC8_TC9",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ADV_SEARCH_AC8_TC1": {
+    "campaign": {
+      "name": "ADV_SEARCH_AC8_TC1",
+      "description": "ADV_SEARCH_AC8_TC1",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "ADV_SEARCH_AC8_TC1",
+      "strategy": "ADV_SEARCH_AC8_TC1",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "ADV_SEARCH_AC8_TC1",
+      "description": "ADV_SEARCH_AC8_TC1",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "ADV_SEARCH_AC8_TC1",
+      "description": "descriptionCLS",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "ADV_SEARCH_AC8_TC1",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "MonitorListCamp_AC5_TC1": {
+    "campaign": {
+      "name": "MonitorListCamp_AC5_TC1",
+      "description": "campaign",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "MonitorListCamp_AC5_TC1",
+      "strategy": "MonitorListCamp_AC5_TC1",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "MonitorListCamp_AC5_TC1",
+      "description": "strategy",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "MonitorListCamp_AC5_TC1",
+      "description": "contactlist"
+    },
+    "datasource": {
+      "name": "MonitorListCamp_AC5_TC1",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "MonitorListCamp_AC5_TC2": {
+    "campaign": {
+      "name": "MonitorListCamp_AC5_TC2",
+      "description": "MonitorListCamp_AC5_TC2",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "MonitorListCamp_AC5_TC2",
+      "strategy": "MonitorListCamp_AC5_TC2",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "MonitorListCamp_AC5_TC2",
+      "description": "MonitorListCamp_AC5_TC2",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "MonitorListCamp_AC5_TC2",
+      "description": "descriptionCLS"
+    },
+    "datasource": {
+      "name": "MonitorListCamp_AC5_TC2",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "MonitorListCamp_AC5_TC3": {
+    "campaign": {
+      "name": "MonitorListCamp_AC5_TC3",
+      "description": "campaign",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "MonitorListCamp_AC5_TC3",
+      "strategy": "MonitorListCamp_AC5_TC3",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "MonitorListCamp_AC5_TC3",
+      "description": "strategy",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "MonitorListCamp_AC5_TC3",
+      "description": "ctlist"
+    },
+    "datasource": {
+      "name": "MonitorListCamp_AC5_TC3",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "MonitorListCamp_AC5_TC4": {
+    "campaign": {
+      "name": "AAA_MonitorListCamp_AC5_TC4",
+      "description": "campaign",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "MonitorListCamp_AC5_TC4",
+      "strategy": "MonitorListCamp_AC5_TC4",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "MonitorListCamp_AC5_TC4",
+      "description": "strategy",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "MonitorListCamp_AC5_TC4",
+      "description": "contactlist"
+    },
+    "datasource": {
+      "name": "MonitorListCamp_AC5_TC4",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "MonitorListCamp_AC5_TC5": {
+    "campaign": {
+      "name": "MonitorListCamp_AC5_TC5",
+      "description": "campaign",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "MonitorListCamp_AC5_TC5",
+      "strategy": "MonitorListCamp_AC5_TC5",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "MonitorListCamp_AC5_TC5",
+      "description": "strategy",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "MonitorListCamp_AC5_TC5",
+      "description": "contactlist"
+    },
+    "datasource": {
+      "name": "MonitorListCamp_AC5_TC5",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "SORT_AC7_TC1": {
+    "campaign": {
+      "name": "SORT_AC7_TC1",
+      "description": "SORT_AC7_TC1",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "SORT_AC7_TC1",
+      "strategy": "SORT_AC7_TC1",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "SORT_AC7_TC1",
+      "description": "SORT_AC7_TC1",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "SORT_AC7_TC1",
+      "description": "descriptionCLS",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "SORT_AC7_TC1",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "SORT_AC7_TC2": {
+    "campaign": {
+      "name": "SORT_AC7_TC2",
+      "description": "SORT_AC7_TC2",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "SORT_AC7_TC2",
+      "strategy": "SORT_AC7_TC2",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "SORT_AC7_TC2",
+      "description": "SORT_AC7_TC2",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "SORT_AC7_TC2",
+      "description": "descriptionCLS",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "SORT_AC7_TC2",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "SORT_AC7_TC3": {
+    "campaign": {
+      "name": "SORT_AC7_TC3",
+      "description": "SORT_AC7_TC3",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "SORT_AC7_TC3",
+      "strategy": "SORT_AC7_TC3",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "SORT_AC7_TC3",
+      "description": "SORT_AC7_TC3",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "SORT_AC7_TC3",
+      "description": "descriptionCLS",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "SORT_AC7_TC3",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "Monitor_AC5_TC15": {
+    "campaign": {
+      "name": "Monitor_AC5_TC15",
+      "description": "Monitor_AC5_TC15",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "Monitor_AC5_TC15",
+      "strategy": "Monitor_AC5_TC15",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "Monitor_AC5_TC15",
+      "description": "Monitor_AC5_TC15",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "Monitor_AC5_TC15",
+      "description": "descriptionCLS",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "Monitor_AC5_TC15",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "Monitor_AC5_TC14": {
+    "campaign": {
+      "name": "Monitor_AC5_TC14",
+      "description": "Monitor_AC5_TC14",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "Monitor_AC5_TC14",
+      "strategy": "Monitor_AC5_TC14",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "Monitor_AC5_TC14",
+      "description": "Monitor_AC5_TC14",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "200",
+      "smsPacingTimeUnit": "MINUTE"
+    },
+    "contactlist": {
+      "name": "Monitor_AC5_TC14",
+      "description": "descriptionCLS",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "Monitor_AC5_TC14",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "Monitor_AC5_TC13": {
+    "campaign": {
+      "name": "Monitor_AC5_TC13",
+      "description": "Monitor_AC5_TC13",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "Monitor_AC5_TC13",
+      "strategy": "Monitor_AC5_TC13",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "Monitor_AC5_TC13",
+      "description": "Monitor_AC5_TC13",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "200",
+      "smsPacingTimeUnit": "MINUTE"
+    },
+    "contactlist": {
+      "name": "Monitor_AC5_TC13",
+      "description": "descriptionCLS",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "Monitor_AC5_TC13",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "Monitor_AC5_TC12": {
+    "campaign": {
+      "name": "Monitor_AC5_TC12",
+      "description": "Monitor_AC5_TC12",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "Monitor_AC5_TC12",
+      "strategy": "Monitor_AC5_TC12",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "Monitor_AC5_TC12",
+      "description": "Monitor_AC5_TC12",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "200",
+      "smsPacingTimeUnit": "MINUTE"
+    },
+    "contactlist": {
+      "name": "Monitor_AC5_TC12",
+      "description": "descriptionCLS",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "Monitor_AC5_TC12",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "Monitor_AC5_TC11": {
+    "campaign": {
+      "name": "Monitor_AC5_TC11",
+      "description": "Monitor_AC5_TC11",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "Monitor_AC5_TC11",
+      "strategy": "Monitor_AC5_TC11",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "Monitor_AC5_TC11",
+      "description": "Monitor_AC5_TC11",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "200",
+      "smsPacingTimeUnit": "MINUTE"
+    },
+    "contactlist": {
+      "name": "Monitor_AC5_TC11",
+      "description": "descriptionCLS",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "Monitor_AC5_TC11",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "Monitor_AC5_TC10": {
+    "campaign": {
+      "name": "Monitor_AC5_TC10",
+      "description": "Monitor_AC5_TC10",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "Monitor_AC5_TC10",
+      "strategy": "Monitor_AC5_TC10",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "Monitor_AC5_TC10",
+      "description": "Monitor_AC5_TC10",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "200",
+      "smsPacingTimeUnit": "MINUTE"
+    },
+    "contactlist": {
+      "name": "Monitor_AC5_TC10",
+      "description": "descriptionCLS",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "Monitor_AC5_TC10",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "Monitor_AC5_TC7": {
+    "campaign": {
+      "name": "Monitor_AC5_TC7",
+      "description": "Monitor_AC5_TC7",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "Monitor_AC5_TC7",
+      "strategy": "Monitor_AC5_TC7",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "Monitor_AC5_TC7",
+      "description": "Monitor_AC5_TC7",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "200",
+      "smsPacingTimeUnit": "MINUTE"
+    },
+    "contactlist": {
+      "name": "Monitor_AC5_TC7",
+      "description": "descriptionCLS",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "Monitor_AC5_TC7",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "MONITORACTIVE_AC5_TC6": {
+    "campaign": {
+      "name": "monitorCampaign_AC5_TC6",
+      "description": "monitorCampaign_AC5_TC6",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "monitor_AC5_TC6",
+      "strategy": "monitor_AC5_TC6",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "monitor_AC5_TC6",
+      "description": "monitor_AC5_TC6",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "monitor_AC5_TC6",
+      "description": "descriptionCLS"
+    },
+    "datasource": {
+      "name": "monitor_AC5_TC6",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "MONITORACTIVE_AC5_TC5": {
+    "campaign": {
+      "name": "monitorCampaign_AC5_TC5",
+      "description": "monitorCampaign_AC5_TC5",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "monitor_AC5_TC5",
+      "strategy": "monitor_AC5_TC5",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "monitor_AC5_TC5",
+      "description": "monitor_AC5_TC5",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "monitor_AC5_TC5",
+      "description": "descriptionCLS"
+    },
+    "datasource": {
+      "name": "monitor_AC5_TC5",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "MONITORACTIVE_AC2_TC1": {
+    "campaign": {
+      "name": "monitorCampaign_AC2_TC1",
+      "description": "monitorCampaign_AC2_TC1",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "monitor_AC2_TC1",
+      "strategy": "monitor_AC2_TC1",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "monitor_AC2_TC1",
+      "description": "monitor_AC2_TC1",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "90",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "monitor_AC2_TC1",
+      "description": "descriptionCLS"
+    },
+    "datasource": {
+      "name": "monitor_AC2_TC1",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "MONITORACTIVE_AC1_TC1": {
+    "headerTable": "Name, Status, Start Time, Percent Completed, Total Contacts, Total Attempts, Total Un-attempted Contacts, Total Completed Contacts"
+  },
+  "MonitorCamp_AC5_TC1": {
+    "campaign": {
+      "name": "MonitorCamp_AC5_TC1",
+      "description": "MonitorCamp_AC5_TC1",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "MonitorCamp_AC5_TC1",
+      "strategy": "MonitorCamp_AC5_TC1",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "MonitorCamp_AC5_TC1",
+      "description": "MonitorCamp_AC5_TC1",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "MonitorCamp_AC5_TC1",
+      "description": "descriptionCLS"
+    },
+    "datasource": {
+      "name": "MonitorCamp_AC5_TC1",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "MonitorCamp_AC5_TC1.csv",
+      "sourceFile": "10klist.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "MonitorCamp_AC5_TC2": {
+    "campaign": {
+      "name": "MonitorCamp_AC5_TC2",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "MonitorCamp_AC5_TC2",
+      "strategy": "MonitorCamp_AC5_TC2",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "MonitorCamp_AC5_TC2",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "200",
+      "smsPacingTimeUnit": "MINUTE"
+    },
+    "contactlist": {
+      "name": "MonitorCamp_AC5_TC2",
+      "description": "",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "MonitorCamp_AC5_TC2",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "MonitorCamp_AC5_TC3": {
+    "campaign": {
+      "name": "MonitorCamp_AC5_TC3",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "MonitorCamp_AC5_TC3",
+      "strategy": "MonitorCamp_AC5_TC3",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "MonitorCamp_AC5_TC3",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "200",
+      "smsPacingTimeUnit": "MINUTE"
+    },
+    "contactlist": {
+      "name": "MonitorCamp_AC5_TC3",
+      "description": "",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "MonitorCamp_AC5_TC3",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "MonitorCamp_AC4_TC1": {
+    "campaign": {
+      "name": "MonitorCamp_AC4_TC1",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "MonitorCamp_AC4_TC1",
+      "strategy": "MonitorCamp_AC4_TC1",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "MonitorCamp_AC4_TC1",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "200",
+      "smsPacingTimeUnit": "MINUTE"
+    },
+    "contactlist": {
+      "name": "MonitorCamp_AC4_TC1",
+      "description": "",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "MonitorCamp_AC4_TC1",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "MonitorCamp_AC4_TC2": {
+    "campaign": {
+      "name": "MonitorCamp_AC4_TC2",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "MonitorCamp_AC4_TC2",
+      "strategy": "MonitorCamp_AC4_TC2",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "MonitorCamp_AC4_TC2",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "40",
+      "smsPacingTimeUnit": "SECOND"
+    },
+    "contactlist": {
+      "name": "MonitorCamp_AC4_TC2",
+      "description": "",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "MonitorCamp_AC4_TC2",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ActiveCampaignAC1_TC1": {
+    "campaign": {
+      "name": "ActiveCampaignAC1_TC1",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "ActiveCampaignAC1_TC1",
+      "strategy": "ActiveCampaignAC1_TC1",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "ActiveCampaignAC1_TC1",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "ActiveCampaignAC1_TC1",
+      "description": "",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "ActiveCampaignAC1_TC1",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ActiveCampaignAC3_TC1": {
+    "campaign": {
+      "name": "ActiveCampaignAC3_TC1",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "ActiveCampaignAC3_TC1",
+      "strategy": "ActiveCampaignAC3_TC1",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "ActiveCampaignAC3_TC1",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "2400",
+      "smsPacingTimeUnit": "MINUTE"
+    },
+    "contactlist": {
+      "name": "ActiveCampaignAC3_TC1",
+      "description": "",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "ActiveCampaignAC3_TC1",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ActiveCampaignAC3_TC2": {
+    "campaign": {
+      "name": "ActiveCampaignAC3_TC2",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "ActiveCampaignAC3_TC2",
+      "strategy": "ActiveCampaignAC3_TC2",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "ActiveCampaignAC3_TC2",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "60",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "ActiveCampaignAC3_TC2",
+      "description": "",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "ActiveCampaignAC3_TC2",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "StopCampaignAC2_TC1": {
+    "campaign": {
+      "name": "StopCampaignAC2_TC1",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "StopCampaignAC2_TC1",
+      "strategy": "StopCampaignAC2_TC1",
+      "importContact": "yes",
+      "confirmationHeader": "Confirmation",
+      "confirmationBodyText": "Are you sure that you want to stop campaign %s?\nThis action cannot be undone."
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "StopCampaignAC2_TC1",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "90",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "StopCampaignAC2_TC1",
+      "description": "",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "StopCampaignAC2_TC1",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "StopCampaignAC3_TC1": {
+    "campaign": {
+      "name": "StopCampaignAC3_TC1",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "StopCampaignAC3_TC1",
+      "strategy": "StopCampaignAC3_TC1",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "StopCampaignAC3_TC1",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "90",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "StopCampaignAC3_TC1",
+      "description": "",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "StopCampaignAC3_TC1",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "StopCampaignAC5_TC1": {
+    "campaign": {
+      "name": "StopCampaignAC5_TC1",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "StopCampaignAC5_TC1",
+      "strategy": "StopCampaignAC5_TC1",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "StopCampaignAC5_TC1",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "90",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "StopCampaignAC5_TC1",
+      "description": "",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "StopCampaignAC5_TC1",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "StopCampaignAC6_TC1": {
+    "campaign": {
+      "name": "StopCampaignAC6_TC1",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "StopCampaignAC6_TC1",
+      "strategy": "StopCampaignAC6_TC1",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "StopCampaignAC6_TC1",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "90",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "StopCampaignAC6_TC1",
+      "description": "",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "StopCampaignAC6_TC1",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "StopCampaignAC6_TC2": {
+    "campaign": {
+      "name": "StopCampaignAC6_TC2",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "StopCampaignAC6_TC2",
+      "strategy": "StopCampaignAC6_TC2",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "StopCampaignAC6_TC2",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "90",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "StopCampaignAC6_TC2",
+      "description": "",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "StopCampaignAC6_TC2",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "RefreshMonitor_AC4_TC1": {
+    "campaign": {
+      "name": "RefreshMonitor_AC4_TC1",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "RefreshMonitor_AC4_TC1",
+      "strategy": "RefreshMonitor_AC4_TC1",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "RefreshMonitor_AC4_TC1",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "RefreshMonitor_AC4_TC1",
+      "description": "",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "RefreshMonitor_AC4_TC1",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "RefreshMonitor_AC4_TC2": {
+    "campaign": {
+      "name": "RefreshMonitor_AC4_TC2",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "RefreshMonitor_AC4_TC2",
+      "strategy": "RefreshMonitor_AC4_TC2",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "RefreshMonitor_AC4_TC2",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "RefreshMonitor_AC4_TC2",
+      "description": "",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "RefreshMonitor_AC4_TC2",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ADV_SEARCH_AC8_TC2": {
+    "campaign": {
+      "name": "ADV_SEARCH_AC8_TC2",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "ADV_SEARCH_AC8_TC2",
+      "strategy": "ADV_SEARCH_AC8_TC2",
+      "importContact": "yes"
+    },
+    "runInterval": 15,
+    "strategy": {
+      "type": "SMS",
+      "name": "ADV_SEARCH_AC8_TC2",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "90",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "ADV_SEARCH_AC8_TC2",
+      "description": "",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "ADV_SEARCH_AC8_TC2",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ADV_SEARCH_AC8_TC3": {
+    "campaign": {
+      "name": "ADV_SEARCH_AC8_TC3",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "ADV_SEARCH_AC8_TC3",
+      "strategy": "ADV_SEARCH_AC8_TC3",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "ADV_SEARCH_AC8_TC3",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "90",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "ADV_SEARCH_AC8_TC3",
+      "description": "",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "ADV_SEARCH_AC8_TC3",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ADV_SEARCH_AC8_TC6": {
+    "campaign": {
+      "name": "ADV_SEARCH_AC8_TC6",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "ADV_SEARCH_AC8_TC6",
+      "strategy": "ADV_SEARCH_AC8_TC6",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "ADV_SEARCH_AC8_TC6",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "90",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "ADV_SEARCH_AC8_TC6",
+      "description": "",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "ADV_SEARCH_AC8_TC6",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ADV_SEARCH_AC8_TC7": {
+    "campaign": {
+      "name": "ADV_SEARCH_AC8_TC7",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "ADV_SEARCH_AC8_TC7",
+      "strategy": "ADV_SEARCH_AC8_TC7",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "ADV_SEARCH_AC8_TC7",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "90",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "ADV_SEARCH_AC8_TC7",
+      "description": "",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "ADV_SEARCH_AC8_TC7",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ADV_SEARCH_AC8_TC8": {
+    "campaign": {
+      "name": "ADV_SEARCH_AC8_TC8",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "ADV_SEARCH_AC8_TC8",
+      "strategy": "ADV_SEARCH_AC8_TC8",
+      "importContact": "yes"
+    },
+    "runInterval": 15,
+    "strategy": {
+      "type": "SMS",
+      "name": "ADV_SEARCH_AC8_TC8",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "90",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "ADV_SEARCH_AC8_TC8",
+      "description": "",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "ADV_SEARCH_AC8_TC8",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "ResumeCampaign_ConfirmMessage": {
+    "campaign": {
+      "name": "ResumeCampaign_ConfirmMessage",
+      "description": "Description",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "ResumeCL_ConfirmMessage",
+      "strategy": "ResumeStr_ConfirmMessage",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "ResumeStr_ConfirmMessage",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "Hour"
+    },
+    "contactlist": {
+      "name": "ResumeCL_ConfirmMessage",
+      "description": "descriptionCLS"
+    },
+    "datasource": {
+      "name": "ResumeDS_ConfirmMessage",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "100records.csv",
+      "sourceFile": "100records.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ],
+    "activeCampaign": {
+      "ConfirmationResume": "Are you sure that you want to resume campaign %s?",
+      "NotificationAlert": "%s request accepted for campaign %s."
+    }
+  },
+  "resume_verifyBtn": {
+    "campaign": {
+      "name": "Campaign_verifyBtn",
+      "description": "Description",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "cls_verifyBtn",
+      "strategy": "strategy_verifyBtn",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "strategy_verifyBtn",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Hour"
+    },
+    "contactlist": {
+      "name": "cls_verifyBtn",
+      "description": "description"
+    },
+    "datasource": {
+      "name": "ds_verifyBtn",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "100records.csv",
+      "sourceFile": "100records.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ],
+    "activeCampaign": {
+      "ConfirmationResume": "Are you sure that you want to resume campaign %s?",
+      "NotificationAlert": "%s request accepted for campaign %s."
+    }
+  },
+  "resume_verifyCancel": {
+    "campaign": {
+      "name": "Cmp_verifyCancel",
+      "description": "Description",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "cls_verifyBtn",
+      "strategy": "strategy_verifyCancel",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "strategy_verifyCancel",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "80",
+      "smsPacingTimeUnit": "MINUTE"
+    },
+    "contactlist": {
+      "name": "cls_verifyBtn",
+      "description": "description"
+    },
+    "datasource": {
+      "name": "ds_verifyCancel",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "100records.csv",
+      "sourceFile": "100records.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ],
+    "activeCampaign": {
+      "ConfirmationResume": "Are you sure that you want to pause campaign %s?",
+      "NotificationAlert": "%s request accepted for campaign %s."
+    }
+  },
+  "ResumeCampaign_ConfirmMessage_02": {
+    "campaign": {
+      "name": "ResumeCampaign_ConfirmMessage_02",
+      "description": "Description",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "ResumeCL_ConfirmMessage_02",
+      "strategy": "ResumeStr_ConfirmMessage_02",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "ResumeStr_ConfirmMessage_02",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "Hour"
+    },
+    "contactlist": {
+      "name": "ResumeCL_ConfirmMessage_02",
+      "description": "descriptionCLS"
+    },
+    "datasource": {
+      "name": "ResumeDS_ConfirmMessage_02",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "100records.csv",
+      "sourceFile": "100records.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ],
+    "activeCampaign": {
+      "ConfirmationResume": "Are you sure that you want to resume campaign %s?",
+      "NotificationAlert": "%s request accepted for campaign %s.",
+      "PauseBeforeResume": "0",
+      "RunningBeforeResume": "0",
+      "PauseAfterResume": "0",
+      "RunningAfterResume": "0"
+    }
+  },
+  "ResumeCampaign_Resuming": {
+    "campaign": {
+      "name": "ResumeCampaign_Resuming",
+      "description": "Description",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "ResumeCampaignCL_Resuming",
+      "strategy": "ResumeCampaignStr_Resuming",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "ResumeCampaignStr_Resuming",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "120",
+      "smsPacingTimeUnit": "Hour"
+    },
+    "contactlist": {
+      "name": "ResumeCampaignCL_Resuming",
+      "description": "descriptionCLS"
+    },
+    "datasource": {
+      "name": "ResumeCampaignDS_Resuming",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "100records.csv",
+      "sourceFile": "100records.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ],
+    "activeCampaign": {
+      "ConfirmationResume": "Are you sure that you want to resume campaign %s?",
+      "NotificationAlert": "%s request accepted for campaign %s."
+    }
+  },
+  "PauseCampaign_AC4_TC1": {
+    "campaign": {
+      "name": "PauseCampaign_AC4_TC1",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "PauseCampaign_AC4_TC1",
+      "strategy": "PauseCampaign_AC4_TC1",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "PauseCampaign_AC4_TC1",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "90",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "PauseCampaign_AC4_TC1",
+      "description": "",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "PauseCampaign_AC4_TC1",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "PauseCampaign_AC4_TC2": {
+    "campaign": {
+      "name": "PauseCampaign_AC4_TC2",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "PauseCampaign_AC4_TC2",
+      "strategy": "PauseCampaign_AC4_TC2",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "PauseCampaign_AC4_TC2",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "90",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "PauseCampaign_AC4_TC2",
+      "description": "",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "PauseCampaign_AC4_TC2",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "PauseCampaign_AC8_TC1": {
+    "campaign": {
+      "name": "PauseCampaign_AC8_TC1",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "PauseCampaign_AC8_TC1",
+      "strategy": "PauseCampaign_AC8_TC1",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "PauseCampaign_AC8_TC1",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "90",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "PauseCampaign_AC8_TC1",
+      "description": "",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "PauseCampaign_AC8_TC1",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "PauseCampaign_AC8_TC2": {
+    "campaign": {
+      "name": "PauseCampaign_AC8_TC2",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "PauseCampaign_AC8_TC2",
+      "strategy": "PauseCampaign_AC8_TC2",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "PauseCampaign_AC8_TC2",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "90",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "PauseCampaign_AC8_TC2",
+      "description": "",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "PauseCampaign_AC8_TC2",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contactpacing.csv",
+      "sourceFile": "contactpacing.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "PauseCamp_AC1_TC1": {
+    "campaign": {
+      "name": "PauseCamp_AC1_TC1",
+      "description": "MonitorCamp",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "PauseCamp_AC1_TC1",
+      "strategy": "PauseCamp_AC1_TC1",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "PauseCamp_AC1_TC1",
+      "description": "",
+      "smsText": "Send SMS by Automation",
+      "smsPace": "90",
+      "smsPacingTimeUnit": "HOUR"
+    },
+    "contactlist": {
+      "name": "PauseCamp_AC1_TC1",
+      "description": "",
+      "totalContact": "1000"
+    },
+    "datasource": {
+      "name": "PauseCamp_AC1_TC1",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "IXOUTREACH-4788.csv",
+      "sourceFile": "10klist.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "Campaign_State_Transition": {
+    "campaign": {
+      "name": "Campaign_State_Transition",
+      "description": "Description",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "CL_State_Transition",
+      "strategy": "Str_State_Transition",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "Str_State_Transition",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "60",
+      "smsPacingTimeUnit": "MINUTE"
+    },
+    "contactlist": {
+      "name": "CL_State_Transition",
+      "description": "descriptionCLS"
+    },
+    "datasource": {
+      "name": "DS_State_Transition",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "100records_State_Transition.csv",
+      "sourceFile": "CL_100records.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ],
+    "activeCampaign": {
+      "ConfirmationResume": "Are you sure that you want to resume campaign %s?",
+      "NotificationAlert": "%s request accepted for campaign %s."
+    }
+  },
+  "Campaign_Dialed_Records": {
+    "campaign": {
+      "name": "Campaign_Dialed_Records",
+      "description": "Description",
+      "type": "finite",
+      "dialingOrder": "Regular, Retry, Priority",
+      "senderDisplayName": "Automation",
+      "finishTypeAndTime": "FinishAfter|12|9",
+      "senderAddress": "Address",
+      "contactList": "CL_Dialed_Records",
+      "strategy": "Str_Dialed_Records",
+      "importContact": "yes"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "Str_Dialed_Records",
+      "description": "Dummy description",
+      "smsText": "Dummy SMS",
+      "smsPace": "60",
+      "smsPacingTimeUnit": "MINUTE"
+    },
+    "contactlist": {
+      "name": "CL_Dialed_Records",
+      "description": "descriptionCLS"
+    },
+    "datasource": {
+      "name": "DS_Dialed_Records",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "100records_Dialed_Records.csv",
+      "sourceFile": "CL_100records.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully."
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ],
+    "activeCampaign": {
+      "ConfirmationResume": "Are you sure that you want to resume campaign %s?",
+      "NotificationAlert": "%s request accepted for campaign %s."
+    }
+  }
+}

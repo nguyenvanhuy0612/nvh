@@ -1,0 +1,919 @@
+{
+  "datasource_AC1_TC1": {
+    "contactlist": {
+      "name": "ctlist1",
+      "description": ""
+    }
+  },
+  "datasource_AC1_TC2": {
+    "contactlist": {
+      "name": "ctlist2",
+      "description": ""
+    }
+  },
+  "datasource_AC1_TC3": {
+    "contactlist": {
+      "name": "ContactList3",
+      "description": ""
+    },
+    "datasource": {
+      "name": "DataSource3",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "viewContact1.csv",
+      "sourceFile": "viewContact1.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "datasource_AC1_TC4": {
+    "contactlist": {
+      "name": "ContactList4",
+      "description": "4"
+    },
+    "datasource": {
+      "name": "DataSource4",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "viewContact1.csv",
+      "sourceFile": "viewContact1.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "datasource_AC2_TC1": {
+    "contactlist": {
+      "name": "ContactList21",
+      "description": "21"
+    }
+  },
+  "datasource_AC2_TC2": {
+    "contactlist": {
+      "name": "ContactList22",
+      "description": "22"
+    },
+    "datasource": {
+      "name": "DataSource22",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "viewContact1.csv",
+      "sourceFile": "viewContact1.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "datasource_AC2_TC3": {
+    "contactlist": {
+      "name": "ContactList23",
+      "description": "23"
+    },
+    "datasource": {
+      "name": "DataSource23",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contact_IX_4860.csv",
+      "sourceFile": "contact_IX_4860.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "datasource_AC2_TC4": {
+    "contactlist": {
+      "name": "ContactList24",
+      "description": "24"
+    },
+    "datasource": {
+      "name": "DataSource24",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contact_IX_4860.csv",
+      "sourceFile": "contact_IX_4860.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "datasource_AC2_TC5": {
+    "contactlist": {
+      "name": "ContactList25",
+      "description": "25"
+    },
+    "datasource": {
+      "name": "datasource25",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "contact_AC2_TC5.csv",
+      "sourceFile": "contact_AC2_TC5.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "datasource_AC3_TC1": {
+    "name": "DataSource25",
+    "description": "Test SFTP connetion",
+    "dataSourceType": "SFTP",
+    "fieldDelimiter": ",",
+    "ftpIPHostName": "usecommon",
+    "ftpUserName": "usecommon",
+    "ftpPassword": "usecommon",
+    "ftpRemoteFilePath": "contact_AC2_TC5.csv",
+    "sourceFile": "contact_AC2_TC5.csv",
+    "TestConnection": "no",
+    "NotificationAlert": "Data Source created successfully.",
+    "Verify": "no"
+  },
+  "datasource_AC3_TC2": {
+    "contactlist": {
+      "name": "ContactList4",
+      "description": "4"
+    },
+    "datasource": {
+      "name": "DataSource4",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpUserName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "viewContact1.csv",
+      "sourceFile": "viewContact1.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    }
+  },
+  "Test_DS_01": {
+    "DataSourceName": "DataSource01",
+    "DataSourceDesc": "This is Data Source Description",
+    "DataSourceType": "SFTP",
+    "ServerHostName": "10.133.84.66",
+    "ServerUserName": "root",
+    "ServerPassword": "root01",
+    "ServerRemotePath": "/tmp",
+    "FieldDelimiter": "comma",
+    "TestConnection": "Yes",
+    "Verify": "False"
+  },
+  "Test_DS_02": {
+    "datasource": {
+      "name": "Data-Source_02",
+      "description": "This is Data Source Description",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "10.133.84.66",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "False"
+    }
+  },
+  "Test_FQDN_Datasource": {
+    "datasource": {
+      "name": "DataSource03",
+      "description": "This is Data Source Description",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "SftpDomainServer.info",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "False"
+    }
+  },
+  "Test_DS_034": {
+    "datasource": {
+      "name": "DataSource0034",
+      "description": "This is Data Source Description",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "SftpDomainServer.info",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "False"
+    }
+  },
+  "Test_DS_Missing_name": {
+    "datasource": {
+      "name": "",
+      "description": "This is Data Source Description",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "10.133.84.66",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "False",
+      "ExpErrorMessage": "Name should not be null or blank",
+      "VerifyField": "name"
+    }
+  },
+  "Test_DS_Missing_Host": {
+    "datasource": {
+      "name": "MissingHost",
+      "description": "This is Data Source Description",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "False",
+      "ExpErrorMessage": "SFTP Host should not be null or blank",
+      "VerifyField": "ftpIPHostName"
+    }
+  },
+  "Test_DS_Missing_Usename": {
+    "datasource": {
+      "name": "MissingHost",
+      "description": "This is Data Source Description",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "10.133.84.66",
+      "ftpUserName": "",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "False",
+      "ExpErrorMessage": "Username should not be null or blank",
+      "VerifyField": "ftpUserName"
+    }
+  },
+  "Test_DS_Missing_Pw": {
+    "datasource": {
+      "name": "MissingHost",
+      "description": "This is Data Source Description",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "10.133.84.66",
+      "ftpUserName": "root",
+      "ftpPassword": "",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "False",
+      "ExpErrorMessage": "Password should not be null or blank",
+      "VerifyField": "ftpPassword"
+    }
+  },
+  "Test_DS_Missing_Path": {
+    "datasource": {
+      "name": "MissingHost",
+      "description": "This is Data Source Description",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "10.133.84.66",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "False",
+      "ExpErrorMessage": "Remote Path should not be null or blank",
+      "VerifyField": "ftpRemoteFilePath"
+    }
+  },
+  "Test_DS_ErrorPath_1": {
+    "name": "MissingHost",
+    "description": "This is Data Source Description",
+    "dataSourceType": "SFTP",
+    "ftpIPHostName": "10.133.84.66",
+    "ftpUserName": "root",
+    "ftpPassword": "root01",
+    "ftpRemoteFilePath": "test",
+    "fieldDelimiter": ",",
+    "TestConnection": "No",
+    "Verify": "False",
+    "ExpErrorMessage": "Remote Path should be started with slash",
+    "VerifyField": "ftpRemoteFilePath"
+  },
+  "Test_DS_ErrorPath2": {
+    "DataSourceName": "DataSourceName",
+    "DataSourceDesc": "This is Data Source Description",
+    "DataSourceType": "SFTP",
+    "ServerHostName": "10.133.84.66",
+    "ServerUserName": "root",
+    "ServerPassword": "root01",
+    "ServerRemotePath": "/",
+    "FieldDelimiter": "comma",
+    "TestConnection": "No",
+    "Verify": "False",
+    "ExpErrorMessage": "Remote Path should be contained with specific file",
+    "VerifyField": "false"
+  },
+  "Test_Password_field": {
+    "datasource": {
+      "name": "DSName",
+      "description": "This is Data Source Description",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "10.133.84.66",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "sameform",
+      "ExpErrorMessage": "Remote Path should not be null or blank"
+    }
+  },
+  "Test_Mandatory_field": {
+    "datasource": {
+      "name": "Test_Mandatory_field",
+      "description": "",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "10.133.84.66",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": ""
+    }
+  },
+  "Test_List_DS1": {
+    "datasource": {
+      "name": "Test_List_DS1",
+      "description": "",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "10.133.84.66",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": ""
+    }
+  },
+  "Test_List_DS2": {
+    "datasource": {
+      "name": "Test_List_DS2",
+      "description": "",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "10.133.84.66",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": ""
+    }
+  },
+  "Test_Host_IP": {
+    "datasource": {
+      "name": "Test_Host_IP",
+      "description": "This is Data Source Description",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "10.133.84.66",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": ""
+    }
+  },
+  "ContactDataSourceSFTP3": {
+    "datasource": {
+      "name": "ContactDataSourceSFTP3",
+      "description": "This is Data Source Description",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "abc",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "",
+      "ExpErrorMessage": "Invalid Host for SFTP Server.",
+      "VerifyField": "ftpIPHostName"
+    }
+  },
+  "ContactDataSourceSFTP4": {
+    "datasource": {
+      "name": "ContactDataSourceSFTP4",
+      "description": "This is Data Source Description",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "abc@#$",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "",
+      "ExpErrorMessage": "Invalid Host for SFTP Server.",
+      "VerifyField": "ftpIPHostName",
+      "ftpIPHostName_Correct": "10.10.10.10"
+    }
+  },
+  "ContactDataSourceSFTP5": {
+    "DataSourceName": "ContactDataSourceSFTP5",
+    "DataSourceDesc": "This is Data Source Description",
+    "DataSourceType": "SFTP",
+    "ServerHostName": "10.133.84.66",
+    "ServerUserName": "root",
+    "ServerPassword": "root01",
+    "ServerRemotePath": "/tmp",
+    "FieldDelimiter": "comma",
+    "TestConnection": "No",
+    "ConfirmMsg": "Data Source created successfully.",
+    "Verify": "True"
+  },
+  "ContactDataSourceSFTP_NoSave": {
+    "datasource": {
+      "name": "ContactDataSourceNoSave",
+      "description": "This is Data Source Description",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "abc@@",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "",
+      "ExpErrorMessage": "Invalid Host for SFTP Server.",
+      "VerifyField": "ftpIPHostName"
+    }
+  },
+  "Test_DS_same_name": {
+    "datasource": {
+      "name": "Test_DS_same_name",
+      "description": "This is Data Source Description",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "hostname.com",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "",
+      "ExpErrorMessage": "Data Source with given name already exists.",
+      "VerifyField": "name"
+    }
+  },
+  "Test_DS_Special_character": {
+    "datasource": {
+      "name": "Test_DS_Special_@#$@##@",
+      "description": "This is Data Source Description",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "hostname.com",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "",
+      "ExpErrorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore.",
+      "VerifyField": "name"
+    }
+  },
+  "Test_DS_04": {
+    "datasource": {
+      "name": "DataSource04",
+      "description": "This is Data Source Description",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "hostname.com",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": ""
+    }
+  },
+  "Test_DS_01_connection": {
+    "name": "TestSFTPConnection",
+    "description": "Test SFTP connetion",
+    "dataSourceType": "SFTP",
+    "fieldDelimiter": ",",
+    "ftpIPHostName": "usecommon",
+    "ftpPassword": "usecommon",
+    "ftpRemoteFilePath": "/obaas-sftp",
+    "ftpUserName": "usecommon",
+    "TestConnection": "yes",
+    "NotificationAlert": "Connection to the SFTP Server successful"
+  },
+  "Test_DS_02_connection": {
+    "name": "TestSFTPConnectioninvalid",
+    "description": "Test SFTP connetion",
+    "dataSourceType": "SFTP",
+    "fieldDelimiter": ",",
+    "ftpIPHostName": "10.133.11.121",
+    "ftpPassword": "root1",
+    "ftpRemoteFilePath": "/tmp/test.csv",
+    "ftpUserName": "root",
+    "TestConnection": "yes",
+    "NotificationAlert": "Authentication failed while connecting to the SFTP Server. Please check your input!"
+  },
+  "Test_DS_03_Mandatory_fields": {
+    "name": "Name should not be null or blank",
+    "ftpIPHostName": "SFTP Host should not be null or blank",
+    "ftpPassword": "Password should not be null or blank",
+    "ftpRemoteFilePath": " Remote Path should not be null or blank",
+    "ftpUserName": "Username should not be null or blank"
+  },
+  "Test_DS_check_field_name": {
+    "datasource": {
+      "name": "",
+      "description": "This is Data Source Description",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "10.133.84.66",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "False",
+      "ExpErrorMessage": "Name should start with alphabet and allowed characters are alphanumeric, hyphen and underscore.",
+      "VerifyField": "name"
+    }
+  },
+  "Test_DS_connection_Valid": {
+    "name": "TestSFTPConnectionValid",
+    "description": "Test SFTP connetion",
+    "dataSourceType": "SFTP",
+    "fieldDelimiter": ",",
+    "ftpIPHostName": "usecommon",
+    "ftpPassword": "usecommon",
+    "ftpRemoteFilePath": "/obaas-sftp",
+    "ftpUserName": "usecommon",
+    "TestConnection": "yes",
+    "NotificationAlert": "Connection to the SFTP Server successful"
+  },
+  "Handle_Create_Case_Insensitive": {
+    "datasource": {
+      "name": "insensitive-data-source-name",
+      "description": "This is Data Source Description",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "/obaas-sftp",
+      "ftpUserName": "usecommon",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "False"
+    }
+  },
+  "Verify_ds_Name_in_Simplified_Chinese": {
+    "datasource": {
+      "name": "中-文_名",
+      "description": "中文名",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "SftpDomainServer.info",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "False"
+    }
+  },
+  "HANDLE_CREATE_CASE_INSENSITIVE": {
+    "datasource": {
+      "name": "INSENSITIVE-DATA-SOURCE-NAME",
+      "description": "This is Data Source Description",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "/obaas-sftp",
+      "ftpUserName": "usecommon",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "False",
+      "ExpErrorMessage": "Data Source with given name already exists.",
+      "VerifyField": "name",
+      "Delete": "no"
+    }
+  },
+  "Verify_ds_Name_in_Japanese": {
+    "datasource": {
+      "name": "和_名",
+      "description": "和名",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "SftpDomainServer.info",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "False"
+    }
+  },
+  "Verify_ds_Name_in_Korean": {
+    "datasource": {
+      "name": "한국_이름",
+      "description": "한국_이름",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "SftpDomainServer.info",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "False"
+    }
+  },
+  "Verify_ds_Name_in_English": {
+    "datasource": {
+      "name": "English-Name",
+      "description": "English-Name",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "SftpDomainServer.info",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "False"
+    }
+  },
+  "Verify_ds_Name_in_French": {
+    "datasource": {
+      "name": "nom_français",
+      "description": "nom_français",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "SftpDomainServer.info",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "False"
+    }
+  },
+  "Verify_ds_Name_in_Germany": {
+    "datasource": {
+      "name": "Das-ist_deutsch",
+      "description": "Das-ist_deutsch",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "SftpDomainServer.info",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "False"
+    }
+  },
+  "Verify_ds_Name_in_Italian": {
+    "datasource": {
+      "name": "Questo_è_italiano",
+      "description": "Questo_è_italiano",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "SftpDomainServer.info",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "False"
+    }
+  },
+  "Verify_ds_Name_in_Russian": {
+    "datasource": {
+      "name": "это_русский",
+      "description": "это_русский",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "SftpDomainServer.info",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "False"
+    }
+  },
+  "Verify_ds_Name_in_Latin": {
+    "datasource": {
+      "name": "Hoc-est_latinum",
+      "description": "Hoc-est_latinum",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "SftpDomainServer.info",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "False"
+    }
+  },
+  "Verify_ds_Name_in_Spanish": {
+    "datasource": {
+      "name": "Esto_es_español",
+      "description": "Esto_es_español",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "SftpDomainServer.info",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "False"
+    }
+  },
+  "Verify_ds_Name_in_Brazilian_Portuguese": {
+    "datasource": {
+      "name": "nome_portugues-brasileiro",
+      "description": "nome_portugues-brasileiro",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "SftpDomainServer.info",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "False"
+    }
+  },
+  "Verify_ds_Name_in_Hebrew": {
+    "datasource": {
+      "name": "לבדיקת",
+      "description": "לבדיקת",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "SftpDomainServer.info",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "False"
+    }
+  },
+  "Verify_ds_Name_in_India_Hindi": {
+    "datasource": {
+      "name": "यह_भारतीय-है",
+      "description": "यह_भारतीय-है",
+      "dataSourceType": "SFTP",
+      "ftpIPHostName": "SftpDomainServer.info",
+      "ftpUserName": "root",
+      "ftpPassword": "root01",
+      "ftpRemoteFilePath": "/tmp",
+      "fieldDelimiter": ",",
+      "TestConnection": "No",
+      "Verify": "False"
+    }
+  }
+}

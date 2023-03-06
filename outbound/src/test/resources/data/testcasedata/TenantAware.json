@@ -1,0 +1,322 @@
+{
+  "TenantContact-TC01": {
+    "contactList": {
+      "errorCode": "6",
+      "errorMessage": "The application has encountered an unknown error. Please try again later!"
+    }
+  },
+  "TenantContact-TC02": {
+    "dataSource": {
+      "errorCode": "6",
+      "errorMessage": "The application has encountered an unknown error. Please try again later!"
+    }
+  },
+  "TenantContact-TC03": {
+    "contactList": {
+      "body": {
+        "name": "CLwrongAccountID",
+        "description": "test apit with wrong account ID"
+      },
+      "errorCode": "6",
+      "errorMessage": "The application has encountered an unknown error. Please try again later!"
+    }
+  },
+
+  "TenantContact-TC04": {
+    "dataSource": {
+      "body": {
+        "name": "checkAccountID",
+        "description": "Test SFTP connetion",
+        "dataSourceType": "SFTP",
+        "fieldDelimiter": ",",
+        "ftpIPHostName": "10.107.1.1",
+        "ftpUserName": "usecommon",
+        "ftpPassword": "usecommon",
+        "ftpRemoteFilePath": "viewContact1.csv",
+        "sourceFile": "viewContact1.csv",
+        "TestConnection": "no",
+        "NotificationAlert": "Data Source created successfully.",
+        "Verify": "no"
+      },
+      "errorCode": "6",
+      "errorMessage": "The application has encountered an unknown error. Please try again later!"
+    }
+  },
+  "TenantContact-TC05": {
+    "contactListID": "a4f8e7b3-ee09-41a4-a43b-5bd59bd78ff9",
+    "dataSourceID": "56974052-68cf-40c0-9e86-0775b4f42e6b",
+    "dataSource": {
+      "errorCode": "6",
+      "errorMessage": "The application has encountered an unknown error. Please try again later!"
+    }
+  },
+  "TenantContact-TC06": {
+    "contactlist": {
+      "name": "contactcheckTanent",
+      "description": "contactcheckTanent",
+      "totalRecords": "7"
+    },
+    "datasource": {
+      "name": "datacheckTanent",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "7records.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "7records.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phonenumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      }
+    ]
+  },
+  "TenantCampaign-TC01": {
+    "campaign": {
+      "errorCode": "12",
+      "errorMessage": "The application has encountered an unknown error. Please try again later!"
+    }
+  },
+  "TenantCampaign-TC02": {
+    "strategy": {
+      "errorCode": "12",
+      "errorMessage": "The application has encountered an unknown error. Please try again later!"
+    }
+  },
+  "TenantCampaign-TC03": {
+    "completionCode": {
+      "errorCode": "12",
+      "errorMessage": "The application has encountered an unknown error. Please try again later!"
+    }
+  },
+  "TenantCampaign-TC04": {
+    "campaign": {
+      "body": {
+        "senderDisplayName": "",
+        "senderAddress": "",
+        "contactList": "checkCreateCmpWithoutID",
+        "dialingOrder": [
+          "PRIORITY",
+          "RETRY",
+          "REGULAR"
+        ],
+        "finishAfter": "0",
+        "name": "checkCreateCmpWithoutID",
+        "description": "checkCreateCmpWithoutID",
+        "checkTimeBasedFinishCriteria": "false",
+        "type": "FINITE",
+        "strategy": "checkCreateCmpWithoutID",
+        "finishType": "FINISH_AFTER"
+      },
+      "errorCode": "12",
+      "errorMessage": "The application has encountered an unknown error. Please try again later!"
+    }
+  },
+  "TenantCampaign-TC05": {
+    "campaign": {
+      "campaignID": "24f62f2c-3e83-4849-b777-e25442c61b5",
+      "errorCode": "12",
+      "errorMessage": "The application has encountered an unknown error. Please try again later!"
+    }
+  },
+  "TenantCampaign-TC06": {
+    "campaign": {
+      "campaignID": "24f62f2c-3e83-4849-b777-e25442c61b5",
+      "jobID": "24f62f2c-3e83-4849-b777-e25442c61b5",
+      "errorCode": "12",
+      "errorMessage": "The application has encountered an unknown error. Please try again later!"
+    }
+  },
+  "TenantCampaign-TC07": {
+    "strategy": {
+      "body": {
+        "name": "CmpwrongAccountID",
+        "type": "SMS",
+        "description": "test api with wrong account ID",
+        "smsText": "dd",
+        "smsPace": 2,
+        "smsPacingTimeUnit": "SECOND"
+      },
+      "errorCode": "12",
+      "errorMessage": "The application has encountered an unknown error. Please try again later!"
+    }
+  },
+  "TenantCampaign-TC08": {
+    "id": "24f62f2c-3e83-4849-b777-e25442c61b5",
+    "strategy": {
+      "body": {
+        "name": "CmpwrongAccountID",
+        "type": "SMS",
+        "description": "test api with wrong account ID",
+        "smsText": "dd",
+        "smsPace": 2,
+        "smsPacingTimeUnit": "SECOND"
+      },
+      "errorCode": "12",
+      "errorMessage": "The application has encountered an unknown error. Please try again later!"
+    }
+  },
+  "TenantCampaign-TC09": {
+    "id": "24f62f2c-3e83-4849-b777-e25442c61b5",
+    "campaign": {
+      "body": {
+        "senderDisplayName": "",
+        "senderAddress": "",
+        "contactList": "checkCreateCmpWithoutID",
+        "dialingOrder": [
+          "PRIORITY",
+          "RETRY",
+          "REGULAR"
+        ],
+        "finishAfter": "0",
+        "name": "checkCreateCmpWithoutID",
+        "description": "checkCreateCmpWithoutID",
+        "checkTimeBasedFinishCriteria": "false",
+        "type": "FINITE",
+        "strategy": "checkCreateCmpWithoutID",
+        "finishType": "FINISH_AFTER"
+      },
+      "errorCode": "12",
+      "errorMessage": "The application has encountered an unknown error. Please try again later!"
+    }
+  },
+  "TenantCampaign-TC10": {
+    "campaign": {
+      "body": {
+        "name": "checkCreateCmpWithoutID",
+        "description": "checkCreateCmpWithoutID",
+        "type": "FINITE",
+        "senderDisplayName": "",
+        "senderAddress": "",
+        "dialingOrder": [
+          "PRIORITY",
+          "RETRY",
+          "REGULAR"
+        ],
+        "finishType": "FINISH_AFTER",
+        "finishAfter": "0",
+        "checkTimeBasedFinishCriteria": "false",
+        "contactList": "checkCreateCmpWithoutID",
+        "strategy": "checkCreateCmpWithoutID"
+      },
+      "bodyUpdate": {
+        "name": "checkCreateCmpWithoutID",
+        "description": "checkCreateCmpWithoutID-update",
+        "type": "FINITE",
+        "senderDisplayName": "",
+        "senderAddress": "",
+        "dialingOrder": [
+          "PRIORITY",
+          "RETRY",
+          "REGULAR"
+        ],
+        "finishType": "FINISH_AFTER",
+        "finishAfter": "0",
+        "checkTimeBasedFinishCriteria": "false",
+        "contactList": "checkCreateCmpWithoutID",
+        "strategy": "checkCreateCmpWithoutID"
+      }
+    },
+    "contactlist": {
+      "name": "checkCreateCmpWithoutID",
+      "description": "check create campaign without account id"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "checkCreateCmpWithoutID",
+      "description": "check create campaign without account id",
+      "smsText": "check create campaign without account id",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  },
+  "TenantCampaign-TC11": {
+    "strategy": {
+      "body": {
+        "type": "SMS",
+        "name": "checkCreateCmpWithoutID",
+        "description": "check create campaign without account id",
+        "smsText": "check create campaign without account id",
+        "smsPace": "10",
+        "smsPacingTimeUnit": "Second"
+      },
+      "bodyUpdate": {
+        "type": "SMS",
+        "name": "checkCreateCmpWithoutID",
+        "description": "check create campaign without account id - update",
+        "smsText": "check create campaign without account id",
+        "smsPace": "10",
+        "smsPacingTimeUnit": "SECOND"
+      }
+    }
+  },
+  "TenantCampaign-TC12": {
+    "campaign": {
+      "body": {
+        "name": "checkCreateCmpWithoutID",
+        "description": "checkCreateCmpWithoutID",
+        "type": "FINITE",
+        "senderDisplayName": "",
+        "senderAddress": "",
+        "dialingOrder": "Regular, Retry, Priority",
+        "finishType": "FINISH_AFTER",
+        "finishAfter": "0",
+        "checkTimeBasedFinishCriteria": "false",
+        "contactList": "checkCreateCmpWithoutID",
+        "strategy": "checkCreateCmpWithoutID"
+      },
+      "bodyUpdate": {
+        "name": "checkCreateCmpWithoutID",
+        "description": "checkCreateCmpWithoutID-update",
+        "type": "FINITE",
+        "senderDisplayName": "",
+        "senderAddress": "",
+        "dialingOrder": [
+          "PRIORITY",
+          "RETRY",
+          "REGULAR"
+        ],
+        "finishType": "FINISH_AFTER",
+        "finishAfter": "0",
+        "checkTimeBasedFinishCriteria": "false",
+        "contactList": "checkCreateCmpWithoutID",
+        "strategy": "checkCreateCmpWithoutID"
+      },
+      "errorCode": "41"
+    },
+    "contactlist": {
+      "name": "checkCreateCmpWithoutID",
+      "description": "check create campaign without account id"
+    },
+    "strategy": {
+      "type": "SMS",
+      "name": "checkCreateCmpWithoutID",
+      "description": "check create campaign without account id",
+      "smsText": "check create campaign without account id",
+      "smsPace": "10",
+      "smsPacingTimeUnit": "Second"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+"attr_boolean","attr_character","attr_date","attr_datetime","attr_email","attr_email_Consent","attr_email_Status","attr_float","attr_integer","attr_phone","attr_phone_Area_TZ","attr_phone_Consent","attr_phone_Country","attr_phone_State","attr_phone_Status","attr_phone_Type","attr_phone_Zipcode","attr_time","attr_zip","attr_zip_TZ","firstname"
+"true","a","2024-05-12","2024-05-12 01:10:34","valide123mail1@POMSVMAIL.com","","","1.00","1","212121","","","","","","","","01:10:34","abc123","","Automation"
+"false","b","2024-10-04","2024-10-04 01:05:34","validEmail2@pomsvmail1.com","","","1.12","2","212121","","","","","","","","01:05:34","123ABC","","Butomation"
+"true","c","2023-12-12","2023-12-05 01:30:05","validemail###@pomsvmail1.com","","","112.35","3","212121","","","","","","","","01:30:05","123_abc","","Cutomation"
+"false","d","2023-05-12","2023-05-12 10:10:34","valid_email4@pomsvmail1.com","","","0.67","4","212121","","","","","","","","10:10:34","@123-abc","","Dutomation"
+"true","e","2023-10-04","2023-10-04 10:05:34","Validemail5@pomsvmail1.com","","","1123.56","5","212121","","","","","","","","10:05:34","700000","","Eutomation"
+"true","f","2022-05-12","2022-05-12 20:10:34","VALIDEMAIL6@pomsvmail1.com","","","11.00","6","212121","","","","","","","","20:10:34","abc ABC","","Futomation"
+"true","g","2022-10-04","2022-10-04 20:05:34","VALIDEMAIL7@POMSVMAIL1.com","","","1.2","7","1234567890","","","","","","","","20:05:34","Avaya, Tower, Pune, India","","Gutomation"

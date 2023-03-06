@@ -1,0 +1,2 @@
+Afirstname,Alastname,phoneNumber,email,salary,grade,percentage,joiningDate,joiningTIME,joiningDATETIME,interested,zipcode,phoneNumber_Country,phoneNumber_Area_TZ,phoneNumber_Consent,phoneNumber_Zipcode,phoneNumber_Type,phoneNumber_State,zipcode_TZ,email_Consent
+Automation01,User01,212123,validemail1@pomsvmail1.com,50000,A,11.11,2022-10-19,11:12:12,2022-10-19 11:12:12,TRUE,AZ001,91,IST,TRUE,41101,Mobile,MH,IST,TRUE

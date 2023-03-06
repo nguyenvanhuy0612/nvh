@@ -1,0 +1,13 @@
+firstname,lastname,phone1,email,attr_integer,attr_character,attr_float,attr_date,attr_time,attr_datetime,attr_boolean,attr-zip
+,Newcomb,112233,jnewcomb0@wikipedia.org,1,a,1.2,2023-01-18,01:34:00,2023-01-18 01:34:00,TRUE,abc
+Glenine,,223344,gskahill1@businesswire.com,2,a,1.2,2023-01-18,01:34:00,2023-01-18 01:34:00,TRUE,abc
+Maison,Pariss,,mgarland3@blog.com,3,a,1.2,2023-01-18,01:34:00,2023-01-18 01:34:00,TRUE,abc
+Ganine,Casperri,334455,rcasperri4@symantec.com,,a,1.2,2023-01-18,01:34:00,2023-01-18 01:34:00,TRUE,abc
+Germain,Casperri,334455,gmirfield5@cbsnews.com,6,,1.2,2023-01-18,01:34:00,2023-01-18 01:34:00,TRUE,abc
+Reynold,Hobson,334455,rhobson6@unesco.org,7,a,,2023-01-18,01:34:00,2023-01-18 01:34:00,TRUE,abc
+Jenica,Okeshott,334455,jokeshott7@xinhuanet.com,8,a,1.2,,01:34:00,2023-01-18 01:34:00,TRUE,abc
+Elena,Compston,334455,rcompston8@boston.com,9,a,1.2,2023-01-18,,2023-01-18 01:34:00,TRUE,abc
+Fale,Drewe,334455,kdrewe9@netvibes.com,10,a,1.2,2023-01-18,01:34:00,,TRUE,abc
+Hale,Drewe,334455,kdrewe9@netvibes.com,10,a,1.2,2023-01-18,01:34:00,2023-01-18 01:34:00,,abc
+Lale,Drewe,334455,kdrewe9@netvibes.com,10,a,1.2,2023-01-18,01:34:00,2023-01-18 01:34:00,TRUE,
+Wale,Drewe,,,,,,,,,,

@@ -1,0 +1,1797 @@
+{
+  "EditContact02": {
+    "datasource": {
+      "name": "ImportEditContact02_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "ImportEditContact02.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "ImportList_ValidAttribute_01.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "ImportEditContact02",
+      "description": "this is import list description",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "10",
+      "Last Success": "10",
+      "Last Failed": "0",
+      "AttributesToIgnoreFromVerification": "Id,CreatedOn,LastCompletionCode,UpdatedOn,NuisanceTimeStamp,HandledBy,StatusFlag,Notes,LastAttemptTime,LastAddress"
+    },
+    "contactAttribute": [
+      {
+        "name": "firstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "lastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phone1",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      },
+      {
+        "name": "Notes",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "Id",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "LastAttemptTime",
+        "dataType": "DATETIME",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "StatusFlag",
+        "dataType": "CHARACTER",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "LastCompletionCode",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "UpdatedOn",
+        "dataType": "DATETIME",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "LastAddress",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "NuisanceTimeStamp",
+        "dataType": "DATETIME",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "CreatedOn",
+        "dataType": "DATETIME",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "HandledBy",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "HandledBy",
+        "dataType": "STRING",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "phone1_Status",
+        "dataType": "CHARACTER",
+        "type": "SYSTEM"
+      },
+      {
+        "name": "email_Status",
+        "dataType": "CHARACTER",
+        "type": "SYSTEM"
+      }
+    ],
+    "EditContact": {
+      "EditContactRecord": "Ramona",
+      "NotificationAlert": "Contact updated successfully"
+    }
+  },
+  "saveAndCancelBtnValidate": {
+    "datasource": {
+      "name": "saveCancel_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "EditContact01.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "EditContactList01.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "saveCancelValidate",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "18",
+      "Last Success": "18",
+      "Last Failed": "0"
+    },
+    "contactAttribute": [
+      {
+        "name": "Afirstname",
+        "dataType": "STRING",
+        "type": "USER",
+        "EditValue": "EditedfirstName"
+      },
+      {
+        "name": "Alastname",
+        "dataType": "STRING",
+        "type": "USER",
+        "EditValue": "EditedLastName"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER",
+        "EditValue": "9860563300"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER",
+        "EditValue": "editemail@avaya.com"
+      },
+      {
+        "name": "salary",
+        "dataType": "INTEGER",
+        "type": "USER",
+        "EditValue": "55000"
+      },
+      {
+        "name": "grade",
+        "dataType": "CHARACTER",
+        "type": "USER",
+        "EditValue": "D"
+      },
+      {
+        "name": "percentage",
+        "dataType": "FLOAT",
+        "type": "USER",
+        "EditValue": "99.99"
+      },
+      {
+        "name": "joiningDate",
+        "dataType": "DATE",
+        "type": "USER",
+        "EditValue": "1982-10-20"
+      },
+      {
+        "name": "joiningTIME",
+        "dataType": "TIME",
+        "type": "USER",
+        "EditValue": "05:04:08"
+      },
+      {
+        "name": "joiningDATETIME",
+        "dataType": "DATETIME",
+        "type": "USER",
+        "EditValue": "1982-10-20 05:04:08"
+      },
+      {
+        "name": "interested",
+        "dataType": "BOOLEAN",
+        "type": "USER",
+        "EditValue": "FALSE"
+      },
+      {
+        "name": "zipcode",
+        "dataType": "ZIP",
+        "type": "USER",
+        "EditValue": "EditAZ01"
+      },
+      {
+        "name": "phoneNumber_Country",
+        "dataType": "INTEGER",
+        "type": "PREDEFINED",
+        "EditValue": "1"
+      },
+      {
+        "name": "phoneNumber_Area_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "PST"
+      },
+      {
+        "name": "phoneNumber_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED",
+        "EditValue": "FALSE"
+      },
+      {
+        "name": "phoneNumber_Zipcode",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "7861"
+      },
+      {
+        "name": "phoneNumber_Type",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "HOME"
+      },
+      {
+        "name": "phoneNumber_State",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "CA"
+      },
+      {
+        "name": "zipcode_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "PST"
+      },
+      {
+        "name": "email_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED",
+        "EditValue": "0"
+      }
+    ],
+    "EditContact": {
+      "EditContactRecord": "Automation13"
+    }
+  },
+  "cancelLeave": {
+    "datasource": {
+      "name": "cancelLeave_Ds",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "EditContact01.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "EditContactList01.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "cancelLeaveCLS",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "18",
+      "Last Success": "18",
+      "Last Failed": "0"
+    },
+    "contactAttribute": [
+      {
+        "name": "Afirstname",
+        "dataType": "STRING",
+        "type": "USER",
+        "EditValue": "EditedfirstName"
+      },
+      {
+        "name": "Alastname",
+        "dataType": "STRING",
+        "type": "USER",
+        "EditValue": "EditedLastName"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER",
+        "EditValue": "9860563300"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER",
+        "EditValue": "editemail@avaya.com"
+      },
+      {
+        "name": "salary",
+        "dataType": "INTEGER",
+        "type": "USER",
+        "EditValue": "55000"
+      },
+      {
+        "name": "grade",
+        "dataType": "CHARACTER",
+        "type": "USER",
+        "EditValue": "D"
+      },
+      {
+        "name": "percentage",
+        "dataType": "FLOAT",
+        "type": "USER",
+        "EditValue": "99.99"
+      },
+      {
+        "name": "joiningDate",
+        "dataType": "DATE",
+        "type": "USER",
+        "EditValue": "1982-10-20"
+      },
+      {
+        "name": "joiningTIME",
+        "dataType": "TIME",
+        "type": "USER",
+        "EditValue": "05:04:08"
+      },
+      {
+        "name": "joiningDATETIME",
+        "dataType": "DATETIME",
+        "type": "USER",
+        "EditValue": "1982-10-20 05:04:08"
+      },
+      {
+        "name": "interested",
+        "dataType": "BOOLEAN",
+        "type": "USER",
+        "EditValue": "FALSE"
+      },
+      {
+        "name": "zipcode",
+        "dataType": "ZIP",
+        "type": "USER",
+        "EditValue": "EditAZ01"
+      },
+      {
+        "name": "phoneNumber_Country",
+        "dataType": "INTEGER",
+        "type": "PREDEFINED",
+        "EditValue": "1"
+      },
+      {
+        "name": "phoneNumber_Area_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "PST"
+      },
+      {
+        "name": "phoneNumber_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED",
+        "EditValue": "FALSE"
+      },
+      {
+        "name": "phoneNumber_Zipcode",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "7861"
+      },
+      {
+        "name": "phoneNumber_Type",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "HOME"
+      },
+      {
+        "name": "phoneNumber_State",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "CA"
+      },
+      {
+        "name": "zipcode_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "PST"
+      },
+      {
+        "name": "email_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED",
+        "EditValue": "0"
+      }
+    ],
+    "EditContact": {
+      "EditContactRecord": "Automation13",
+      "pageName": "Contacts",
+      "save": "no"
+    }
+  },
+  "cancelStay": {
+    "datasource": {
+      "name": "cancelStay_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "EditContact01.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "EditContactList01.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "cancelStayCLS",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "18",
+      "Last Success": "18",
+      "Last Failed": "0"
+    },
+    "contactAttribute": [
+      {
+        "name": "Afirstname",
+        "dataType": "STRING",
+        "type": "USER",
+        "EditValue": "EditedfirstName"
+      },
+      {
+        "name": "Alastname",
+        "dataType": "STRING",
+        "type": "USER",
+        "EditValue": "EditedLastName"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER",
+        "EditValue": "9860563300"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER",
+        "EditValue": "editemail@avaya.com"
+      },
+      {
+        "name": "salary",
+        "dataType": "INTEGER",
+        "type": "USER",
+        "EditValue": "55000"
+      },
+      {
+        "name": "grade",
+        "dataType": "CHARACTER",
+        "type": "USER",
+        "EditValue": "D"
+      },
+      {
+        "name": "percentage",
+        "dataType": "FLOAT",
+        "type": "USER",
+        "EditValue": "99.99"
+      },
+      {
+        "name": "joiningDate",
+        "dataType": "DATE",
+        "type": "USER",
+        "EditValue": "1982-10-20"
+      },
+      {
+        "name": "joiningTIME",
+        "dataType": "TIME",
+        "type": "USER",
+        "EditValue": "05:04:08"
+      },
+      {
+        "name": "joiningDATETIME",
+        "dataType": "DATETIME",
+        "type": "USER",
+        "EditValue": "1982-10-20 05:04:08"
+      },
+      {
+        "name": "interested",
+        "dataType": "BOOLEAN",
+        "type": "USER",
+        "EditValue": "FALSE"
+      },
+      {
+        "name": "zipcode",
+        "dataType": "ZIP",
+        "type": "USER",
+        "EditValue": "EditAZ01"
+      },
+      {
+        "name": "phoneNumber_Country",
+        "dataType": "INTEGER",
+        "type": "PREDEFINED",
+        "EditValue": "1"
+      },
+      {
+        "name": "phoneNumber_Area_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "PST"
+      },
+      {
+        "name": "phoneNumber_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED",
+        "EditValue": "FALSE"
+      },
+      {
+        "name": "phoneNumber_Zipcode",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "7861"
+      },
+      {
+        "name": "phoneNumber_Type",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "HOME"
+      },
+      {
+        "name": "phoneNumber_State",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "CA"
+      },
+      {
+        "name": "zipcode_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "PST"
+      },
+      {
+        "name": "email_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED",
+        "EditValue": "0"
+      }
+    ],
+    "EditContact": {
+      "EditContactRecord": "Automation13",
+      "pageName": "Edit Contact",
+      "save": "no"
+    }
+  },
+  "EditContactUI02": {
+    "datasource": {
+      "name": "EditContact02_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "EditContact02.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "EditContactList01.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "EditContact02",
+      "description": "this is import list",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "18",
+      "Last Success": "18",
+      "Last Failed": "0"
+    },
+    "contactAttribute": [
+      {
+        "name": "Afirstname",
+        "dataType": "STRING",
+        "type": "USER",
+        "EditValue": "Edited first Nameusing ui my name Mr Bean ok abc ede fgh jkkk"
+      },
+      {
+        "name": "Alastname",
+        "dataType": "STRING",
+        "type": "USER",
+        "EditValue": "Edited LastName usingui"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER",
+        "EditValue": "9934287651"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER",
+        "EditValue": "editeavayamail@avaya.com"
+      },
+      {
+        "name": "salary",
+        "dataType": "INTEGER",
+        "type": "USER",
+        "EditValue": "255000"
+      },
+      {
+        "name": "grade",
+        "dataType": "CHARACTER",
+        "type": "USER",
+        "EditValue": "X"
+      },
+      {
+        "name": "percentage",
+        "dataType": "FLOAT",
+        "type": "USER",
+        "EditValue": "29.99"
+      },
+      {
+        "name": "joiningDate",
+        "dataType": "DATE",
+        "type": "USER",
+        "EditValue": "1998-11-20"
+      },
+      {
+        "name": "joiningTIME",
+        "dataType": "TIME",
+        "type": "USER",
+        "EditValue": "08:02:00"
+      },
+      {
+        "name": "joiningDATETIME",
+        "dataType": "DATETIME",
+        "type": "USER",
+        "EditValue": "1998-10-20 11:08:00"
+      },
+      {
+        "name": "interested",
+        "dataType": "BOOLEAN",
+        "type": "USER",
+        "EditValue": "TRUE"
+      },
+      {
+        "name": "zipcode",
+        "dataType": "ZIP",
+        "type": "USER",
+        "EditValue": "EditMYAZ01"
+      },
+      {
+        "name": "phoneNumber_Country",
+        "dataType": "INTEGER",
+        "type": "PREDEFINED",
+        "EditValue": "21"
+      },
+      {
+        "name": "phoneNumber_Area_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "CST"
+      },
+      {
+        "name": "phoneNumber_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED",
+        "EditValue": "TRUE"
+      },
+      {
+        "name": "phoneNumber_Zipcode",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "767861"
+      },
+      {
+        "name": "phoneNumber_Type",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "MObile"
+      },
+      {
+        "name": "phoneNumber_State",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "PH"
+      },
+      {
+        "name": "zipcode_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "CST"
+      },
+      {
+        "name": "email_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED",
+        "EditValue": "1"
+      }
+    ],
+    "EditContact": {
+      "EditContactRecord": "Automation13",
+      "EditValue": "Edited first Nameusing ui my name Mr Bean ok abc ede fgh jkkk",
+      "NotificationAlert": "Contact updated successfully"
+    }
+  },
+  "EditContactPredeinfed": {
+    "datasource": {
+      "name": "EditContactlargeD_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "EditContactLargeD.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "EditContactList01.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "EditContactLarge1",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "18",
+      "Last Success": "18",
+      "Last Failed": "0"
+    },
+    "contactAttribute": [
+      {
+        "name": "Afirstname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "Alastname",
+        "dataType": "STRING",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER"
+      },
+      {
+        "name": "salary",
+        "dataType": "INTEGER",
+        "type": "USER"
+      },
+      {
+        "name": "grade",
+        "dataType": "CHARACTER",
+        "type": "USER"
+      },
+      {
+        "name": "percentage",
+        "dataType": "FLOAT",
+        "type": "USER"
+      },
+      {
+        "name": "joiningDate",
+        "dataType": "DATE",
+        "type": "USER"
+      },
+      {
+        "name": "joiningTIME",
+        "dataType": "TIME",
+        "type": "USER"
+      },
+      {
+        "name": "joiningDATETIME",
+        "dataType": "DATETIME",
+        "type": "USER"
+      },
+      {
+        "name": "interested",
+        "dataType": "BOOLEAN",
+        "type": "USER"
+      },
+      {
+        "name": "zipcode",
+        "dataType": "ZIP",
+        "type": "USER"
+      },
+      {
+        "name": "phoneNumber_Country",
+        "dataType": "INTEGER",
+        "type": "PREDEFINED",
+        "EditValue": "21474836"
+      },
+      {
+        "name": "phoneNumber_Area_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+      },
+      {
+        "name": "phoneNumber_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED",
+        "EditValue": "FALSE"
+      },
+      {
+        "name": "phoneNumber_Zipcode",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+      },
+      {
+        "name": "phoneNumber_Type",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+      },
+      {
+        "name": "phoneNumber_State",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+      },
+      {
+        "name": "zipcode_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+      },
+      {
+        "name": "email_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED",
+        "EditValue": "0"
+      }
+    ],
+    "EditContact": {
+      "EditContactRecord": "Automation13",
+      "NotificationAlert": "Contact updated successfully"
+    }
+  },
+  "EditContactgroupedatt": {
+    "datasource": {
+      "name": "EditContactgroupedatt_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "EditContactgroupedatt.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "EditContactList01.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "EditContactgroupedatt",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "18",
+      "Last Success": "18",
+      "Last Failed": "0"
+    },
+    "contactAttribute": [
+      {
+        "name": "Afirstname",
+        "dataType": "STRING",
+        "type": "USER",
+        "EditValue": "Afirstname"
+      },
+      {
+        "name": "Alastname",
+        "dataType": "STRING",
+        "type": "USER",
+        "EditValue": "EditedLastName"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER",
+        "EditValue": "9860563300"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER",
+        "EditValue": "editemail@avaya.com"
+      },
+      {
+        "name": "salary",
+        "dataType": "INTEGER",
+        "type": "USER",
+        "EditValue": "55000"
+      },
+      {
+        "name": "grade",
+        "dataType": "CHARACTER",
+        "type": "USER",
+        "EditValue": "D"
+      },
+      {
+        "name": "percentage",
+        "dataType": "FLOAT",
+        "type": "USER",
+        "EditValue": "99.99"
+      },
+      {
+        "name": "joiningDate",
+        "dataType": "DATE",
+        "type": "USER",
+        "EditValue": "1982-10-20"
+      },
+      {
+        "name": "joiningTIME",
+        "dataType": "TIME",
+        "type": "USER",
+        "EditValue": "05:04:00"
+      },
+      {
+        "name": "joiningDATETIME",
+        "dataType": "DATETIME",
+        "type": "USER",
+        "EditValue": "1982-10-20 05:04:00"
+      },
+      {
+        "name": "interested",
+        "dataType": "BOOLEAN",
+        "type": "USER",
+        "EditValue": "FALSE"
+      },
+      {
+        "name": "zipcode",
+        "dataType": "ZIP",
+        "type": "USER",
+        "EditValue": "EditAZ01"
+      },
+      {
+        "name": "phoneNumber_Country",
+        "dataType": "INTEGER",
+        "type": "PREDEFINED",
+        "EditValue": "1"
+      },
+      {
+        "name": "phoneNumber_Area_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "PST"
+      },
+      {
+        "name": "phoneNumber_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED",
+        "EditValue": "FALSE"
+      },
+      {
+        "name": "phoneNumber_Zipcode",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "7861"
+      },
+      {
+        "name": "phoneNumber_Type",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "HOME"
+      },
+      {
+        "name": "phoneNumber_State",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "CA"
+      },
+      {
+        "name": "zipcode_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "PST"
+      },
+      {
+        "name": "email_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED",
+        "EditValue": "0"
+      }
+    ],
+    "EditContact": {
+      "EditContactRecord": "Automation13"
+    }
+  },
+  "EditContactValidations01": {
+    "datasource": {
+      "name": "EditContactvalidation_DS",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "EditContactvalidation.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "EditContactList01.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "EditContactValidations",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "18",
+      "Last Success": "18",
+      "Last Failed": "0"
+    },
+    "contactAttribute": [
+      {
+        "name": "Afirstname",
+        "dataType": "STRING",
+        "type": "USER",
+        "EditValue": "Afirstname"
+      },
+      {
+        "name": "Alastname",
+        "dataType": "STRING",
+        "type": "USER",
+        "EditValue": "EditedLastName"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER",
+        "EditValue": "ABC!@#$%",
+        "ExpectedError": "Input a valid phone number without special characters e.g. +, -, space etc."
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER",
+        "EditValue": "editemailavaya.com",
+        "ExpectedError": "Input a valid email"
+      },
+      {
+        "name": "salary",
+        "dataType": "INTEGER",
+        "type": "USER",
+        "EditValue": "abcde",
+        "ExpectedError": "Input a numeric value"
+      },
+      {
+        "name": "grade",
+        "dataType": "CHARACTER",
+        "type": "USER",
+        "EditValue": "DD",
+        "ExpectedError": "Input a single character"
+      },
+      {
+        "name": "percentage",
+        "dataType": "FLOAT",
+        "type": "USER",
+        "EditValue": "DD99.99",
+        "ExpectedError": "Input a numeric value up to two decimal places"
+      },
+      {
+        "name": "joiningDate",
+        "dataType": "DATE",
+        "type": "USER",
+        "EditValue": "82-10-20",
+        "ExpectedError": "Input a valid date in yyyy-MM-dd format"
+      },
+      {
+        "name": "joiningTIME",
+        "dataType": "TIME",
+        "type": "USER",
+        "EditValue": "105:04:00",
+        "ExpectedError": "Input a valid time in HH:mm:ss format"
+      },
+      {
+        "name": "joiningDATETIME",
+        "dataType": "DATETIME",
+        "type": "USER",
+        "EditValue": "82-10-20 05:04:00",
+        "ExpectedError": "Input a valid date time in yyyy-MM-dd HH:mm:ss format"
+      },
+      {
+        "name": "interested",
+        "dataType": "BOOLEAN",
+        "type": "USER",
+        "EditValue": "FALSE"
+      },
+      {
+        "name": "zipcode",
+        "dataType": "ZIP",
+        "type": "USER",
+        "EditValue": "EditAZ01"
+      },
+      {
+        "name": "phoneNumber_Country",
+        "dataType": "INTEGER",
+        "type": "PREDEFINED",
+        "EditValue": "abc123",
+        "ExpectedError": "Input a numeric value"
+      },
+      {
+        "name": "phoneNumber_Area_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "PST"
+      },
+      {
+        "name": "phoneNumber_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED",
+        "EditValue": "FALSE"
+      },
+      {
+        "name": "phoneNumber_Zipcode",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "7861"
+      },
+      {
+        "name": "phoneNumber_Type",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "HOME"
+      },
+      {
+        "name": "phoneNumber_State",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "CA"
+      },
+      {
+        "name": "zipcode_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "PST"
+      },
+      {
+        "name": "email_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED",
+        "EditValue": "0"
+      }
+    ],
+    "EditContact": {
+      "EditContactRecord": "Automation13",
+      "userDatePicker": "no",
+      "verifyError": "yes"
+    }
+  },
+  "EditContactLargeEmail": {
+    "datasource": {
+      "name": "EditContactLargeEmail",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "EditContactInvalidV.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "EditContactList01.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "EditContactLargeEmail",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "18",
+      "Last Success": "18",
+      "Last Failed": "0"
+    },
+    "contactAttribute": [
+      {
+        "name": "Afirstname",
+        "dataType": "STRING",
+        "type": "USER",
+        "EditValue": "Afirstname"
+      },
+      {
+        "name": "Alastname",
+        "dataType": "STRING",
+        "type": "USER",
+        "EditValue": "EditedLastName"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER",
+        "EditValue": "98703633000"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER",
+        "EditValue": "testing1abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijayyy@auabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghija.com"
+      },
+      {
+        "name": "salary",
+        "dataType": "INTEGER",
+        "type": "USER",
+        "EditValue": "77777"
+      },
+      {
+        "name": "grade",
+        "dataType": "CHARACTER",
+        "type": "USER",
+        "EditValue": "D"
+      },
+      {
+        "name": "percentage",
+        "dataType": "FLOAT",
+        "type": "USER",
+        "EditValue": "89.99"
+      },
+      {
+        "name": "joiningDate",
+        "dataType": "DATE",
+        "type": "USER",
+        "EditValue": "2025-01-12"
+      },
+      {
+        "name": "joiningTIME",
+        "dataType": "TIME",
+        "type": "USER",
+        "EditValue": "10:10:11"
+      },
+      {
+        "name": "joiningDATETIME",
+        "dataType": "DATETIME",
+        "type": "USER",
+        "EditValue": "2034-11-11 12:02:32"
+      },
+      {
+        "name": "interested",
+        "dataType": "BOOLEAN",
+        "type": "USER",
+        "EditValue": "FALSE"
+      },
+      {
+        "name": "zipcode",
+        "dataType": "ZIP",
+        "type": "USER",
+        "EditValue": "EditAZ01"
+      },
+      {
+        "name": "phoneNumber_Country",
+        "dataType": "INTEGER",
+        "type": "PREDEFINED",
+        "EditValue": "7654"
+      },
+      {
+        "name": "phoneNumber_Area_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "PST"
+      },
+      {
+        "name": "phoneNumber_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED",
+        "EditValue": "FALSE"
+      },
+      {
+        "name": "phoneNumber_Zipcode",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "7861"
+      },
+      {
+        "name": "phoneNumber_Type",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "HOME"
+      },
+      {
+        "name": "phoneNumber_State",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "CA"
+      },
+      {
+        "name": "zipcode_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "PST"
+      },
+      {
+        "name": "email_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED",
+        "EditValue": "0"
+      }
+    ],
+    "EditContact": {
+      "EditContactRecord": "Automation13",
+      "userDatePicker": "no",
+      "fielderror": "Invalid email! Please provide a valid email.",
+      "errorFeildname": "email"
+    }
+  },
+  "EditContactLargeInteger": {
+    "datasource": {
+      "name": "EditContactLargeInteger",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "EditContactInvalidV.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "EditContactList01.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "EditContactLargeInteger",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "18",
+      "Last Success": "18",
+      "Last Failed": "0"
+    },
+    "contactAttribute": [
+      {
+        "name": "Afirstname",
+        "dataType": "STRING",
+        "type": "USER",
+        "EditValue": "Afirstname"
+      },
+      {
+        "name": "Alastname",
+        "dataType": "STRING",
+        "type": "USER",
+        "EditValue": "EditedLastName"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER",
+        "EditValue": "98703633000"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER",
+        "EditValue": "bcdefghijabcdefghijabcdefghijayyy@auabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghija.com"
+      },
+      {
+        "name": "salary",
+        "dataType": "INTEGER",
+        "type": "USER",
+        "EditValue": "999999999999999999999999999999999"
+      },
+      {
+        "name": "grade",
+        "dataType": "CHARACTER",
+        "type": "USER",
+        "EditValue": "D"
+      },
+      {
+        "name": "percentage",
+        "dataType": "FLOAT",
+        "type": "USER",
+        "EditValue": "89.99"
+      },
+      {
+        "name": "joiningDate",
+        "dataType": "DATE",
+        "type": "USER",
+        "EditValue": "2025-01-12"
+      },
+      {
+        "name": "joiningTIME",
+        "dataType": "TIME",
+        "type": "USER",
+        "EditValue": "10:10:11"
+      },
+      {
+        "name": "joiningDATETIME",
+        "dataType": "DATETIME",
+        "type": "USER",
+        "EditValue": "2034-11-11 12:02:32"
+      },
+      {
+        "name": "interested",
+        "dataType": "BOOLEAN",
+        "type": "USER",
+        "EditValue": "FALSE"
+      },
+      {
+        "name": "zipcode",
+        "dataType": "ZIP",
+        "type": "USER",
+        "EditValue": "EditAZ01"
+      },
+      {
+        "name": "phoneNumber_Country",
+        "dataType": "INTEGER",
+        "type": "PREDEFINED",
+        "EditValue": "7654"
+      },
+      {
+        "name": "phoneNumber_Area_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "PST"
+      },
+      {
+        "name": "phoneNumber_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED",
+        "EditValue": "FALSE"
+      },
+      {
+        "name": "phoneNumber_Zipcode",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "7861"
+      },
+      {
+        "name": "phoneNumber_Type",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "HOME"
+      },
+      {
+        "name": "phoneNumber_State",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "CA"
+      },
+      {
+        "name": "zipcode_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "PST"
+      },
+      {
+        "name": "email_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED",
+        "EditValue": "0"
+      }
+    ],
+    "EditContact": {
+      "EditContactRecord": "Automation13",
+      "userDatePicker": "no",
+      "fielderror": "Invalid integer! Please provide a numeric value",
+      "errorFeildname": "salary"
+    }
+  },
+  "EditContactLargeFloat": {
+    "datasource": {
+      "name": "EditContactLargeFloat",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "EditContactInvalidV.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "EditContactList01.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "EditContactLargeFloat",
+      "description": "this is import list01",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "18",
+      "Last Success": "18",
+      "Last Failed": "0"
+    },
+    "contactAttribute": [
+      {
+        "name": "Afirstname",
+        "dataType": "STRING",
+        "type": "USER",
+        "EditValue": "Afirstname"
+      },
+      {
+        "name": "Alastname",
+        "dataType": "STRING",
+        "type": "USER",
+        "EditValue": "EditedLastName"
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER",
+        "EditValue": "98703633000"
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER",
+        "EditValue": "efghijabcdefghijayyy@auabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghija.com"
+      },
+      {
+        "name": "salary",
+        "dataType": "INTEGER",
+        "type": "USER",
+        "EditValue": "9999"
+      },
+      {
+        "name": "grade",
+        "dataType": "CHARACTER",
+        "type": "USER",
+        "EditValue": "D"
+      },
+      {
+        "name": "percentage",
+        "dataType": "FLOAT",
+        "type": "USER",
+        "EditValue": "999999999999999999999999999999999998888888888888888888888888888888888888889999999999999989.99"
+      },
+      {
+        "name": "joiningDate",
+        "dataType": "DATE",
+        "type": "USER",
+        "EditValue": "2025-01-12"
+      },
+      {
+        "name": "joiningTIME",
+        "dataType": "TIME",
+        "type": "USER",
+        "EditValue": "10:10:11"
+      },
+      {
+        "name": "joiningDATETIME",
+        "dataType": "DATETIME",
+        "type": "USER",
+        "EditValue": "2034-11-11 12:02:32"
+      },
+      {
+        "name": "interested",
+        "dataType": "BOOLEAN",
+        "type": "USER",
+        "EditValue": "FALSE"
+      },
+      {
+        "name": "zipcode",
+        "dataType": "ZIP",
+        "type": "USER",
+        "EditValue": "EditAZ01"
+      },
+      {
+        "name": "phoneNumber_Country",
+        "dataType": "INTEGER",
+        "type": "PREDEFINED",
+        "EditValue": "7654"
+      },
+      {
+        "name": "phoneNumber_Area_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "PST"
+      },
+      {
+        "name": "phoneNumber_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED",
+        "EditValue": "FALSE"
+      },
+      {
+        "name": "phoneNumber_Zipcode",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "7861"
+      },
+      {
+        "name": "phoneNumber_Type",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "HOME"
+      },
+      {
+        "name": "phoneNumber_State",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "CA"
+      },
+      {
+        "name": "zipcode_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": "PST"
+      },
+      {
+        "name": "email_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED",
+        "EditValue": "0"
+      }
+    ],
+    "EditContact": {
+      "EditContactRecord": "Automation13",
+      "userDatePicker": "no",
+      "NotificationAlert": "Contact updated successfully"
+    }
+  },
+  "EditContactUIAllEmpty": {
+    "datasource": {
+      "name": "EditContactUIAllEmpty",
+      "description": "Test SFTP connetion",
+      "dataSourceType": "SFTP",
+      "fieldDelimiter": ",",
+      "ftpIPHostName": "usecommon",
+      "ftpPassword": "usecommon",
+      "ftpRemoteFilePath": "EditContactUIAllEmpty.csv",
+      "ftpUserName": "usecommon",
+      "sourceFile": "EditContactList02.csv",
+      "TestConnection": "no",
+      "NotificationAlert": "Data Source created successfully.",
+      "Verify": "no"
+    },
+    "contactlist": {
+      "name": "EditContactUIAllEmpty",
+      "description": "this is import list",
+      "NotificationAlert": "Contact List created successfully",
+      "NotificationAlert-RunDataSource": "Contact import started successfully for the contact list",
+      "ImportJobAlert": "COMPLETED",
+      "Total Contacts": "1",
+      "Last Success": "1",
+      "Last Failed": "0"
+    },
+    "contactAttribute": [
+      {
+        "name": "Afirstname",
+        "dataType": "STRING",
+        "type": "USER",
+        "EditValue": ""
+      },
+      {
+        "name": "Alastname",
+        "dataType": "STRING",
+        "type": "USER",
+        "EditValue": ""
+      },
+      {
+        "name": "phoneNumber",
+        "dataType": "PHONE",
+        "type": "USER",
+        "EditValue": ""
+      },
+      {
+        "name": "email",
+        "dataType": "EMAIL",
+        "type": "USER",
+        "EditValue": ""
+      },
+      {
+        "name": "salary",
+        "dataType": "INTEGER",
+        "type": "USER",
+        "EditValue": ""
+      },
+      {
+        "name": "grade",
+        "dataType": "CHARACTER",
+        "type": "USER",
+        "EditValue": ""
+      },
+      {
+        "name": "percentage",
+        "dataType": "FLOAT",
+        "type": "USER",
+        "EditValue": ""
+      },
+      {
+        "name": "joiningDate",
+        "dataType": "DATE",
+        "type": "USER",
+        "EditValue": ""
+      },
+      {
+        "name": "joiningTIME",
+        "dataType": "TIME",
+        "type": "USER",
+        "EditValue": ""
+      },
+      {
+        "name": "joiningDATETIME",
+        "dataType": "DATETIME",
+        "type": "USER",
+        "EditValue": ""
+      },
+      {
+        "name": "interested",
+        "dataType": "BOOLEAN",
+        "type": "USER",
+        "EditValue": "TRUE"
+      },
+      {
+        "name": "zipcode",
+        "dataType": "ZIP",
+        "type": "USER",
+        "EditValue": ""
+      },
+      {
+        "name": "phoneNumber_Country",
+        "dataType": "INTEGER",
+        "type": "PREDEFINED",
+        "EditValue": ""
+      },
+      {
+        "name": "phoneNumber_Area_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": ""
+      },
+      {
+        "name": "phoneNumber_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED",
+        "EditValue": ""
+      },
+      {
+        "name": "phoneNumber_Zipcode",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": ""
+      },
+      {
+        "name": "phoneNumber_Type",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": ""
+      },
+      {
+        "name": "phoneNumber_State",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": ""
+      },
+      {
+        "name": "zipcode_TZ",
+        "dataType": "STRING",
+        "type": "PREDEFINED",
+        "EditValue": ""
+      },
+      {
+        "name": "email_Consent",
+        "dataType": "BOOLEAN",
+        "type": "PREDEFINED",
+        "EditValue": ""
+      }
+    ],
+    "EditContact": {
+      "EditContactRecord": "Automation01",
+      "EditValue": "-",
+      "NotificationAlert": "Contact updated successfully"
+    }
+  }
+}

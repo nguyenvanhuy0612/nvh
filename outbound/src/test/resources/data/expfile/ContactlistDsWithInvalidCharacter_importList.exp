@@ -1,0 +1,6 @@
+"email","email_Consent","email_Status","firstname","lastname","phone1","phone1_Area_TZ","phone1_Consent","phone1_Country","phone1_State","phone1_Status","phone1_Type","phone1_Zipcode"
+"Automation2@avaya.com","","","Auto dot","Automation","92005","","","","","","",""
+"Automation1@avaya.com","","","Invalid add","Automation","919876543210","","","","","","",""
+"Automation3@avaya.com","","","Invalid comma","Automation","91987654321212","","","","","","",""
+"Automation3@avaya.com","","","Invalid space","Automation","919876543210","","","","","","",""
+"Automation3@avaya.com","","","Invalid subtract","Automation","919876543210","","","","","","",""

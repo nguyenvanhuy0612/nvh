@@ -1,0 +1,65 @@
+
+pipeline {
+    agent any
+    tools {
+        maven "mvnHome"
+        }
+
+    stages {
+            stage('Initialize'){
+                steps{
+                    echo "PATH = ${MAVEN_HOME}/bin:${PATH}"
+                    echo "MAVEN_HOME = C:/apache-maven-3.8.6"
+                }
+            }
+            stage('Reading propepties file') {
+            
+                steps {
+                    dir("D:/Jenkins/workspace/${JOB_NAME}/outbound/src/test/resources/config"){
+                        script{
+                              echo "inside properties"
+                              def  props=readProperties file: 'labinfo.properties'
+                              echo  "before change properties paramater"
+                              echo "propepties is : ${props['Browser']}"
+                              echo  "TEST_CLEAN_UP : ${props['TEST_CLEAN_UP']}"
+                              def chrome= "chromeheadless"
+                              props['Browser']="chromeheadless"
+                              props['TEST_CLEAN_UP']="yes"
+                              echo "After change propepties paramater"
+                              echo "propepties is : ${props['Browser']}"
+                              echo  "TEST_CLEAN_UP : ${props['TEST_CLEAN_UP']}"
+                              assert props['Browser'] == 'chromeheadless'
+                              assert props['TEST_CLEAN_UP'] == 'yes'
+                         }
+                    }
+                }
+            }
+            stage('Update Test') {
+                steps {
+                 dir("D:/Jenkins/workspace/${JOB_NAME}/outbound") {
+                     readMavenPom file: "D:/Jenkins/workspace/${JOB_NAME}/outbound/pom.xml"
+                 bat """
+                        mvn clean test -DTEST_CLEAN_UP=yes -DBrowser=chromeheadless -Dcucumber.filter.tags="not @IgnoreInDailyRun" -Dcucumber.plugin="html:target/Cucumber" -Dcucumber.plugin="json:target/Cucumber.json
+                        """
+                        }
+                    }
+                }
+            }
+    post {
+        always {
+          cucumber buildStatus: 'null', customCssFiles: '', customJsFiles: '', fileIncludePattern: '**/*target/Cucumber.json', reportTitle: 'pipelinegit', sortingMethod: 'ALPHABETICAL'
+      
+                }
+                 failure {
+                emailext attachmentsPattern: '**/outbound/target/cucumber/reports/*.html', body: '''${SCRIPT, template="groovy-html.template"}''', 
+                    subject: "${env.JOB_NAME} - Build # ${env.BUILD_NUMBER} - Failed", 
+                    mimeType: 'text/html',to: "nguyen65@avaya.com"
+                 }
+         success {
+                emailext attachmentsPattern: '**/outbound/target/cucumber/reports/*.html', body: '''${SCRIPT, template="groovy-html.template"}''', 
+                    subject: "${env.JOB_NAME} - Build # ${env.BUILD_NUMBER} - Successful", 
+                    mimeType: 'text/html',to: "nguyen65@avaya.com"
+                } 
+    
+        }
+}

@@ -1,0 +1,6 @@
+firstname,lastname,phone1,email
+PuneLab1,Test1,212121,daph1@gmail.com
+PuneLab1,Test1,212121,daph1#gmail.com
+PuneLab1,Test1,212121,$gmail.com
+PuneLab1,Test1,212121,gmailcom
+PuneLab2,Test2,212121,daph1_+gmail.com

@@ -1,0 +1,6 @@
+firstname,lastname,phoneNumber,email,phoneNumber_Area_TZ,phoneNumber_State,phoneNumber_Type,phoneNumber_Country,phoneNumber_Zipcode,phoneNumber_Consent,email_Consent,test_ZIP,test_ZIP_TZ
+ftest01,ltest,212121,test@avaya.com,STRING,STRING,STRING,1,STRING,TRUE,TRUE,STRING,STRING
+ftest02,ltest,212121,test@avaya.com,STRING,STRING,STRING,21,STRING,TRUE,TRUE,STRING,STRING
+ftest03,ltest,212121,test@avaya.com,STRING,STRING,STRING,84,STRING,TRUE,FALSE,STRING,STRING
+ftest04,ltest,212121,test@avaya.com,STRING,STRING,STRING,91,STRING,FALSE,TRUE,STRING,STRING
+ftest05,ltest,212121,test@avaya.com,STRING,STRING,STRING,12,STRING,FALSE,FALSE,STRING,STRING

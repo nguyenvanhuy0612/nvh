@@ -1,0 +1,19 @@
+firstname,lastname,phone1,email
+Automation01,User01,212ABC121,validemail1@pomsvmail1.com
+Automation02,User02,2121@567822,validemail2@pomsvmail1.com
+Automation03,User03,212123-_1,validemail3@pomsvmail1.com
+Automation04,User04,test@212124,validemail4@pomsvmail1.com
+Automation05,User05,212125*^~,validemail5@pomsvmail1.com
+Automation06,User06,212 126,validemail6@pomsvmail1.com
+Automation07,User07,212127 ,validemail7@pomsvmail1.com
+Automation08,User08,ab 212128,validemail8@pomsvmail1.com
+Automation09,User09,212129,validemail9@pomsvmail1.com
+Automation10,User10,%212130%,validemail10@pomsvmail1.com
+Automation11,User11,$212$131,validemail11@pomsvmail1.com
+Automation12,User12,//212132,validemail12@pomsvmail1.com
+Automation13,User13,212133\\,validemail13@pomsvmail1.com
+Automation14,User14,91#212134,validemail14@pomsvmail1.com
+Automation15,User15,sip:212135@gmail.com,validemail15@pomsvmail1.com
+Automation16,User16,(91 212136),validemail16@pomsvmail1.com
+Automation17,User17,,validemail17@pomsvmail1.com
+Automation18,User18,abcdefg,validemail18@pomsvmail1.com
