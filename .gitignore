@@ -9,3 +9,42 @@ outbound/buildNumber.properties
 outbound/.mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 outbound/.mvn/wrapper/maven-wrapper.jar
+
+demo/demo/HELP.md
+demo/demo/.gradle
+demo/demo/build/
+demo/demo/!gradle/wrapper/gradle-wrapper.jar
+demo/demo/!**/src/main/**/build/
+demo/demo/!**/src/test/**/build/
+demo/demo/
+demo/demo/### STS ###
+demo/demo/.apt_generated
+demo/demo/.classpath
+demo/demo/.factorypath
+demo/demo/.project
+demo/demo/.settings
+demo/demo/.springBeans
+demo/demo/.sts4-cache
+demo/demo/bin/
+demo/demo/!**/src/main/**/bin/
+demo/demo/!**/src/test/**/bin/
+demo/demo/
+demo/demo/### IntelliJ IDEA ###
+demo/demo/.idea
+demo/demo/*.iws
+demo/demo/*.iml
+demo/demo/*.ipr
+demo/demo/out/
+demo/demo/!**/src/main/**/out/
+demo/demo/!**/src/test/**/out/
+demo/demo/
+demo/demo/### NetBeans ###
+demo/demo//nbproject/private/
+demo/demo//nbbuild/
+demo/demo//dist/
+demo/demo//nbdist/
+demo/demo//.nb-gradle/
+demo/demo/
+demo/demo/### VS Code ###
+demo/demo/.vscode/
+
